@@ -1,0 +1,37 @@
+<html lang="ja">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no" />
+    <link rel="stylesheet" href="https://unpkg.com/docute@4/dist/docute.css" />
+  </head>
+  <body>
+    <div id="docute"></div>
+    <script src="https://unpkg.com/docute@4/dist/docute.js"></script>
+    <script>
+      new Docute({
+        target: "#docute",
+        theme: "dark",
+        darkThemeToggler: true,
+        detectSystemDarkTheme: true,
+        editLinkBase: "https://github.com/mika-f/avatars.mochizuki.moe/tree/master/public",
+        editLinkText: "Edit this page on GitHub",
+        router: {
+          mode: "history"
+        },
+        sourcePath: "/",
+        nav: [{ title: "ホーム", link: "/" }],
+        sidebar: [
+          {
+            title: "ホーム",
+            link: "/"
+          },
+        ],
+        footer: `
+          <footer style="border-top: 1px solid var(--border-color); padding-top: 10px; color: #999; font-size: 90%;">
+            &copy; ${new Date().getFullYear()} Fuyuno Mikazuki / Natsuneko. Rendered by <a href='https://docute.org' target='_blank'>Docute</a>.
+          </footer>
+        `
+      });
+    </script>
+  </body>
+</html>
