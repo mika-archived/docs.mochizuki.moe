@@ -1,0 +1,17 @@
+{
+  "name": "@mikazuki/avatars.mochizuki.moe",
+  "version": "0.1.0",
+  "description": "https://avatars.mochizuki.moe repository",
+  "main": "public/index.html",
+  "repository": "https://github.com/mika-f/avatars.mochizuki.moe.git",
+  "author": "Fuyuno Mikazuki, Natsuneko",
+  "license": "MIT",
+  "private": true,
+  "scripts": {
+    "start": "serve ./public/"
+  },
+  "devDependencies": {
+    "prettier": "^1.19.1",
+    "serve": "^11.3.0"
+  }
+}
