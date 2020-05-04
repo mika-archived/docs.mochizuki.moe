@@ -1,12 +1,18 @@
 # VRChat Inventory System for Unity 2018
 
-Unity 2018.3 以降、 VRChat 2020.1 以降 (Unity 2018 対応版以降) で使用できる、C# スクリプトを使わないインベントリシステムです。  
-ここでは、付属の専用のエディター拡張を使用した導入方法を説明します。
+Unity 2018.3 以降、 VRChat 2020.1 以降 (Unity 2018 対応版以降) で使用できる、  
+[VRChat Whitelisted Avatar Components](https://docs.vrchat.com/docs/whitelisted-avatar-components) のみを使用したインベントリシステムです。  
+Unity 2018.3 で追加された新機能を使用しているため、 Unity 2017 からは使用できません。
+
+ここでは、付属の専用のエディター拡張を使用した導入方法を説明します。  
+なお、説明では Parent Constraint などを使用していますが、直接該当オブジェクトの子として作成しても、  
+問題なく動作するはずです (自身の力量にあわせた方法で調整してください)。
 
 ## はじめに
 
 このインベントリシステムを使うには、以下のものが必要です。
 
+- Unity 2018.3 以降 (Unity 2018.4.20f1)
 - VRChat Inventory System for Unity 2018 v0.1.0-beta.1 以降
 - お好きな 3D モデル (アバター)
 - 出し入れしたい 3D モデル (もしくはその他のなにか)
@@ -17,20 +23,13 @@ Unity 2018.3 以降、 VRChat 2020.1 以降 (Unity 2018 対応版以降) で使�
 
 ## ダウンロード
 
-GitHub もしくは Booth から、 UnityPackage をダウンロードしてください。
+Booth もしくは GitHub から、最新の UnityPackage をダウンロードしてください。
 
+- [Booth](https://natsuneko.booth.pm/items/2041145)
 - [GitHub](https://github.com/mika-f/VRChat-InventorySystem)
 
 ダウンロード後、お使いのプロジェクトにインポートしてください。  
 `Assets` 以下に、 `Mochizuki/VRChat` のようなフォルダーが出来ていれば OK です。
-
-## Inventory Editor
-
-Unity のメニューバーの `Mochizuki/VRChat/Inventory Editor` から、専用エディターを開いてください。
-
-![](https://assets.mochizuki.moe/docs/VRChat/InventorySystem/1.PNG)
-
-もし上記メニューが存在しない場合は、インポートがうまくいってないので再度インポートを行ってください。
 
 ## 初期状態の選択
 
@@ -45,14 +44,27 @@ VRChat Inventory System for Unity 2018 では、初期状態を選択するこ�
 
 なお、説明は非表示である `InventorySystem_DefaultOFF` で行いますが、適宜読み替えてください。
 
+## Inventory Editor
+
+Unity のメニューバーの `Mochizuki/VRChat/Inventory Editor` から、専用エディターを開いてください。
+
+![](https://assets.mochizuki.moe/docs/VRChat/InventorySystem/1.PNG)
+
+もし上記メニューが存在しない場合は、インポートがうまくいってないので再度インポートを行ってください。
+
 ## セットアップ
 
-開いたら、まずはインベントリシステムの Prefab を Hierarchy へドラッグ＆ドロップします。  
-Hierarchy へ設置したら、 Hierarchy の中から先ほど開いた Inventory Editor の `Inventory Prefab` の所へ、  
-`InventorySystem_DefaultOFF_v3` をドロップします。  
-このとき、 Project の中のものをドロップすると動かないので注意してください。
+開いたら、まずはインベントリシステムの Prefab を Hierarchy へドラッグ＆ドロップします。
 
 [<img src="https://assets.mochizuki.moe/docs/VRChat/InventorySystem/2.PNG" height="400px" />](https://assets.mochizuki.moe/docs/VRChat/InventorySystem/2.PNG)
+
+Hierarchy へ設置したら、 Hierarchy の中から先ほど開いた Inventory Editor の `Inventory Prefab` の所へ、  
+`InventorySystem_DefaultOFF_V3` をドロップします。  
+このとき、 Project の中のものをドロップすると動かないので注意してください。
+
+[<img src="https://assets.mochizuki.moe/docs/VRChat/InventorySystem/9.PNG" height="400px" />](https://assets.mochizuki.moe/docs/VRChat/InventorySystem/9.PNG)
+
+(画像クリックで拡大表示が出来ます。)
 
 次に、他の項目も設定していきます。  
 `Avatar` には、 `VRC_Avatar Descriptor` が設定されている GameObject を設定します。  
@@ -96,7 +108,7 @@ Hierarchy へ設置したら、 Hierarchy の中から先ほど開いた Invento
 うまくいけば、先ほどまで表示されていた帽子が消えますが、これが正常動作なので問題ありません。
 
 最後に、微調整を行います。  
-今の状態のままだと、画像のようにカバンの所から何かが出てきている状態になってしまいます。
+今回の場合、今の状態のままだと、画像のようにカバンの所から何かが出てきている状態になってしまいます。
 
 ![](https://assets.mochizuki.moe/docs/VRChat/InventorySystem/6.PNG)
 
@@ -116,7 +128,9 @@ Hierarchy へ設置したら、 Hierarchy の中から先ほど開いた Invento
 削除したら、いままでと同様に空の `GameObject` を、 **`Shims` という名前で** 作成します。  
 このとき、 `Shims` という名前以外で作成するとうまく動かなくなるので注意してください。
 
-最後に、作成した `Shims` の子に `Triggers` を設定してあげれば、調整が完了です。
+最後に、作成した `Shims` の子に `Triggers` を設定してあげれば、調整が完了です。  
+同様の方法で、任意のオブジェクトを使うことも可能です (キューブなど)。  
+また、 `Shims` を入れ替えるステップについては任意なので、そのままで使うことも出来ます。
 
 ## お疲れさまでした！
 
