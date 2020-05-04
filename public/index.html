@@ -2,6 +2,7 @@
   <head>
     <meta charset="utf-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no" />
+    <title>ねこやどきゅめんと</title>
     <link rel="stylesheet" href="https://unpkg.com/docute@4/dist/docute.css" />
   </head>
   <body>
@@ -11,9 +12,10 @@
       new Docute({
         target: "#docute",
         theme: "dark",
+        title: "ねこやどきゅめんと",
         darkThemeToggler: true,
         detectSystemDarkTheme: true,
-        editLinkBase: "https://github.com/mika-f/avatars.mochizuki.moe/tree/master/public",
+        editLinkBase: "https://github.com/mika-f/docs.mochizuki.moe/tree/master/public",
         editLinkText: "Edit this page on GitHub",
         router: {
           mode: "history"
@@ -25,6 +27,15 @@
             title: "ホーム",
             link: "/"
           },
+          {
+            title: "VRChat",
+            children: [
+              {
+                title: "Inventory System",
+                link: "/VRChat/InventorySystem"
+              }
+            ]
+          }
         ],
         footer: `
           <footer style="border-top: 1px solid var(--border-color); padding-top: 10px; color: #999; font-size: 90%;">

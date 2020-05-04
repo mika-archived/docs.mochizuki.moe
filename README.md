@@ -1,4 +1,4 @@
-# avatars.mochizuki.moe
+# docs.mochizuki.moe
 
-https://avatars.mochizuki.moe repository.  
+https://docs.mochizuki.moe repository.  
 This website is generated/rendered by Docute.
