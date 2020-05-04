@@ -11,7 +11,7 @@ Unity 2018.3 以降、 VRChat 2020.1 以降 (Unity 2018 対応版以降) で使�
 - お好きな 3D モデル (アバター)
 - 出し入れしたい 3D モデル (もしくはその他のなにか)
 
-ここでは、 v0.1.0-beta.1、キッシュちゃん、帽子で解説をしていきます。
+ここでは、 v0.1.0-beta.2、キッシュちゃん、帽子で解説をしていきます。
 
 > 注意: 導入後に起こったいかなる事にも私は責任を持ちません。自己責任でご利用ください。
 
@@ -31,6 +31,19 @@ Unity のメニューバーの `Mochizuki/VRChat/Inventory Editor` から、専�
 ![](https://assets.mochizuki.moe/docs/VRChat/InventorySystem/1.PNG)
 
 もし上記メニューが存在しない場合は、インポートがうまくいってないので再度インポートを行ってください。
+
+## 初期状態の選択
+
+VRChat Inventory System for Unity 2018 では、初期状態を選択することが出来ます。  
+例えば、常に表示しておきたいけど、他のものを表示するときは非表示にしたい、といったことも可能です。  
+初期状態に応じて、以下の 2 つの Prefab を使い分けてください。
+
+| 初期状態 | 使う Prefab                             |
+| -------- | --------------------------------------- |
+| 非表示   | `InventorySystem_DefaultOFF_XXX.prefab` |
+| 表示     | `InventorySystem_DefaultON_XXX.prefab`  |
+
+なお、説明は非表示である `InventorySystem_DefaultOFF` で行いますが、適宜読み替えてください。
 
 ## セットアップ
 
