@@ -13,36 +13,25 @@ Unity 2018.3 で追加された新機能を使用しているため、 Unity 201
 このインベントリシステムを使うには、以下のものが必要です。
 
 - Unity 2018.3 以降 (Unity 2018.4.20f1)
-- VRChat Inventory System for Unity 2018 v0.1.0-beta.1 以降
+- VRChat Inventory System for Unity 2018 v0.1.0 以降
 - お好きな 3D モデル (アバター)
 - 出し入れしたい 3D モデル (もしくはその他のなにか)
 
-ここでは、 v0.1.0-beta.2、キッシュちゃん、帽子で解説をしていきます。
+ここでは、 v0.1.0、キッシュちゃん、帽子で解説をしていきます。
 
-> 注意: 導入後に起こったいかなる事にも私は責任を持ちません。自己責任でご利用ください。
+> 注意
+>
+> 導入後に起こったいかなる事にも私は責任を持ちません。自己責任でご利用ください。  
+> また、作業の実行前に必ずシーンファイルのバックアップを保存しておいてください。
 
 ## ダウンロード
 
-Booth もしくは GitHub から、最新の UnityPackage をダウンロードしてください。
+Booth から、最新の UnityPackage をダウンロードしてください。
 
 - [Booth](https://natsuneko.booth.pm/items/2041145)
-- [GitHub](https://github.com/mika-f/VRChat-InventorySystem)
 
 ダウンロード後、お使いのプロジェクトにインポートしてください。  
 `Assets` 以下に、 `Mochizuki/VRChat` のようなフォルダーが出来ていれば OK です。
-
-## 初期状態の選択
-
-VRChat Inventory System for Unity 2018 では、初期状態を選択することが出来ます。  
-例えば、常に表示しておきたいけど、他のものを表示するときは非表示にしたい、といったことも可能です。  
-初期状態に応じて、以下の 2 つの Prefab を使い分けてください。
-
-| 初期状態 | 使う Prefab                             |
-| -------- | --------------------------------------- |
-| 非表示   | `InventorySystem_DefaultOFF_XXX.prefab` |
-| 表示     | `InventorySystem_DefaultON_XXX.prefab`  |
-
-なお、説明は非表示である `InventorySystem_DefaultOFF` で行いますが、適宜読み替えてください。
 
 ## Inventory Editor
 
@@ -54,28 +43,18 @@ Unity のメニューバーの `Mochizuki/VRChat/Inventory Editor` から、専�
 
 ## セットアップ
 
-開いたら、まずはインベントリシステムの Prefab を Hierarchy へドラッグ＆ドロップします。
+まずは、初期状態を選択します。  
+アバターに最初から表示しておきたいオブジェクトの場合は、画像の赤線部分にチェックを入れてください。  
+逆に、触ったことで表示して欲しいオブジェクトの場合は、チェックを入れずに次のステップへ進みます。
 
-[<img src="https://assets.mochizuki.moe/docs/VRChat/InventorySystem/2.PNG" height="400px" />](https://assets.mochizuki.moe/docs/VRChat/InventorySystem/2.PNG)
-
-Hierarchy へ設置したら、 Hierarchy の中から先ほど開いた Inventory Editor の `Inventory Prefab` の所へ、  
-`InventorySystem_DefaultOFF_V3` をドロップします。  
-このとき、 Project の中のものをドロップすると動かないので注意してください。
-
-[<img src="https://assets.mochizuki.moe/docs/VRChat/InventorySystem/9.PNG" height="400px" />](https://assets.mochizuki.moe/docs/VRChat/InventorySystem/9.PNG)
-
-(画像クリックで拡大表示が出来ます。)
-
-次に、他の項目も設定していきます。  
-`Avatar` には、 `VRC_Avatar Descriptor` が設定されている GameObject を設定します。  
-キッシュちゃんの場合は (名前を変更していない場合は) `Quiche` もしくは `Quiche_m` を設定します。
+<img src="https://assets.mochizuki.moe/docs/VRChat/InventorySystem/10.PNG" width="550px" />
 
 次に Collider を設定します。  
-ここでは、キッシュちゃんの左手に設定を行います。  
+ここでは、例としてキッシュちゃんの左手に設定を行います。  
 まずは、空の GameObject をアバター直下に作成してください。  
 次に、 `Parent Constraint` コンポーネントを追加し、左手を Source に設定して `Zero` をクリックします。
 
-<img src="https://assets.mochizuki.moe/docs/VRChat/InventorySystem/3.PNG" width="450px" />
+<img src="https://assets.mochizuki.moe/docs/VRChat/InventorySystem/3.PNG" width="550px" />
 
 すると、上にある Transform の値が変わるので、これで Parent Constraint の設定は完了です。  
 次に、先ほど作成した GameObject の子として、さらに GameObject を作成します。  
@@ -84,11 +63,10 @@ Hierarchy へ設置したら、 Hierarchy の中から先ほど開いた Invento
 
 <img src="https://assets.mochizuki.moe/docs/VRChat/InventorySystem/4.PNG" width="550px" />
 
-設定できたら、 `Inventory Editor` の `Collider` へ、 Collider を設定した GameObject を設定します。
+設定できたら、 `Inventory Editor` の `Collider` へ、 Collider を設定した GameObject を設定します。  
+ここまで設定すると、画像のようになります。
 
-この時点で、 `Inventory Prefab`、 `Avatar`、 `Collider` が以下のように設定できていれば良い調子です。
-
-<img src="https://assets.mochizuki.moe/docs/VRChat/InventorySystem/5.PNG" width="550px" />
+<img src="https://assets.mochizuki.moe/docs/VRChat/InventorySystem/11.PNG" width="550px" />
 
 次に `Object` を設定します。  
 これは、あらかじめ位置を調整しておいた帽子を使用します。  
@@ -96,14 +74,16 @@ Hierarchy へ設置したら、 Hierarchy の中から先ほど開いた Invento
 
 これも同じく、帽子の GameObject を `Object` に設定すれば OK です。
 
-最後の `Parent` は、当たり判定を追加したい場所に設定します。  
-今回の場合は、キッシュちゃんのカバンの位置に設定しますが、好きな場所に設定してよいです。
+最後の `Inventory Parent` は、当たり判定を追加したい場所に設定します。  
+今回の場合は、キッシュちゃんのカバンの位置に設定しますが、実際は好きな場所に設定してください。
 
 これは、 Collider を設定したときのように `Parent Constraint` をもつ GameObject を作成し、設定します。  
-設定が終わったら、作成した GameObject を `Parent` に設定してあげれば OK です。
+設定が終わったら、作成した GameObject を `Inventory Parent` に設定してあげれば OK です。
 
-この時点で、全ての設定が完了し、一番下のボタンが押せるようになっていると思うので、  
+ここまでの作業を終えると、下の画像のように一番下のボタンが押せるようになっていますので、  
 設定に問題が無ければボタンをクリックしてください。
+
+<img src="https://assets.mochizuki.moe/docs/VRChat/InventorySystem/12.PNG" width="550px" />
 
 うまくいけば、先ほどまで表示されていた帽子が消えますが、これが正常動作なので問題ありません。
 
@@ -130,7 +110,7 @@ Hierarchy へ設置したら、 Hierarchy の中から先ほど開いた Invento
 
 最後に、作成した `Shims` の子に `Triggers` を設定してあげれば、調整が完了です。  
 同様の方法で、任意のオブジェクトを使うことも可能です (キューブなど)。  
-また、 `Shims` を入れ替えるステップについては任意なので、そのままで使うことも出来ます。
+なお、 `Shims` を入れ替えるステップについては任意なので、そのままで使うことも出来ます。
 
 ## お疲れさまでした！
 
