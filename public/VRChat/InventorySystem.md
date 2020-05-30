@@ -138,3 +138,9 @@ Unity のメニューバーの `Mochizuki/VRChat/Inventory Editor` から、専�
 ### 0.1.0-beta.1
 
 - 初回リリース
+
+## 動作の仕組み
+
+以下の記事を参照ください。
+
+https://hackmd.io/@mikazuki/Sko71kl2I
