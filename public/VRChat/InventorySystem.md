@@ -26,9 +26,9 @@ Unity 2018.3 で追加された新機能を使用しているため、 Unity 201
 
 ## ダウンロード
 
-Booth から、最新の UnityPackage をダウンロードしてください。
+BOOTH から、最新の UnityPackage をダウンロードしてください。
 
-- [Booth](https://natsuneko.booth.pm/items/2041145)
+- [BOOTH](https://natsuneko.booth.pm/items/2041145)
 
 ダウンロード後、お使いのプロジェクトにインポートしてください。  
 `Assets` 以下に、 `Mochizuki/VRChat` のようなフォルダーが出来ていれば OK です。
