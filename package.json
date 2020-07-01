@@ -5,7 +5,7 @@
   "main": "public/index.html",
   "repository": "https://github.com/mika-f/docs.mochizuki.moe.git",
   "author": "Fuyuno Mikazuki, Natsuneko",
-  "license": "MIT",
+  "license": "CC-BY-4.0",
   "private": true,
   "scripts": {
     "start": "serve ./public/"
