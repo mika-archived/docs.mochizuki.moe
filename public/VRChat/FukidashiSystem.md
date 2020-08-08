@@ -80,3 +80,10 @@ Unity メニューバーの `Mochizuki/VRChat/Fukidashi Editor` から、専用�
 
 設定がうまくいけば、設定した場所にメッセージカードが表示されています。  
 あとは、アバターをアップロードすれば使用できます。お疲れさまでした。
+
+## マージシステムについて
+
+本エディターのマージシステムについては、以下のツールで生成された Assets に対し、正常に動作することを確認しています。
+
+- [VRC3AvatarTools](https://gatosyocora.booth.pm/items/2207020)
+- [Radial Inventory System](https://yagihata.booth.pm/items/2278448)
