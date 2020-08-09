@@ -87,3 +87,5 @@ Unity メニューバーの `Mochizuki/VRChat/Fukidashi Editor` から、専用�
 
 - [VRC3AvatarTools](https://gatosyocora.booth.pm/items/2207020)
 - [Radial Inventory System](https://yagihata.booth.pm/items/2278448)
+
+また、マージシステムのみ切り出した [Asset Merger](https://natsuneko.booth.pm/items/2281798) も BOOTH で販売しています。
