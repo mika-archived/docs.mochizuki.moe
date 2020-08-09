@@ -42,7 +42,7 @@ Unity メニューバーの `Mochizuki/VRChat/Asset Merge Editor` から、専�
 
 ## 結合作業
 
-それぞれのファイルについて解説を行っていきます。
+それぞれのファイルについて解説を行っていきます。  
 まずは結合したいファイルの種類をタブから選んでください。
 
 ### Animator Controller
@@ -97,6 +97,7 @@ Expressions Menu タブを選んだ場合、以下のようなエディター画
   - 同じパラメータ名がすでにある場合は無視
 - それぞれの Animator Controller の各レイヤーの内容を新しい Animator Controller にコピー
   - レイヤー名が被っている場合は、採番を行う
+  - 対象のレイヤーが元 Animator Controller の First Layer の場合は Weight に 1 を設定
 
 ### Expression Parameter
 
