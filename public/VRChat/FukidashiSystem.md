@@ -21,7 +21,7 @@ VRChat Avatars 3.0 で動作する簡易メッセージカードシステムで�
 > 注意
 >
 > 導入後に起こったいかなる事にも私は責任を持ちません。自己責任でご利用ください。  
-> また、作業の実行前に必ずシーンファイルのバックアップを保存しておいてください。
+> また、作業の実行前に必ずシーンファイルのバックアップを保存しておいてください。  
 > なお、マージされるときに全てのファイルは置き換えではなく新規作成されます。
 
 ## ダウンロード
@@ -35,7 +35,7 @@ BOOTH から、最新の UnityPackage をダウンロードしてください。
 
 > メモ
 >
-> この UnityPackage には、 `VRChat/Extensions` をいう共通パッケージが含まれています。
+> この UnityPackage には、 `VRChat/Extensions` をいう共通パッケージが含まれています。  
 > もし上書きされる場合は注意が必要です。
 
 ## Fukidashi Editor
@@ -67,7 +67,7 @@ Unity メニューバーの `Mochizuki/VRChat/Fukidashi Editor` から、専用�
 | `Merge with existing Expressions Menu`      | アバターの Expressions が設定されている場合、 `Expressions Menu` の設定をマージするかどうか      |
 | `Merge with existing Expression Parameters` | アバターの Expressions が設定されている場合、 `Expression Parameters` の設定をマージするかどうか |
 
-なお、全てのオプションについて、極力既存の動作について影響がないようにマージしますが、全てが正常に動くとは限りませんので、ご了承ください。
+なお、全てのオプションについて、極力既存の動作について影響がないようにマージしますが、全てが正常に動くとは限りませんので、ご了承ください。  
 設定が終わったら、 `Generate Assets and Apply Changes` をクリックします。  
 クリックすると、途中何回かファイル保存ダイアログが出るので、それぞれ保存したい場所を選択してください。  
 生成されるのは以下のファイルです。
