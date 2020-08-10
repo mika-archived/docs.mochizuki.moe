@@ -46,7 +46,7 @@ Unity メニューバーの `Mochizuki/VRChat/Fukidashi Editor` から、専用�
 ## セットアップ
 
 エディターを開くと画像のようなものが表示されます。  
-最低限必要なのは、 `VRC AVatar Descriptor` と `Message Board Parent` の 2 つのみです。
+最低限必要なのは、 `VRC Avatar Descriptor` と `Message Board Parent` の 2 つのみです。
 
 <img src="https://assets.mochizuki.moe/docs/VRChat/FukidashiSystem/1.PNG" width="550px" />
 
