@@ -42,7 +42,7 @@ Unity メニューバーの `Mochizuki/VRChat/Asset Merge Editor` から、専�
 
 ## 結合作業
 
-それぞれのファイルについて解説を行っていきます。
+それぞれのファイルについて解説を行っていきます。  
 まずは結合したいファイルの種類をタブから選んでください。
 
 ### Animator Controller
@@ -97,6 +97,7 @@ Expressions Menu タブを選んだ場合、以下のようなエディター画
   - 同じパラメータ名がすでにある場合は無視
 - それぞれの Animator Controller の各レイヤーの内容を新しい Animator Controller にコピー
   - レイヤー名が被っている場合は、採番を行う
+  - 対象のレイヤーが元 Animator Controller の First Layer の場合は Weight に 1 を設定
 
 ### Expression Parameter
 
@@ -109,3 +110,21 @@ Expressions Menu タブを選んだ場合、以下のようなエディター画
 - 各パラメータの中身を新しい Expressions Menu にコピー
   - 名前ベースで解決し、すでに登録されている場合は無視
 - 最終的なメニューの総数が登録可能上限を超えている場合はエラー
+
+## テスト済みツールについて
+
+本ツールは、以下のツールなどで生成されたアセットに対して、正常に動作することを確認しています。
+
+- [VRC3AvatarTools](https://gatosyocora.booth.pm/items/2207020)
+- [Radial Inventory System](https://yagihata.booth.pm/items/2278448)
+- [Fukidashi System for Avatars 3.0](https://natsuneko.booth.pm/items/2149045)
+
+## 変更履歴
+
+### Version 0.1.1
+
+* `""` (空白) が同じパラメータと判定されていたことがあるのを修正
+
+### Version 0.1.0
+
+* 初回リリース
