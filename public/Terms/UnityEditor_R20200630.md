@@ -36,4 +36,4 @@ Revision: 20200630
 不具合や要望、技術的な解説などが必要であれば、下記連絡先までお願いします。  
 ただし、突然 DM が来ると何かやらかしたのかと思うので、柔らかい言葉で話しかけて頂けると助かります。
 
-- Twitter [@MikazukiFuyuno](https://twitter.com/MikazukiFuyuno) (メンションもしくは DM)
+- Twitter [@Nekonoya_Booth](https://twitter.com/Nekonoya_Booth) (メンションもしくは DM)

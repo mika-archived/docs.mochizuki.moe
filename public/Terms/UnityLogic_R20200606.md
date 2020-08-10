@@ -35,6 +35,4 @@ Revision: 20200606
 不具合や要望、技術的な解説などが必要であれば、下記連絡先までお願いします。  
 ただし、突然 DM が来ると何かやらかしたのかと思うので、柔らかい言葉で話しかけて頂けると助かります。
 
-- Twitter [@6jz](https://twitter.com/6jz) (メンションもしくは DM)
-- Discord natsuneko#7225 (DM)
-- VRChat natsuneko_vrc (基本無言ですが、指ペンや QV ペンなどで簡単な会話は可能です)
+- Twitter [@Nekonoya_Booth](https://twitter.com/Nekonoya_Booth) (メンションもしくは DM)
