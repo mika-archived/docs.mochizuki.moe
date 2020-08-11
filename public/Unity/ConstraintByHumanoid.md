@@ -36,8 +36,8 @@ Destination GameObject には、 Constraint を設定する Humanoid Rig を設�
 画像の場合、入力元としてミーシェちゃんをもととした Constraint を受付嬢さんにくっつける形になります。
 
 各 GameObject の設定が終わったら、必要に応じて除外設定を行います。  
-除外設定された GameObject は、 Constraint が設定されることはありません。
-これは、 Source および Destination のどちらを設定してもかまいません。
+除外設定された GameObject は、 Constraint が設定されることはありません。  
+これは、 Source および Destination のどちらを設定してもかまいません。  
 設定するには、 `Exclude GameObjects` Foldout を開き、以下のどちらかの方法で設定を行います。
 
 - Size に除外したい GameObject の数を入力し、1 つ 1 つ設定していく
