@@ -33,7 +33,8 @@ BOOTH から、最新の UnityPackage をダウンロードしてください。
 > メモ
 >
 > この UnityPackage には、 `VRChat/Extensions` をいう共通パッケージが含まれています。  
-> もし上書きされる場合は注意が必要です。
+> もし上書きされる場合は基本的には新しいほうで上書きしてください。
+> AssetMerger に含まれているバージョンは **0.2.1** です。
 
 ## Asset Merge Editor
 
@@ -121,13 +122,21 @@ Expressions Menu タブを選んだ場合、以下のようなエディター画
 
 ## 変更履歴
 
+### Version 0.2.1
+
+- 一部の State が正常に設定されていなかった問題を修正
+
+### Version 0.2.0
+
+- コピー元の Animator Controller が削除されたとき、レイヤー情報が失われる問題を修正
+
 ### Version 0.1.2
 
-- Animator Controller が生成できなかったことがある不具合を修正
+- Animator Controller が生成できなかったことがある問題を修正
 
 ### Version 0.1.1
 
-- `""` (空白) が同じパラメータと判定されていたことがあるのを修正
+- `""` (空白) が同じパラメータと判定されていたことがある問題を修正
 
 ### Version 0.1.0
 
