@@ -1,6 +1,7 @@
 import type { Component } from "vue";
 import type { RouterOptions } from "vue-router";
 
+// Docute (but no longer actively maintained)
 type DocuteNavItemLink = {
   title: string;
   link: string;
@@ -80,8 +81,48 @@ interface Docute {
   new (options?: DocuteOptions): this;
 }
 
+// Docsify
+type DocsifyOptions = {
+  el?: string;
+  repo?: string;
+  maxLevel?: number;
+  loadNavbar?: boolean | string;
+  loadSidebar?: boolean | string;
+  hideSidebar?: boolean;
+  subMaxLevel?: number;
+  auto2top?: boolean;
+  homepage?: string;
+  basePath?: string;
+  relativePath?: boolean;
+  coverpage?: boolean | string | string[] | object;
+  logo?: string;
+  name?: string;
+  nameLink?: string;
+  markdown?: Function | object;
+  themeColor?: string;
+  alias?: { [key: string]: string };
+  autoHeader?: boolean;
+  executeScript?: boolean;
+  noEmoji?: boolean;
+  mergeNavbar?: boolean;
+  formatUpdated?: string;
+  externalLinkTarget?: string;
+  cornerLinkTarget?: string;
+  externalLinkRel?: string;
+  routerMode?: "hash" | "history";
+  noCompileLinks?: string[];
+  onlyCover?: boolean;
+  requestHeaders?: { [key: string]: string };
+  ext?: string;
+  fallbackLanguages?: string[];
+  notFoundPage?: boolean | string | object;
+  topMargin?: number;
+  plugins: object[];
+};
+
 export declare global {
   interface Window {
     Docute: Docute;
+    $docsify: DocsifyOptions;
   }
 }

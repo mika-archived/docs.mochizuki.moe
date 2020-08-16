@@ -30,13 +30,38 @@ BOOTH から、最新の UnityPackage をダウンロードしてください。
 
 - [BOOTH](https://natsuneko.booth.pm/items/2149045)
 
+何らかの理由で過去バージョンが必要な場合は、 GitHub Releases からダウンロードが可能です。
+
+- [GitHub Releases](https://github.com/mika-f/VRChat-FukidashiSystem/releases)
+
+## プロジェクトへインポート
+
 ダウンロード後、お使いのプロジェクトにインポートしてください。  
 `Assets` 以下に、 `Mochizuki/VRChat` のようなフォルダーが出来ていれば OK です。
+なお、ねこのやの他の製品をすでにインポートしている場合、インポート時のダイアログにて、以下の項目をチェックしてください。
 
-> メモ
->
-> この UnityPackage には、 `VRChat/Extensions` をいう共通パッケージが含まれています。  
-> もし上書きされる場合は注意が必要です。
+<figure>
+  <a href="https://assets.mochizuki.moe/docs/VRChat/ExtensionsLibrary/Note.PNG" target="_blank">
+    <img src="https://assets.mochizuki.moe/docs/VRChat/ExtensionsLibrary/Note.PNG" width="250px">
+  </a>
+  <figcaption>
+    <code>Mochizuki/VRChat/Extensions/Versions</code> 以下の項目をチェック
+  </figcaption>
+</figure>
+
+- `Mochizuki/VRChat/Extensions/Versions` (画像下部赤枠) 以下のファイルに「New」と表示されていること
+
+もし表示されていない場合は、 `Mochizuki/VRChat/Extensions` (画像中央当たりの正方形のチェック) にて、  
+チェックマークを外して、インポート対象から除外してください。  
+古いもので上書きした場合、他のツール類が正常に動かないなどの不具合が発生する可能性があります。
+
+## アップデート
+
+ツールのアップデートなどを行う際は、そのまま上書きしてしまって OK です。  
+ただし、上記「プロジェクトへインポート」の注意事項については留意してください。
+
+アップデート後について、基本的にはアセットの再生成をしない限りは新機能などは使用できません。  
+そのため、お手数ですが再度設定を行い、アセットの再生成を行ってください。
 
 ## Fukidashi Editor
 
