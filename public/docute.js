@@ -1,0 +1,2 @@
+// @ts-check
+new Docute();
