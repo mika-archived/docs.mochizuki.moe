@@ -18,7 +18,7 @@ window.$docsify = {
     "Cache-Control": "max-age=0",
   },
   plugins: [
-    // @ts-ignore
+    // @ts-expect-error
     EditOnGithubPlugin.create(
       "https://github.com/mika-f/docs.mochizuki.moe/blob/master/public",
       null,
@@ -35,55 +35,5 @@ ${html}
         `.trim();
       });
     },
-    // @ts-check
   ],
 };
-
-/*
-new window.Docute({
-  target: "#docute",
-  theme: "dark",
-  title: "Asset Merger | ねこのやどきゅめんと",
-  darkThemeToggler: true,
-  detectSystemDarkTheme: true,
-  editLinkBase: "https://github.com/mika-f/docs.mochizuki.moe/tree/master/public/VRChat/AssetMerger",
-  editLinkText: "GitHub でドキュメントを修正する",
-  router: {
-    base: "/VRChat/AssetMerger",
-    mode: "history",
-  },
-  sourcePath: "./",
-  nav: [
-    {
-      title: "ホーム",
-      link: "/",
-    },
-  ],
-  sidebar: [
-    {
-      title: "ホーム",
-      link: "/",
-    },
-    {
-      title: "ガイド",
-      children: [
-        { title: "ダウンロードとインストール", link: "/guide/installation" },
-        { title: "使い方", link: "/guide/how-to-use" },
-      ],
-    },
-    {
-      title: "お問い合わせ",
-      link: "/Contact",
-    },
-    {
-      title: "更新履歴",
-      link: "/Changelog",
-    },
-  ],
-  footer: `
-    <footer style="border-top: 1px solid var(--border-color); padding-top: 10px; color: #999; font-size: 90%;">
-      &copy; ${new Date().getFullYear()} Fuyuno Mikazuki / Natsuneko. Rendered by <a href='https://docute.org' target='_blank'>Docute</a>.
-    </footer>
-  `,
-});
-*/
