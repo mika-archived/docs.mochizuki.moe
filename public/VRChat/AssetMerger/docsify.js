@@ -6,6 +6,7 @@ window.$docsify = {
   loadSidebar: true,
   subMaxLevel: 2,
   name: "Asset Merger",
+  nameLink: "/VRChat/AssetMerger/",
   alias: {
     "/.*/_sidebar.md": "/VRChat/AssetMerger/_sidebar.md",
   },
