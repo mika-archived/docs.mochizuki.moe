@@ -5,6 +5,7 @@ window.$docsify = {
   repo: "https://github.com/mika-f/VRChat-AssetMerger",
   loadSidebar: true,
   subMaxLevel: 2,
+  auto2top: true,
   name: "Asset Merger",
   nameLink: "/VRChat/AssetMerger/",
   alias: {
@@ -17,23 +18,5 @@ window.$docsify = {
   requestHeaders: {
     "Cache-Control": "max-age=0",
   },
-  plugins: [
-    // @ts-expect-error
-    EditOnGithubPlugin.create(
-      "https://github.com/mika-f/docs.mochizuki.moe/blob/master/public",
-      null,
-      "📝 GitHub でドキュメントを編集する"
-    ),
-    function (hook, _) {
-      hook.afterEach((html) => {
-        return `
-${html}
-<br />
-<footer style="border-top: 1px solid #ccc; padding-top: 10px; color: #999; font-size: 90%;">
-  &copy; ${new Date().getFullYear()} Fuyuno Mikazuki / Natsuneko. Rendered by <a href='https://docsify.js.org' target='_blank'>Docsify</a>.
-</footer>
-        `.trim();
-      });
-    },
-  ],
+  plugins: [window.EditOnGitHub.create("mika-f/docs.mochizuki.moe", "master", "public"), window.AppendFooter],
 };

@@ -124,5 +124,12 @@ export declare global {
   interface Window {
     Docute: Docute;
     $docsify: DocsifyOptions;
+
+    // own plugins
+    AppendFooter: (hook: any) => void;
+    EditOnGitHub: {
+      create(repository: string, branch: string, baseUrl: string);
+      onClick(event: Event);
+    };
   }
 }
