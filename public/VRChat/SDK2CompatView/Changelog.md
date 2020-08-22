@@ -1,3 +1,7 @@
+## Version 0.2.1
+
+- VRCSDK でアバターをビルドできない不具合を修正
+
 ## Version 0.2.0
 
 - Skinned Mesh Renderer などの検索をサポート
