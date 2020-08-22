@@ -46,6 +46,6 @@ VRCSDK2 時代に作成された Animator Override Controller のうち、 `Avat
 <figure>
   <img src="https://assets.mochizuki.moe/docs/VRChat/SDK2CompatView/02.PNG" width="350px">
   <figcaption>
-    Expression Parameters タブを開いた様子
+    Animator Override Controller の各データ
   </figcaption>
 </figure>
