@@ -12,6 +12,9 @@ BOOTH から最新の UnityPackage をダウンロードしてください。
 
 - [GitHub Releases](https://github.com/mika-f/VRChat-AssetMerger/releases)
 
+Unity がある程度以上使える人の場合は、 Unity Packager Manager (UPM) 経由でのインストールも可能です。  
+詳しくは[プロジェクトの `README.md`](https://github.com/mika-f/VRChat-AssetMerger/blob/develop/README.md) を参照してください。
+
 ## 動作環境
 
 あらかじめ、プロジェクトに以下のものがインストールされている必要があります。

@@ -1,5 +1,5 @@
 // @ts-check
-/// <reference path = "../../../@types/globals.d.ts" />
+/// <reference path = "../../@types/globals.d.ts" />
 
 window.$docsify = {
   repo: "https://github.com/mika-f/VRChat-FukidashiSystem",
@@ -7,9 +7,9 @@ window.$docsify = {
   subMaxLevel: 2,
   auto2top: true,
   name: "Fukidashi System",
-  nameLink: "/VRChat/FukidashiSystem/",
+  nameLink: "/FukidashiSystem/",
   alias: {
-    "/.*/_sidebar.md": "/VRChat/FukidashiSystem/_sidebar.md",
+    "/.*/_sidebar.md": "/FukidashiSystem/_sidebar.md",
   },
   autoHeader: true,
   mergeNavbar: true,
@@ -18,5 +18,8 @@ window.$docsify = {
   requestHeaders: {
     "Cache-Control": "max-age=0",
   },
-  plugins: [window.EditOnGitHub.create("mika-f/docs.mochizuki.moe", "master", "public"), window.AppendFooter],
-};
+  plugins: [
+    window.EditOnGitHub.create("mika-f/docs.mochizuki.moe", "master", "public"),
+    window.AppendFooter,
+    window.BeautifulTitle.create("Fukidashi System")
+  ],};

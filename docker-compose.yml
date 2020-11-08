@@ -2,7 +2,7 @@ version: "3"
 
 services:
   docsify:
-    build: .
+    build: ./
     volumes:
       - ./public:/home/docsify/public:ro
     ports:

@@ -127,6 +127,9 @@ export declare global {
 
     // own plugins
     AppendFooter: (hook: any) => void;
+    BeautifulTitle: {
+      create(title?: string)
+    };
     EditOnGitHub: {
       create(repository: string, branch: string, baseUrl: string);
       onClick(event: Event);

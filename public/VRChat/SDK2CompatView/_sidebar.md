@@ -1,7 +1,0 @@
-- [ホーム](/VRChat/SDK2CompatView/)
-- **ガイド**
-  - [ダウンロードとインストール](/VRChat/SDK2CompatView/Guide/Installation)
-  - [使い方](/VRChat/SDK2CompatView/Guide/HowToUse)
-- **その他**
-- [お問い合わせ](/VRChat/SDK2CompatView/Contact)
-- [更新履歴](/VRChat/SDK2CompatView/Changelog)

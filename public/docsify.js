@@ -57,12 +57,26 @@ ${html}
 
 <br />
 <footer style="border-top: 1px solid #ccc; padding-top: 10px; color: #999; font-size: 90%;">
-  &copy; ${new Date().getFullYear()} Fuyuno Mikazuki / Natsuneko. Rendered by <a href='https://docsify.js.org' target='_blank'>Docsify</a>.
+  &copy; ${new Date().getFullYear()} Natsuneko. Rendered by <a href='https://docsify.js.org' target='_blank'>Docsify</a>.
 </footer>
 `.trim();
     }
   );
 };
 
+class BeautifulTitle {
+  create (title = null) {
+    return (hook) => {
+      hook.doneEach(() => {
+        if (title)
+          document.title = `${document.title} - ${title} | docs.mochizuki.moe`;
+        else
+          document.title = `${document.title} | docs.mochizuki.moe`;
+      });
+    }
+  }
+}
+
 window.AppendFooter = AppendFooter;
+window.BeautifulTitle = new BeautifulTitle();
 window.EditOnGitHub = new EditOnGitHub();
