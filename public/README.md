@@ -25,7 +25,7 @@
 [`IConstraint`](https://docs.unity3d.com/ScriptReference/Animations.IConstraint.html) (例: `ParentConstraint`) を実装している各種 Constraint の設定を自動化する Unity エディター拡張です。  
 Unity の Humanoid 規約に沿ったアバターであれば、簡単に設定を行えます。
 
-[Constraint by Humanoid のページへ](https://docs.mochizuki.moe/ConstraintByHymanoid/)
+[Constraint by Humanoid のページへ](https://docs.mochizuki.moe/ConstraintByHumanoid/)
 
 ## VRChat 関連製品
 
