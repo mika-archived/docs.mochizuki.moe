@@ -1,5 +1,9 @@
 # 更新履歴
 
+## Version 0.1.0-alpha.5
+
+- フィールドをクリックした際に Workspace が削除されていた問題を修正
+
 ## Version 0.1.0-alpha.4
 
 - Material の自動設定に対応
