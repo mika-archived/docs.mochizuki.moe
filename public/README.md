@@ -61,16 +61,3 @@ BOOTH の配布ページから個別に導入することが可能です。
 なお、導入には VRCSDK3 と UdonSharp が必要になります。
 
 [UdonRabbit プロジェクトについてはこちら](https://docs.mochizuki.moe/UdonRabbit/)
-
-### UdonRabbit - Kitsune (SDK3)
-
-UdonRabbit の各製品にて使用されている共通のコンポーネントです。  
-`UdonSyncAttribute` を用いない値の同期や Backoff の実装、 Logger などが含まれています。
-
-[UdonRabbit - Kitsune のページへ](https://docs.mochizuki.moe/UdonRabbit/Kitsune/)
-
-### UdonRabbit - Synchronized Animator (SDK3)
-
-ワールド固定の Particle Live や VRMV を、他の人と同期させることが出来るようになる Udon スクリプトです。
-
-[UdonRabbit - Synchronized Animator のページへ](https://docs.mochizuki.moe/UdonRabbit/SynchronizedAnimator)
