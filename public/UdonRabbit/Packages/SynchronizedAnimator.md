@@ -1,7 +1,7 @@
 ワールド内に設置された Animator (パーティクルライブや VRMV など) を他のプレイヤーと同期させるための Udon / UdonSharp スクリプトです。  
 Animator がすでに再生された状態で入ってきたプレイヤーについても、再生状態を同期させることが出来ます。
 
-なお、ある程度の遅延 (実験では ～ 2s 程度) は許容できる方向けの実装となります。
+なお、仕組み上若干の遅延は許容できる方向けの実装となります。
 
 ## ダウンロードとインストール
 
@@ -60,7 +60,7 @@ UnityPackage に付属している Prefab を使う方法です。
 まず、ボタンとして使用したい GameObject に対して、以下の Udon Behaviour をアタッチします。
 上記の例の場合は、 `Particle Live (World)/logo` に対してアタッチします。
 
-- `ExponentialBackoffRetry`
+- `KitsuneTime`
 - `SynchronizedAnimatorState`
 - `SyncBool`
 
@@ -80,20 +80,17 @@ UnityPackage に付属している Prefab を使う方法です。
 
 | プロパティ                 | 例                                   | 値                                                  |
 | -------------------------- | ------------------------------------ | --------------------------------------------------- |
-| `Backoff`                  | `Particle Live (World)/logo`         | `ExponentialBackoffRetry` をアタッチした GameObject |
 | `Game Object`              | `Particle Live (World)/Shining star` | 同期させたい Animator を含んでいるルート GameObject |
 | `Is Requested Synchronize` | `Particle Live (World)/logo`         | `SyncBool` をアタッチした GameObject                |
+| `T`                        | `Particle Live (World)/logo`         | `KitsuneTime` をアタッチした GameObject             |
 | `Target Animators`         | `Particle Live (World)/Shining star` | 同期したい Animator 全て ※                          |
 | `Target Audio Source`      | `Particle Live (World)/Shining star` | 同期したい Audio Source                             |
 
 ※ Animator は、全て同じ長さで統一されている必要があります (例: 2 分の Particle Live の場合は設定する全ての Animator が 120 秒である必要がある)。
 
-#### Exponential Backoff Retry (Udon Behaviour)
+#### Kitsune Time (Udon Behaviour)
 
-| プロパティ     | 例     | 値                                   |
-| -------------- | ------ | ------------------------------------ |
-| `Max Capacity` | `1000` | 同期を待機する為の最大遅延数 (Ticks) |
-| `Max Retries`  | `10`   | 変数同期の最大再試行回数             |
+変更する必要はありません。
 
 #### Sync Bool (Udon Behaviour)
 
@@ -111,14 +108,14 @@ Synchronized Animator では、以下の手順で同期を行っています。
 
 ### 再生開始時点ですでに存在しているプレイヤーの場合
 
-1. (Global) 再生開始時間 (`yyyy/MM/dd HH:mm:ss.fff GMT`) を他のプレイヤーへ送信
+1. (Global) 再生開始時間 (`UnixTime - GMT`) を他のプレイヤーへ送信
 2. (Global) `SyncBool#SetGlobal(true)` にて即時 `boolean` の同期を開始
-3. (Local) 同期された `SyncBool` の値の変更を検出し、 Backoff のカウンターを開始
-4. (Local) Backoff の条件を満たした時点で変数の同期状態を確認し、同期されていたら値を取得
+3. (Local) 同期された `SyncBool` の値の変更を検出し、変数の同期を待機
+4. (Local) 変数の同期状態を確認し、同期されていたら値を取得
 5. (Local) 次 Tick にて、再生箇所を同期
 
 ### 再生開始時点ではまだ存在していなかったプレイヤーの場合
 
 1. (Local) World に Join 後、 `SyncBool#SetLocal(true)` にて Backoff のカウンターを開始
-2. (Local) Backoff の条件を満たした時点で変数の同期状態を確認し、同期されていたら値を取得
+2. (Local) 変数の同期状態を確認し、同期されていたら値を取得
 3. (Local) 次 Tick にて、再生箇所を同期
