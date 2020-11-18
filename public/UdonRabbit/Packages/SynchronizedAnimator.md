@@ -116,6 +116,6 @@ Synchronized Animator では、以下の手順で同期を行っています。
 
 ### 再生開始時点ではまだ存在していなかったプレイヤーの場合
 
-1. (Local) World に Join 後、 `SyncBool#SetLocal(true)` にて Backoff のカウンターを開始
+1. (Local) World に Join 後、 `SyncBool#SetLocal(true)` にて同期状態の確認を開始
 2. (Local) 変数の同期状態を確認し、同期されていたら値を取得
 3. (Local) 次 Tick にて、再生箇所を同期
