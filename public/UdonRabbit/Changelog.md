@@ -1,3 +1,8 @@
+## Version 0.1.0-alpha.4 (limited)
+
+- (Kitsune) Debugger クラスを追加
+- (ObjectFitter) 機能制限版リリース
+
 ## Version 0.1.0-alpha.3
 
 - (Kitsune) Backoff の種類をいくつか実装
