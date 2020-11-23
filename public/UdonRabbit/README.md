@@ -16,6 +16,12 @@ UdonRabbit の各製品にて使用されている共通のコンポーネント
 
 [UdonRabbit - Kitsune のページへ](/UdonRabbit/Packages/Kitsune)
 
+### UdonRabbit - Object Fitter
+
+ワールド内に設置された衣装やアクセサリーをその場で試着し、調整することが出来るようになる Udon スクリプトです。
+
+[UdonRabbit - Object Fitter のページへ](/UdonRabbit/Packages/ObjectFitter)
+
 ### UdonRabbit - Synchronized Animator
 
 ワールド固定の Particle Live や VRMV を、他の人と同期させることが出来るようになる Udon スクリプトです。

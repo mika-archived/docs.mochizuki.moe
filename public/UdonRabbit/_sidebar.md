@@ -1,6 +1,7 @@
 - [ホーム](/UdonRabbit/)
 - **共通**
   - [導入方法](/UdonRabbit/Guide/Installation)
+  - [バグ報告など](/UdonRabbit/Guide/FeatureRequest)
 - **個別パッケージ**
   - [Kitsune](/UdonRabbit/Packages/Kitsune)
   - [Object Fitter](/UdonRabbit/Packages/ObjectFitter)

@@ -2,7 +2,7 @@
 /// <reference path = "../../@types/globals.d.ts" />
 
 window.$docsify = {
-  repo: "https://github.com/mika-f/UdonRabbit",
+  repo: "https://github.com/mika-f/UdonRabbit-Public",
   loadSidebar: true,
   subMaxLevel: 2,
   auto2top: true,

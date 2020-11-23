@@ -1,3 +1,9 @@
+## Version 0.1.0-alpha.5
+
+- (Kitsune) ログ出力時におけるパフォーマンス改善
+- (ObjectFitter) 他のプレイヤーとの同期機能を追加
+- (ObjectFitter) Transform の各種値の微調整機能を追加
+
 ## Version 0.1.0-alpha.4 (limited)
 
 - (Kitsune) Debugger クラスを追加
