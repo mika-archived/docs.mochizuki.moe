@@ -1,3 +1,9 @@
+## Version 0.1.0-alpha.6
+
+- (Kitsune) 利用規約を更新
+- (ObjectFitter) 利用規約を更新
+- (SynchronizedAnimator) 利用規約を更新
+
 ## Version 0.1.0-alpha.5
 
 - (Kitsune) ログ出力時におけるパフォーマンス改善

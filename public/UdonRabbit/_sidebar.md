@@ -7,5 +7,6 @@
   - [Object Fitter](/UdonRabbit/Packages/ObjectFitter)
   - [Synchronized Animator](/UdonRabbit/Packages/SynchronizedAnimator)
 - **その他**
+- [利用規約](/UdonRabbit/Terms)
 - [お問い合わせ](/UdonRabbit/Contact)
 - [更新履歴](/UdonRabbit/Changelog)
