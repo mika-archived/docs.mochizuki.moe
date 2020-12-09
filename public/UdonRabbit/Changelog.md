@@ -1,3 +1,16 @@
+## Version 0.1.0-alpha.7 (unreleased)
+
+- (ObjectFitter) Transform の各値を表示
+- (ObjectFitter) 同期における通信量を削減 (40 byte to 16 byte)
+  - なお、この影響で、以下のメリットとデメリットが発生します
+  - メリット
+    - 1 ワールド当たりに設置可能な衣服の数が増加 (ただし、 UdonSync がサイズベースで同期の不具合を起こしている場合)
+  - デメリット
+    - 各種 Transform の値が一定の範囲のみを取るようになります
+      - Transform.scale ... `0.00` ~ `2.25`
+      - Transform.position ... `-1.27` ~ `1.27`
+      - Transform.rotation ... `-409.5` ~ `409.5`
+
 ## Version 0.1.0-alpha.6
 
 - (Kitsune) 利用規約を更新

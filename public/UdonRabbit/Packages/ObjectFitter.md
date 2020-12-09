@@ -174,7 +174,9 @@ Object Fitter で脱着可能な衣装を自動で設置する場合には、以
   </figcaption>
 </figure>
 
-### 可動範囲を設定する
+### 可動範囲を設定する (非推奨)
+
+?>**注意**<br>データを圧縮した関係で、 v0.1.0-alpha.7 以降のバージョンでは、元の設定値より大きい値を設定するのは推奨されません。
 
 それぞれ `ObjectFitterWithButton` の以下の GameObject にアタッチされている、 `Slider` の `MinValue` / `MaxValue` / `Value` を変更します。
 
@@ -190,13 +192,26 @@ Object Fitter で脱着可能な衣装を自動で設置する場合には、以
 | Rotation Y       | `ObjectFitterWithButton/UI/UICanvas/Rotation/SliderY/Slider` |
 | Rotation Z       | `ObjectFitterWithButton/UI/UICanvas/Rotation/SliderZ/Slider` |
 
+なお、 v0.1.0-alpha.7 以降にて、 Transform の各値は 32bit `float` ではなく、以下のデータサイズおよび範囲に圧縮されて保持されます。
+
+| Transform Value | Data Size | Data Layout     | Name          | Data Range         |
+| --------------- | :-------: | --------------- | ------------- | ------------------ |
+| ScaleX, Y, Z    |   8bit    | `WWWWWWWW`      | Unsigned Byte | `0.00` ~ `2.55`    |
+| PositionX, Y, Z |   8bit    | `SWWWWWWW`      | Signed Byte   | `-1.27` ~ `1.27`   |
+| RotationX, Y, Z |   13bit   | `SWWWWWWWWWWWW` | Signed Short  | `-409.5` ~ `409.5` |
+
+技術的には、 Transform の各種値を X, Y, Z に分解した後、それぞれを 32bit `int` の中にパックした上で同期を行います。  
+なお、データサイズ的にはまだ 3bit 余っているので、必要に応じて特定のプロパティの値の範囲を拡張することも可能です。
+
 ## よりよい UX のために
 
 Object Fitter では、より良い User Experience を提供する為に、以下のシチュエーションでの利用を推奨します。
 
 - 少人数インスタンスでの利用
   - これは、多数のユーザーがいる場合、その数だけの同期処理が走り、重くなるからです
-  - なお、衣装 1 着当たり同期される変数は `int` \* 1, `Vector3` \* 3 です
+  - なお、衣装 1 着当たり同期される変数は `int` \* 4 の 128bit です
+  - 報告されているものでは、 Udon の変数同期のスループットは 50kbps 程度と言われています
+    - 作者が確認した限りでは、 Object Fitter の Prefab の場合は 30 個近く設置するとパケットロス (同期失敗) が発生するようになります
   - ただし、同期される変数の数に関わらず、プレイヤー数が多くなるほど Local での処理数が増えます
 - 同一衣装の複数設置
   - これは、衣装を装着しているユーザーがいる場合、他のユーザーは同一の衣装を着られなくなるからです
