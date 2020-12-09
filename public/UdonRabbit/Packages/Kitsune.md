@@ -1,6 +1,8 @@
 `Kitsune` は、 Udon および UdonSharp でのユーティリティ実装です。  
 汎用的な処理が含まれており、 UdonRabbit の各パッケージに同梱されています。
 
+なお、コードのサンプルについては、各パッケージに本体として含まれている UdonSharp コードを参照ください。
+
 ## Kitsune.ConstantBackoffRetry
 
 一定の間隔でリトライを行う為の UdonSharp 実装です。
@@ -22,6 +24,27 @@
 | `RequestRetry()`   | `void`  |   No   | リトライ処理を開始します。                                                                  |
 | `ResetBackoff()`   | `void`  |   No   | Backoff の状態をリセットします。                                                            |
 | `Wait()`           | `void`  |   No   | リトライ処理中である場合は、 Backoff カウンターを進めます。                                 |
+
+## Kitsune.DataPacker32x3
+
+`int` (32bit) \* 3 のデータ長を保つ `UdonSynced` 変数を提供します。  
+メモリ配置を `MemoryLayout32x3` で指定することで、該当の箇所に任意のデータを埋め込み、同期変数の帯域を抑えることが可能です。
+なお、埋め込めるデータは整数のみで、使用者側で `bool` や `float` に返還する必要があります。
+
+### Properties
+
+| Name      | Type                          | Required | Description                     |
+| --------- | ----------------------------- | :------: | ------------------------------- |
+| `Layouts` | `~Kitsune.MemoryLayout32x3[]` | Required | `Kitsune.MemoryLayout32x3` 配列 |
+| `Logger`  | `~Kitsune.KitsuneLogger`      | Optional | `Kitsune.Logger` インスタンス   |
+
+### Methods
+
+| Name                                                                  | Returns | Static | Description                                                                                                                     |
+| --------------------------------------------------------------------- | ------- | :----: | ------------------------------------------------------------------------------------------------------------------------------- |
+| `UpdateOwnership(VRCPlayerApi)`                                       | `void`  |   No   | この `GameObject` の同期権限を設定します                                                                                        |
+| `GetValueAsFloat(int layer, short digits, bool hasSign)`              | `float` |   No   | `layer` に配置されたメモリから値を取得し、 `digits` で割った値を返します。負の値を取る場合は `hasSign` を `true` にします。     |
+| `SetValueAsFloat(float value, int layer, short digits, bool hasSign)` | `void`  |   No   | `value` の値を `digits` でかけた値を `layer` に配置されたメモリに設定します。 負の値を取る場合は `hasSign` を `true` にします。 |  |
 
 ## Kitsune.ExponentialBackoffAndJitterRetry
 
