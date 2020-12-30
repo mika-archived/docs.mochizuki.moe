@@ -27,6 +27,13 @@ Unity の Humanoid 規約に沿ったアバターであれば、簡単に設定�
 
 [Constraint by Humanoid のページへ](https://docs.mochizuki.moe/ConstraintByHumanoid/)
 
+### Wireframe Shader
+
+各メッシュのワイヤーフレームのみを描画するシェーダーです。  
+シェーダーキーワードを使用していないので、 VRChat でも使うことが出来ます。
+
+[Wireframe Shader のページへ](https://docs.mochizuki.moe/WireframeShader/)
+
 ## VRChat 関連製品
 
 VRChat 関連製品は、 Unity に加えて VRCSDK2 もしくは VRCSDK3 のどちらかが必要になります。
