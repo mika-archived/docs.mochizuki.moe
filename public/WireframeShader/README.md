@@ -13,4 +13,4 @@
 - ワイヤーフレームの表示
 - 対角線の非表示
 - エミッション
-- 影の描画 (`Mochizuki/Wireframe Shader/Particle Transparent` は非対応)
+<!-- - 影の描画 (`Mochizuki/Wireframe Shader/Particle Transparent` は非対応) -->
