@@ -1,4 +1,4 @@
-## Version 0.1.0-alpha.7 (unreleased)
+## Version 0.1.0-alpha.7
 
 - (ObjectFitter) Transform の各値を表示
 - (ObjectFitter) 同期における通信量を削減 (40 byte to 16 byte)
@@ -10,6 +10,8 @@
       - Transform.scale ... `0.00` ~ `2.25`
       - Transform.position ... `-1.27` ~ `1.27`
       - Transform.rotation ... `-409.5` ~ `409.5`
+- (ObjectFitter) エディター拡張におけるボーンマッピングアルゴリズムの改善
+  - 狐雪ちゃんにて自動設定されない問題などが改善されました
 
 ## Version 0.1.0-alpha.6
 
