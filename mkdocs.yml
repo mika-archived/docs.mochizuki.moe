@@ -21,6 +21,14 @@ nav:
       Home: unity/index.md
   - VRChat:
       Home: vrchat/index.md
+      Asset Merger:
+        ホーム: asset-merger/index.md
+        ガイド:
+          インストール: asset-merger/guides/getting-started.md
+          テスト済みツール: asset-merger/guides/tested-tools.md
+        その他:
+          利用規約: asset-merger/terms.md
+          更新履歴: asset-merger/changelog.md
   - Udon Rabbit: udon-rabbit/index.md
 
 # Theme Configuration
