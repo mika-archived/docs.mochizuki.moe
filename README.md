@@ -7,10 +7,16 @@ This website is generated/rendered by Docute.
 
 ### Requirements
 
-- Docker
-- Docker Compose
+- Python 3.x
 
-### Start Development
+### Setup
 
-1. Run `docker-compose up`
-2. Open `http://localhost:5000` in browser
+```bash
+$ pip3 install -r requirements.txt
+```
+
+### Start Server
+
+```bash
+$ mkdocs serve
+```

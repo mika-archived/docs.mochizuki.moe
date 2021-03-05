@@ -1,0 +1,59 @@
+# Project Information
+site_name: docs.mochizuki.moe
+site_url: https://docs.mochizuki.moe
+site_author: Natsuneko
+
+# Preview Controls
+use_directory_urls: true
+
+# Git Repository
+repo_url: https://github.com/mika-f/docs.mochizuki.moe
+repo_name: mika-f/docs.mochizuki.moe
+edit_uri: edit/master/docs
+
+# Copyright
+copyright: Copyright &copy 2020-2021 Natsuneko (Natsuneko Laboratory)
+
+# Header Navigation
+nav:
+  - Home: index.md
+  - Unity:
+      Home: unity/index.md
+  - VRChat:
+      Home: vrchat/index.md
+  - Udon Rabbit: udon-rabbit/index.md
+
+# Theme Configuration
+theme:
+  name: material
+  features:
+    - navigation.tabs
+  icon:
+    repo: fontawesome/brands/github
+  language: ja
+  palette:
+    scheme: slate
+    primary: light blue
+
+# MkDocs & Theme Extensions
+markdown_extensions:
+  - admonition
+  - attr_list
+  - def_list
+  - fontawesome_markdown
+  - footnotes
+  - meta
+  - pymdownx.highlight
+  - pymdownx.snippets
+  - pymdownx.superfences
+  - pymdownx.tabbed
+  - toc:
+      permalink: true
+      slugify: !!python/name:pymdownx.slugs.uslugify
+      toc_depth: 3
+
+# MkDocs Plugins
+plugins:
+  - git-revision-date-localized:
+      type: date
+      fallback_to_build_date: true
