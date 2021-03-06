@@ -85,5 +85,10 @@ plugins:
         AssetMerger/Guide/HowToUse.md: asset-merger/guides/how-to-use.md
         AssetMerger/Guide/TestedTools.md: asset-merger/guides/tested-tools.md
         AssetMerger/Advanced/AnimatorController: asset-merger/index.md # TODO: Provide Advanced Pages
-        AssetMerger/Contact: asset-merger/terms.md
-        AssetMerger/Changelog: asset-merger/changelog.md
+        AssetMerger/Contact.md: asset-merger/terms.md
+        AssetMerger/Changelog.md: asset-merger/changelog.md
+        WireframeShader/Guide/Installation.md: wireframe-shader/guides/getting-started.md
+        WireframeShader/Guide/HowToUse.md: wireframe-shader/guides/variants/index.md
+        WireframeShader/Terms.md: wireframe-shader/terms.md
+        WireframeShader/Contact.md: wireframe-shader/terms.md
+        WireframeShader/Changelog.md: wireframe-shader/changelog.md
