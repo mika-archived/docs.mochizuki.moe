@@ -42,6 +42,7 @@ nav:
           利用規約: asset-merger/terms.md
           更新履歴: asset-merger/changelog.md
   - Udon Rabbit: udon-rabbit/index.md
+  - お問い合わせ: contact.md
 
 # Theme Configuration
 theme:
