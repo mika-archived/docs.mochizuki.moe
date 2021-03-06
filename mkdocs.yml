@@ -78,3 +78,12 @@ plugins:
   - git-revision-date-localized:
       type: date
       fallback_to_build_date: true
+  - redirects:
+      redirect_maps:
+        AssetMerger/index.md: asset-merger/index.md
+        AssetMerger/Guide/Installation.md: asset-merger/guides/getting-started.md
+        AssetMerger/Guide/HowToUse.md: asset-merger/guides/how-to-use.md
+        AssetMerger/Guide/TestedTools.md: asset-merger/guides/tested-tools.md
+        AssetMerger/Advanced/AnimatorController: asset-merger/index.md # TODO: Provide Advanced Pages
+        AssetMerger/Contact: asset-merger/terms.md
+        AssetMerger/Changelog: asset-merger/changelog.md
