@@ -1,7 +1,10 @@
-# Wireframe Shader for Unity and VRChat
+---
+title: Mochizuki Wireframe Shader
+---
 
-<br>
-<img src="https://assets.mochizuki.moe/docs/WireframeShader/001.PNG">
+# Mochizuki Wireframe Shader
+
+<img src="https://assets.mochizuki.moe/docs/wireframe-shader/thumbnail.png">
 <br>
 
 各メッシュのワイヤーフレームのみを描画するシェーダーです。  
@@ -10,7 +13,8 @@
 他のシェーダーとは異なり、夏猫のワールドおよびアバター向けにいくつかの機能が追加されています。  
 ※通常のワイヤーフレームシェーダーとは異なり、デバッグ用途ではあまり使えません。
 
-- ワイヤーフレームの表示
-- 対角線の非表示
-- エミッション
-<!-- - 影の描画 (`Mochizuki/Wireframe Shader/Particle Transparent` は非対応) -->
+このシェーダーには、以下の機能が付いています。
+
+-   ワイヤーフレームの表示
+-   対角線の非表示
+-   エミッション

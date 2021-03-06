@@ -19,6 +19,18 @@ nav:
   - Home: index.md
   - Unity:
       Home: unity/index.md
+      Wireframe Shader:
+        ホーム: wireframe-shader/index.md
+        ガイド:
+          インストール: wireframe-shader/guides/getting-started.md
+          バリアント:
+            シェーダーの選び方: wireframe-shader/guides/variants/index.md
+            Opaque: wireframe-shader/guides/variants/opaque.md
+            Transparent: wireframe-shader/guides/variants/transparent.md
+            Particle Transparent: wireframe-shader/guides/variants/particle-transparent.md
+        その他:
+          利用規約: wireframe-shader/terms.md
+          更新履歴: wireframe-shader/changelog.md
   - VRChat:
       Home: vrchat/index.md
       Asset Merger:
@@ -45,6 +57,7 @@ theme:
 
 # MkDocs & Theme Extensions
 markdown_extensions:
+  - abbr
   - admonition
   - attr_list
   - def_list
