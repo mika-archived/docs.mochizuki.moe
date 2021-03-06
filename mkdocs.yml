@@ -37,6 +37,11 @@ nav:
         ホーム: asset-merger/index.md
         ガイド:
           インストール: asset-merger/guides/getting-started.md
+          使い方:
+            前準備: asset-merger/guides/how-to-use.md
+            Animator Controller: asset-merger/guides/how-to-use/animator-controller.md
+            Expression Parameters: asset-merger/guides/how-to-use/expression-parameters.md
+            Expressions Menu: asset-merger/guides/how-to-use/expressions-menu.md
           テスト済みツール: asset-merger/guides/tested-tools.md
         その他:
           利用規約: asset-merger/terms.md
