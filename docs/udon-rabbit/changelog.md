@@ -10,6 +10,8 @@
             -   Transform.scale ... `0.00` ~ `2.25`
             -   Transform.position ... `-1.27` ~ `1.27`
             -   Transform.rotation ... `-409.5` ~ `409.5`
+-   (ObjectFitter) エディター拡張におけるボーンマッピングアルゴリズムの改善
+    -   狐雪ちゃんにて自動設定されない問題などが改善されました
 
 ## Version 0.1.0-alpha.6
 
