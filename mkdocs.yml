@@ -50,6 +50,14 @@ nav:
         その他:
           利用規約: asset-merger/terms.md
           更新履歴: asset-merger/changelog.md
+      Fukidashi System: fukidashi-system/index.md
+      SDK2 Compatible Viewer:
+        ホーム: sdk2-compat-view/index.md
+        ガイド:
+          インストール: sdk2-compat-view/guides/getting-started.md
+          使い方: sdk2-compat-view/guides/how-to-use.md
+        利用規約: sdk2-compat-view/terms.md
+        更新履歴: sdk2-compat-view/changelog.md
   - Udon Rabbit:
       Home: udon-rabbit/index.md
       共通:
@@ -116,6 +124,9 @@ plugins:
         AssetMerger/Advanced/AnimatorController: asset-merger/index.md # TODO: Provide Advanced Pages
         AssetMerger/Contact.md: asset-merger/terms.md
         AssetMerger/Changelog.md: asset-merger/changelog.md
+        SDK2CompatView/index.md: sdk2-compat-view/index.md
+        SDK2CompatView/Guide/Installation: sdk2-compat-view/guides/getting-started.md
+        SDK2CompatView/Guide/HowToUse: sdk2-compat-view/guides/how-to-use.md
         UdonRabbit/index.md: udon-rabbit/index.md
         UdonRabbit/Guide/Installation.md: udon-rabbit/guides/getting-started.md
         UdonRabbit/Guide/FeatureRequest.md: udon-rabbit/terms.md
