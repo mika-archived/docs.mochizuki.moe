@@ -14,6 +14,10 @@ edit_uri: edit/master/docs
 # Copyright
 copyright: Copyright &copy 2020-2021 Natsuneko (Natsuneko Laboratory)
 
+# Extra Resources
+extra_css:
+  - css/figure.css
+
 # Header Navigation
 nav:
   - Home: index.md
@@ -46,7 +50,24 @@ nav:
         その他:
           利用規約: asset-merger/terms.md
           更新履歴: asset-merger/changelog.md
-  - Udon Rabbit: udon-rabbit/index.md
+  - Udon Rabbit:
+      Home: udon-rabbit/index.md
+      共通:
+        インストール: udon-rabbit/guides/getting-started.md
+      Packages:
+        Object Fitter:
+          ホーム: udon-rabbit/packages/object-fitter/index.md
+          ライセンスについて: udon-rabbit/packages/object-fitter/license.md
+          設定方法: udon-rabbit/packages/object-fitter/how-to-use.md
+          カスタマイズ: udon-rabbit/packages/object-fitter/customize.md
+          ヒント: udon-rabbit/packages/object-fitter/hint.md
+        Synchronized Animator:
+          ホーム: udon-rabbit/packages/synchronized-animator/index.md
+          設定方法: udon-rabbit/packages/synchronized-animator/how-to-use.md
+          動作の仕組みについて: udon-rabbit/packages/synchronized-animator/how-it-works.md
+      その他:
+        利用規約: udon-rabbit/terms.md
+        更新履歴: udon-rabbit/changelog.md
   - お問い合わせ: contact.md
 
 # Theme Configuration
@@ -95,6 +116,11 @@ plugins:
         AssetMerger/Advanced/AnimatorController: asset-merger/index.md # TODO: Provide Advanced Pages
         AssetMerger/Contact.md: asset-merger/terms.md
         AssetMerger/Changelog.md: asset-merger/changelog.md
+        UdonRabbit/index.md: udon-rabbit/index.md
+        UdonRabbit/Guide/Installation.md: udon-rabbit/guides/getting-started.md
+        UdonRabbit/Guide/FeatureRequest.md: udon-rabbit/terms.md
+        UdonRabbit/Packages/Kitsune.md: udon-rabbit/index.md
+        UdonRabbit/Packages/ObjectFitter.md: udon-rabbit/packages/object-fitter/how-to-use.md
         WireframeShader/Guide/Installation.md: wireframe-shader/guides/getting-started.md
         WireframeShader/Guide/HowToUse.md: wireframe-shader/guides/variants/index.md
         WireframeShader/Terms.md: wireframe-shader/terms.md
