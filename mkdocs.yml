@@ -56,8 +56,9 @@ nav:
         ガイド:
           インストール: sdk2-compat-view/guides/getting-started.md
           使い方: sdk2-compat-view/guides/how-to-use.md
-        利用規約: sdk2-compat-view/terms.md
-        更新履歴: sdk2-compat-view/changelog.md
+        その他:
+          利用規約: sdk2-compat-view/terms.md
+          更新履歴: sdk2-compat-view/changelog.md
   - Udon Rabbit:
       Home: udon-rabbit/index.md
       共通:
