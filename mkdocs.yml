@@ -16,7 +16,7 @@ copyright: Copyright &copy 2020-2021 Natsuneko (Natsuneko Laboratory)
 
 # Extra Resources
 extra_css:
-  - css/figure.css
+  - assets/css/figure.css
 
 # Header Navigation
 nav:
