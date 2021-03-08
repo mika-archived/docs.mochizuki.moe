@@ -50,7 +50,15 @@ nav:
         その他:
           利用規約: asset-merger/terms.md
           更新履歴: asset-merger/changelog.md
-      Fukidashi System: fukidashi-system/index.md
+      Fukidashi System:
+        ホーム: fukidashi-system/index.md
+        ガイド:
+          インストール: fukidashi-system/guides/getting-started.md
+          使い方: fukidashi-system/guides/how-to-use.md
+          カスタマイズ: fukidashi-system/guides/customize.md
+        その他:
+          利用規約: fukidashi-system/terms.md
+          更新履歴: fukidashi-system/changelog.md
       SDK2 Compatible Viewer:
         ホーム: sdk2-compat-view/index.md
         ガイド:
@@ -125,6 +133,11 @@ plugins:
         AssetMerger/Advanced/AnimatorController: asset-merger/index.md # TODO: Provide Advanced Pages
         AssetMerger/Contact.md: asset-merger/terms.md
         AssetMerger/Changelog.md: asset-merger/changelog.md
+        FukidashiSystem/Guide/Installation: fukidashi-system/guides/getting-started.md
+        FukidashiSystem/Guide/HowToUse: fukidashi-system/guides/how-to-use.md
+        FukidashiSystem/Guide/Modification.md: fukidashi-system/guides/customize.md
+        FukidashiSystem/Contact.md: fukidashi-system/terms.md
+        FukidashiSystem/Changelog.md: fukidashi-system/changelog.md
         SDK2CompatView/index.md: sdk2-compat-view/index.md
         SDK2CompatView/Guide/Installation: sdk2-compat-view/guides/getting-started.md
         SDK2CompatView/Guide/HowToUse: sdk2-compat-view/guides/how-to-use.md
