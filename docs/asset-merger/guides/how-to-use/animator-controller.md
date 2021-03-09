@@ -13,7 +13,7 @@ Asset Merger はエディター拡張機能と実装されているため、ま�
 専用エディターは Unity のメニューから、 `Mochizuki/VRChat/Asset Merger/Editor` から開くことが出来ます。
 
 <figure>
-  <img src="https://assets.mochizuki.moe/docs/asset-merger/open-editor.PNG" width="500px" >
+  <img src="https://assets.mochizuki.moe/docs/asset-merger/open-editor.PNG" width="500px" data-zoomable="true">
 </figure>
 
 <!-- prettier-ignore-start -->
@@ -29,13 +29,13 @@ Asset Merger はエディター拡張機能と実装されているため、ま�
 例えば、2 つの Animator Controller を結合したい場合は `2` を入力してください。
 
 <figure>
-  <img src="https://assets.mochizuki.moe/docs/asset-merger/animator-controller-step-1.png" width="500px" >
+  <img src="https://assets.mochizuki.moe/docs/asset-merger/animator-controller-step-1.png" width="500px" data-zoomable="true">
 </figure>
 
 入力後、下に入力ボックスが増えるので、画像のように結合したい Animator Controller をセットしてください。
 
 <figure>
-  <img src="https://assets.mochizuki.moe/docs/asset-merger/animator-controller-step-2.png" width="500px" >
+  <img src="https://assets.mochizuki.moe/docs/asset-merger/animator-controller-step-2.png" width="500px" data-zoomable="true">
 </figure>
 
 最後に、「マージする」ボタンを押せば結合作業が開始され、作業完了後、ファイル保存ダイアログが表示されるので、保存したい場所を選択してください。  
