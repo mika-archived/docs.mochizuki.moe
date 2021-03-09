@@ -33,12 +33,12 @@ Udon Rabbit では、 Udon Graph でのコンポーネント作成ではなく�
 基本的には、 `Latest Release` とタグが付いているものをダウンロードしてください。
 
 <figure>
-  <img src="https://assets.mochizuki.moe/docs/udon-rabbit/common/udon-rabbit-common-step-1.png" width="300px">
+  <img src="https://assets.mochizuki.moe/docs/udon-rabbit/common/udon-rabbit-common-step-1.png" width="300px" data-zoomable="true">
   <figcaption><code>Latest release</code> タグが付いているものをまず見つける</figcaption>
 </figure>
 
 <figure>
-  <img src="https://assets.mochizuki.moe/docs/udon-rabbit/common/udon-rabbit-common-step-2.png" width="400px">
+  <img src="https://assets.mochizuki.moe/docs/udon-rabbit/common/udon-rabbit-common-step-2.png" width="400px" data-zoomable="true">
   <figcaption>そこに関連付けられている <code>UdonSharp_vX.X.X.unitypackage</code> をダウンロードする</figcaption>
 </figure>
 

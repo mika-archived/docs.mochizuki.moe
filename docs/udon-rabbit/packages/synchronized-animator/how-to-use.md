@@ -29,7 +29,7 @@ UnityPackage に付属している Prefab を使う方法です。
 このとき、他の項目は変更しないでください。
 
 <figure>
-  <img src="https://assets.mochizuki.moe/docs/udon-rabbit/synchronized-animator/synchronized-animator-pattern1-step-1.png" width="300px">
+  <img src="https://assets.mochizuki.moe/docs/udon-rabbit/synchronized-animator/synchronized-animator-pattern1-step-1.png" width="300px" data-zoomable="true">
   <figcaption>丸の部分が <code>SynchronizedAnimatorState</code> になっているものを選んでください</figcaption>
 </figure>
 
@@ -67,7 +67,7 @@ UnityPackage に付属している Prefab を使う方法です。
 アタッチするには、以下の操作を行います。
 
 <figure>
-  <img src="https://assets.mochizuki.moe/docs/udon-rabbit/synchronized-animator/synchronized-animator-pattern2-step-1.png" width="300px">
+  <img src="https://assets.mochizuki.moe/docs/udon-rabbit/synchronized-animator/synchronized-animator-pattern2-step-1.png" width="300px" data-zoomable="true">
   <figcaption>
     <code>Udon Behaviour</code> から、 <code>Program Source</code> へ <code>SynchronizedAnimatorState</code> をドラッグアンドドロップする<br>
     このとき、下のドロップダウンが <code>Udon C# Program Asset</code> になっている必要がある

@@ -30,12 +30,12 @@ Fukidashi System にはデフォルトテクスチャとして、 `Sample.png` �
 テクスチャの編集が終わったら、 `Message Board` GameObject のシェーダー設定を開き、 `Texture` の項目を入れ替えることで、設定の反映が完了します。
 
 <figure>
-  <img src="https://assets.mochizuki.moe/docs/fukidashi-system/customize-inspector.PNG" >
+  <img src="https://assets.mochizuki.moe/docs/fukidashi-system/customize-inspector.PNG" data-zoomable="true">
   <figcaption>Inspector の <code>MessageBoard</code> を選択し、</figcaption>
 </figure>
 
 <figure>
-  <img src="https://assets.mochizuki.moe/docs/fukidashi-system/customize-texture.png" width="300px" >
+  <img src="https://assets.mochizuki.moe/docs/fukidashi-system/customize-texture.png" width="300px" data-zoomable="true">
   <figcaption>改変したテクスチャを設定する</figcaption>
 </figure>
 ## シェーダー改変

@@ -15,19 +15,19 @@ title: Object Fitter のカスタマイズ
 Object Fitter のデフォルトでは `Sample Costume` と表示されています。
 
 <figure>
-  <img src="https://assets.mochizuki.moe/docs/udon-rabbit/object-fitter/customize-title.png" width="500px" >
+  <img src="https://assets.mochizuki.moe/docs/udon-rabbit/object-fitter/customize-title.png" width="500px" data-zoomable="true">
   <figcaption>丸で囲まれている部分</figcaption>
 </figure>
 
 ここのテキストは、以下のオブジェクトの `Text Mesh Pro UGUI (Script)` 中にある `Text` を変更することで、カスタマイズが可能です。
 
 <figure>
-  <img src="https://assets.mochizuki.moe/docs/udon-rabbit/object-fitter/customize-title-inspector.png" width="300px" >
+  <img src="https://assets.mochizuki.moe/docs/udon-rabbit/object-fitter/customize-title-inspector.png" width="300px" data-zoomable="true">
   <figcaption>ハイライトされているオブジェクトを選択し、</figcaption>
 </figure>
 
 <figure>
-  <img src="https://assets.mochizuki.moe/docs/udon-rabbit/object-fitter/customize-title-inspector-2.png" width="300px" >
+  <img src="https://assets.mochizuki.moe/docs/udon-rabbit/object-fitter/customize-title-inspector-2.png" width="300px" data-zoomable="true">
   <figcaption>Sample Costume とある部分を好きなテキストへと変更する</figcaption>
 </figure>
 

@@ -12,7 +12,7 @@ Fukidashi System では、 Avatars 3.0 に合わせて、各種必要なアセ�
 専用エディターは Unity のメニューから、`Mochizuki/VRChat/Fukidashi System/Editor` から開くことが出来ます。
 
 <figure>
-  <img src="https://assets.mochizuki.moe/docs/fukidashi-system/open-editor.png" width="500px" >
+  <img src="https://assets.mochizuki.moe/docs/fukidashi-system/open-editor.png" width="500px" data-zoomable="true">
 </figure>
 
 ## アバターの設定
@@ -22,7 +22,7 @@ Fukidashi System では、 Avatars 3.0 に合わせて、各種必要なアセ�
 多くの場合は、特に意識することなく、アバターそのものを設定すれば問題ありません。
 
 <figure>
-  <img src="https://assets.mochizuki.moe/docs/fukidashi-system/configure-avatar.png" width="500px" >
+  <img src="https://assets.mochizuki.moe/docs/fukidashi-system/configure-avatar.png" width="500px" data-zoomable="true">
 </figure>
 
 次に、メッセージボードを表示する場所に、空の `Game Object` を作成します。  

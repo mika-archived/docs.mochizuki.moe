@@ -36,7 +36,7 @@ Object Fitter では、設定するための専用エディターを提供して
 設置したら、**設置した衣装などの Prefab を展開してください**。
 
 <figure>
-  <img src="https://assets.mochizuki.moe/docs/udon-rabbit/object-fitter/object-fitter-step-1.png" width="300px">
+  <img src="https://assets.mochizuki.moe/docs/udon-rabbit/object-fitter/object-fitter-step-1.png" width="300px" data-zoomable="true">
   <figcaption>画像のハイライトしているところから Prefab の展開ができます</figcaption>
 </figure>
 
@@ -44,7 +44,7 @@ Object Fitter では、設定するための専用エディターを提供して
 専用エディターを開くには、 Unity のメニューバーから `Mochizuki/VRChat/Object Fitter/Editor` を開いてください。
 
 <figure>
-  <img src="https://assets.mochizuki.moe/docs/udon-rabbit/object-fitter/object-fitter-step-2.png" width="300px" >
+  <img src="https://assets.mochizuki.moe/docs/udon-rabbit/object-fitter/object-fitter-step-2.png" width="300px" data-zoomable="true">
 </figure>
 
 <!-- prettier-ignore-start -->
@@ -66,13 +66,13 @@ Object Fitter では、設定するための専用エディターを提供して
 この時点で下の画像のようになっていれば問題ありません。
 
 <figure>
-  <img src="https://assets.mochizuki.moe/docs/udon-rabbit/object-fitter/object-fitter-step-3.png" width="400px" >
+  <img src="https://assets.mochizuki.moe/docs/udon-rabbit/object-fitter/object-fitter-step-3.png" width="400px" data-zoomable="true">
 </figure>
 
 `ObjectFitterWithButton` の中にある `Cube` オブジェクトは下記画像の場所に存在しています。
 
 <figure>
-  <img src="https://assets.mochizuki.moe/docs/udon-rabbit/object-fitter/object-fitter-step-3-appendix.png" width="400px" >
+  <img src="https://assets.mochizuki.moe/docs/udon-rabbit/object-fitter/object-fitter-step-3-appendix.png" width="400px" data-zoomable="true">
 </figure>
 
 最後に、エディター上にある「生成」ボタンを押せば、設定は完了です。
@@ -99,14 +99,14 @@ Object Fitter では、設定するための専用エディターを提供して
 次に、 `Udon Behaviour` をアクセサリーに追加し、 `Program Source` へと `Bone Mapper` をアタッチしてください。
 
 <figure>
-  <img src="https://assets.mochizuki.moe/docs/udon-rabbit/object-fitter/object-fitter-step-4.png" width="500px" >
+  <img src="https://assets.mochizuki.moe/docs/udon-rabbit/object-fitter/object-fitter-step-4.png" width="500px" data-zoomable="true">
 </figure>
 
 最後に、 `ObjectFitterWithButton` Prefab をシーン内に設置し、位置を調節した後、 `Cube` の中にある `Mappings` に設定を行ってください。  
 `ObjectFitterWithButton` の中にある `Cube` オブジェクトは下記画像の場所に存在しています。
 
 <figure>
-  <img src="https://assets.mochizuki.moe/docs/udon-rabbit/object-fitter/object-fitter-step-3-appendix.png" width="400px" >
+  <img src="https://assets.mochizuki.moe/docs/udon-rabbit/object-fitter/object-fitter-step-3-appendix.png" width="400px" data-zoomable="true">
 </figure>
 
 これで設定は完了です。
