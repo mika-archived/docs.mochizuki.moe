@@ -28,12 +28,14 @@ Unity の Humanoid 規約に沿ったアバターであれば、簡単に設定�
 
 [Constraint by Humanoid のページへ](/constraint-by-humanoid/)
 
+<!--
 ### Mochizuki Particle Effect
 
-小さな Particle Effect を 1 つ 100 円程度で販売しています。  
+小さな Particle Effect を 1 つ 100 円程度で販売しています。
 Unity でのゲーム制作や VRChat のアバターの装飾品などの使用にどうぞ！
 
 [Mochizuki Particle Effect のページへ](/mochizuki-particle-effect/)
+-->
 
 ### Wireframe Shader
 

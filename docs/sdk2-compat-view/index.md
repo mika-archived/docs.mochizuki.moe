@@ -15,8 +15,6 @@ VRCSDK2 および VRCSDK3 がインポートされていない Unity プロジ�
 **なお、このツールでは Avatars 2.0 から 3.0 への移行などはできません。**  
 あくまで、 Avatars 3.0 の SDK を入れた環境で SDK2 時代に作成したアセットを閲覧する為のものです。
 
-サイドバーから、各ドキュメントにアクセス可能です。
-
 ## 使用上の注意
 
 このプロジェクトは、夏猫の趣味によって生まれた[**実験的な**](https://github.com/mika-f/VRChat-SDK2CompatView/tree/master/src/SDK2.Compat)[**コード**](https://github.com/mika-f/VRChat-SDK2CompatView/tree/master/Assets/Mochizuki/VRChat/SDK2CompatView/Editor/Internal)が含まれています。  

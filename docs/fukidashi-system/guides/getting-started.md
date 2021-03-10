@@ -38,7 +38,7 @@ Fukidashi System を使用するには、プロジェクトにあらかじめ以
 
 ## アップデート
 
-Fukidashi System のアップデートを行う場合は、再度最新の UnityPackage をそのまま上書きインポートしてください。
+最新の UnityPackage でそのまま上書きインポートしてください。
 
 ## アンインストール
 

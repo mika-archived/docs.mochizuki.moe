@@ -26,6 +26,16 @@ nav:
   - Home: index.md
   - Unity:
       Home: unity/index.md
+      Atlasization:
+        ホーム: atlasization/index.md
+        ガイド:
+          インストール: atlasization/guides/getting-started.md
+          使い方: atlasization/guides/how-to-use.md
+        その他:
+          既存の不具合: atlasization/known-bugs.md
+          利用規約: atlasization/terms.md
+          更新履歴: atlasization/changelog.md
+      # Mochizuki Particle Effect: mochizuki-particle-effect/index.md
       Wireframe Shader:
         ホーム: wireframe-shader/index.md
         ガイド:
@@ -136,6 +146,12 @@ plugins:
         AssetMerger/Advanced/AnimatorController.md: asset-merger/index.md # TODO: Provide Advanced Pages
         AssetMerger/Contact.md: asset-merger/terms.md
         AssetMerger/Changelog.md: asset-merger/changelog.md
+        Atlasization/index.md: atlasization/index.md
+        Atlasization/Guide/Installation.md: atlasization/guides/getting-started.md
+        Atlasization/Guide/HowToUse.md: atlasization/guides/how-to-use.md
+        Atlasization/Bugs.md: atlasization/known-bugs.md
+        Atlasization/Contact.md: atlasization/terms.md
+        Atlasization/Changelog.md: atlasization/changelog.md
         FukidashiSystem/Guide/Installation.md: fukidashi-system/guides/getting-started.md
         FukidashiSystem/Guide/HowToUse.md: fukidashi-system/guides/how-to-use.md
         FukidashiSystem/Guide/Modification.md: fukidashi-system/guides/customize.md
