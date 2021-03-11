@@ -35,6 +35,14 @@ nav:
           既存の不具合: atlasization/known-bugs.md
           利用規約: atlasization/terms.md
           更新履歴: atlasization/changelog.md
+      Constraint By Humanoid:
+        ホーム: constraint-by-humanoid/index.md
+        ガイド:
+          インストール: constraint-by-humanoid/guides/getting-started.md
+          使い方: constraint-by-humanoid/guides/how-to-use.md
+        その他:
+          利用規約: constraint-by-humanoid/terms.md
+          更新履歴: constraint-by-humanoid/changelog.md
       # Mochizuki Particle Effect: mochizuki-particle-effect/index.md
       Wireframe Shader:
         ホーム: wireframe-shader/index.md
@@ -152,6 +160,11 @@ plugins:
         Atlasization/Bugs.md: atlasization/known-bugs.md
         Atlasization/Contact.md: atlasization/terms.md
         Atlasization/Changelog.md: atlasization/changelog.md
+        ConstraintByHumanoid/index.md: constraint-by-humanoid/index.md
+        ConstraintByHumanoid/Installation.md: constraint-by-humanoid/guides/getting-started.md
+        ConstraintByHumanoid/HowToUse.md: constraint-by-humanoid/guides/how-to-use.md
+        ConstraintByHumanoid/Contact.md: constraint-by-humanoid/terms.md
+        ConstraintByHumanoid/Changelog.md: constraint-by-humanoid/changelog.md
         FukidashiSystem/Guide/Installation.md: fukidashi-system/guides/getting-started.md
         FukidashiSystem/Guide/HowToUse.md: fukidashi-system/guides/how-to-use.md
         FukidashiSystem/Guide/Modification.md: fukidashi-system/guides/customize.md
