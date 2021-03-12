@@ -19,14 +19,14 @@
 テクスチャーのアトラス化を行う Unity エディター拡張です。  
 わかりやすいウィザード形式を採用し、誰でも簡単に操作することが出来ます。
 
-[Atlasization のページへ](/atlasization/)
+[Atlasization のページへ](/unity/atlasization/)
 
 ### Constraint by Humanoid
 
 [`IConstraint`](https://docs.unity3d.com/ScriptReference/Animations.IConstraint.html){target=\_blank} (例: `ParentConstraint`) を実装している各種 Constraint の設定を自動化する Unity エディター拡張です。  
 Unity の Humanoid 規約に沿ったアバターであれば、簡単に設定を行えます。
 
-[Constraint by Humanoid のページへ](/constraint-by-humanoid/)
+[Constraint by Humanoid のページへ](/unity/constraint-by-humanoid/)
 
 <!--
 ### Mochizuki Particle Effect
@@ -42,7 +42,7 @@ Unity でのゲーム制作や VRChat のアバターの装飾品などの使用
 各メッシュのワイヤーフレームのみを描画するシェーダーです。  
 シェーダーキーワードを使用していないので、 VRChat でも使うことが出来ます。
 
-[Wireframe Shader のページへ](/wireframe-shader/)
+[Wireframe Shader のページへ](/unity/wireframe-shader/)
 
 ## VRChat 関連製品
 
@@ -52,13 +52,13 @@ VRChat 関連製品は、 Unity に加えて VRCSDK2 もしくは VRCSDK3 のど
 
 VRCSDK3 で製品毎に生成されている各アセットを統合、保存する為の Unity エディター拡張です。
 
-[Asset Merger のページへ](/asset-merger/)
+[Asset Merger のページへ](/vrchat/asset-merger/)
 
 ### Fukidashi System (SDK3)
 
 あらかじめ自身で設定しておいた文言を Expression Menu の操作で出すことが出来るようになるアバターギミックです。
 
-[Fukidashi System のページへ](/fukidashi-system/)
+[Fukidashi System のページへ](/vrchat/fukidashi-system/)
 
 ### Inventory System (SDK2)
 
@@ -73,7 +73,7 @@ VRCSDK3 で製品毎に生成されている各アセットを統合、保存す
 
 VRCSDK3 を導入した環境もしくは何も導入していない環境で VRCSDK2 時代に作成された各種アセットの中身を閲覧することが出来るようになる Unity エディター拡張です。
 
-[SDK2 Compatible Viewer のページへ](/sdk2-compat-view/)
+[SDK2 Compatible Viewer のページへ](/vrchat/sdk2-compat-view/)
 
 ### UdonRabbit
 
