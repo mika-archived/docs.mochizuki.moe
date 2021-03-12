@@ -27,35 +27,35 @@ nav:
   - Unity:
       Home: unity/index.md
       Atlasization:
-        ホーム: unity/atlasization/index.md
+        ホーム: unity/unity/atlasization/index.md
         ガイド:
-          インストール: unity/atlasization/guides/getting-started.md
-          使い方: unity/atlasization/guides/how-to-use.md
+          インストール: unity/unity/atlasization/guides/getting-started.md
+          使い方: unity/unity/atlasization/guides/how-to-use.md
         その他:
-          既存の不具合: unity/atlasization/known-bugs.md
-          利用規約: unity/atlasization/terms.md
-          更新履歴: unity/atlasization/changelog.md
+          既存の不具合: unity/unity/atlasization/known-bugs.md
+          利用規約: unity/unity/atlasization/terms.md
+          更新履歴: unity/unity/atlasization/changelog.md
       Constraint By Humanoid:
-        ホーム: unity/constraint-by-humanoid/index.md
+        ホーム: unity/unity/constraint-by-humanoid/index.md
         ガイド:
-          インストール: unity/constraint-by-humanoid/guides/getting-started.md
-          使い方: unity/constraint-by-humanoid/guides/how-to-use.md
+          インストール: unity/unity/constraint-by-humanoid/guides/getting-started.md
+          使い方: unity/unity/constraint-by-humanoid/guides/how-to-use.md
         その他:
-          利用規約: unity/constraint-by-humanoid/terms.md
-          更新履歴: unity/constraint-by-humanoid/changelog.md
+          利用規約: unity/unity/constraint-by-humanoid/terms.md
+          更新履歴: unity/unity/constraint-by-humanoid/changelog.md
       # Mochizuki Particle Effect: mochizuki-particle-effect/index.md
       Wireframe Shader:
-        ホーム: unity/wireframe-shader/index.md
+        ホーム: unity/unity/wireframe-shader/index.md
         ガイド:
-          インストール: unity/wireframe-shader/guides/getting-started.md
+          インストール: unity/unity/wireframe-shader/guides/getting-started.md
           バリアント:
-            シェーダーの選び方: unity/wireframe-shader/guides/variants/index.md
-            Opaque: unity/wireframe-shader/guides/variants/opaque.md
-            Transparent: unity/wireframe-shader/guides/variants/transparent.md
-            Particle Transparent: unity/wireframe-shader/guides/variants/particle-transparent.md
+            シェーダーの選び方: unity/unity/wireframe-shader/guides/variants/index.md
+            Opaque: unity/unity/wireframe-shader/guides/variants/opaque.md
+            Transparent: unity/unity/wireframe-shader/guides/variants/transparent.md
+            Particle Transparent: unity/unity/wireframe-shader/guides/variants/particle-transparent.md
         その他:
-          利用規約: unity/wireframe-shader/terms.md
-          更新履歴: unity/wireframe-shader/changelog.md
+          利用規約: unity/unity/wireframe-shader/terms.md
+          更新履歴: unity/unity/wireframe-shader/changelog.md
   - VRChat:
       Home: vrchat/index.md
       Asset Merger:
@@ -154,17 +154,17 @@ plugins:
         AssetMerger/Advanced/AnimatorController.md: vrchat/asset-merger/index.md # TODO: Provide Advanced Pages
         AssetMerger/Contact.md: vrchat/asset-merger/terms.md
         AssetMerger/Changelog.md: vrchat/asset-merger/changelog.md
-        Atlasization/index.md: atlasization/index.md
-        Atlasization/Guide/Installation.md: atlasization/guides/getting-started.md
-        Atlasization/Guide/HowToUse.md: atlasization/guides/how-to-use.md
-        Atlasization/Bugs.md: atlasization/known-bugs.md
-        Atlasization/Contact.md: atlasization/terms.md
-        Atlasization/Changelog.md: atlasization/changelog.md
-        ConstraintByHumanoid/index.md: constraint-by-humanoid/index.md
-        ConstraintByHumanoid/Installation.md: constraint-by-humanoid/guides/getting-started.md
-        ConstraintByHumanoid/HowToUse.md: constraint-by-humanoid/guides/how-to-use.md
-        ConstraintByHumanoid/Contact.md: constraint-by-humanoid/terms.md
-        ConstraintByHumanoid/Changelog.md: constraint-by-humanoid/changelog.md
+        Atlasization/index.md: unity/atlasization/index.md
+        Atlasization/Guide/Installation.md: unity/atlasization/guides/getting-started.md
+        Atlasization/Guide/HowToUse.md: unity/atlasization/guides/how-to-use.md
+        Atlasization/Bugs.md: unity/atlasization/known-bugs.md
+        Atlasization/Contact.md: unity/atlasization/terms.md
+        Atlasization/Changelog.md: unity/atlasization/changelog.md
+        ConstraintByHumanoid/index.md: unity/constraint-by-humanoid/index.md
+        ConstraintByHumanoid/Installation.md: unity/constraint-by-humanoid/guides/getting-started.md
+        ConstraintByHumanoid/HowToUse.md: unity/constraint-by-humanoid/guides/how-to-use.md
+        ConstraintByHumanoid/Contact.md: unity/constraint-by-humanoid/terms.md
+        ConstraintByHumanoid/Changelog.md: unity/constraint-by-humanoid/changelog.md
         FukidashiSystem/Guide/Installation.md: vrchat/fukidashi-system/guides/getting-started.md
         FukidashiSystem/Guide/HowToUse.md: vrchat/fukidashi-system/guides/how-to-use.md
         FukidashiSystem/Guide/Modification.md: vrchat/fukidashi-system/guides/customize.md
@@ -178,8 +178,8 @@ plugins:
         UdonRabbit/Guide/FeatureRequest.md: udon-rabbit/terms.md
         UdonRabbit/Packages/Kitsune.md: udon-rabbit/index.md
         UdonRabbit/Packages/ObjectFitter.md: udon-rabbit/packages/object-fitter/how-to-use.md
-        WireframeShader/Guide/Installation.md: wireframe-shader/guides/getting-started.md
-        WireframeShader/Guide/HowToUse.md: wireframe-shader/guides/variants/index.md
-        WireframeShader/Terms.md: wireframe-shader/terms.md
-        WireframeShader/Contact.md: wireframe-shader/terms.md
-        WireframeShader/Changelog.md: wireframe-shader/changelog.md
+        WireframeShader/Guide/Installation.md: unity/wireframe-shader/guides/getting-started.md
+        WireframeShader/Guide/HowToUse.md: unity/wireframe-shader/guides/variants/index.md
+        WireframeShader/Terms.md: unity/wireframe-shader/terms.md
+        WireframeShader/Contact.md: unity/wireframe-shader/terms.md
+        WireframeShader/Changelog.md: unity/wireframe-shader/changelog.md
