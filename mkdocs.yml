@@ -27,35 +27,35 @@ nav:
   - Unity:
       Home: unity/index.md
       Atlasization:
-        ホーム: unity/unity/atlasization/index.md
+        ホーム: unity/atlasization/index.md
         ガイド:
-          インストール: unity/unity/atlasization/guides/getting-started.md
-          使い方: unity/unity/atlasization/guides/how-to-use.md
+          インストール: unity/atlasization/guides/getting-started.md
+          使い方: unity/atlasization/guides/how-to-use.md
         その他:
-          既存の不具合: unity/unity/atlasization/known-bugs.md
-          利用規約: unity/unity/atlasization/terms.md
-          更新履歴: unity/unity/atlasization/changelog.md
+          既存の不具合: unity/atlasization/known-bugs.md
+          利用規約: unity/atlasization/terms.md
+          更新履歴: unity/atlasization/changelog.md
       Constraint By Humanoid:
-        ホーム: unity/unity/constraint-by-humanoid/index.md
+        ホーム: unity/constraint-by-humanoid/index.md
         ガイド:
-          インストール: unity/unity/constraint-by-humanoid/guides/getting-started.md
-          使い方: unity/unity/constraint-by-humanoid/guides/how-to-use.md
+          インストール: unity/constraint-by-humanoid/guides/getting-started.md
+          使い方: unity/constraint-by-humanoid/guides/how-to-use.md
         その他:
-          利用規約: unity/unity/constraint-by-humanoid/terms.md
-          更新履歴: unity/unity/constraint-by-humanoid/changelog.md
+          利用規約: unity/constraint-by-humanoid/terms.md
+          更新履歴: unity/constraint-by-humanoid/changelog.md
       # Mochizuki Particle Effect: mochizuki-particle-effect/index.md
       Wireframe Shader:
-        ホーム: unity/unity/wireframe-shader/index.md
+        ホーム: unity/wireframe-shader/index.md
         ガイド:
-          インストール: unity/unity/wireframe-shader/guides/getting-started.md
+          インストール: unity/wireframe-shader/guides/getting-started.md
           バリアント:
-            シェーダーの選び方: unity/unity/wireframe-shader/guides/variants/index.md
-            Opaque: unity/unity/wireframe-shader/guides/variants/opaque.md
-            Transparent: unity/unity/wireframe-shader/guides/variants/transparent.md
-            Particle Transparent: unity/unity/wireframe-shader/guides/variants/particle-transparent.md
+            シェーダーの選び方: unity/wireframe-shader/guides/variants/index.md
+            Opaque: unity/wireframe-shader/guides/variants/opaque.md
+            Transparent: unity/wireframe-shader/guides/variants/transparent.md
+            Particle Transparent: unity/wireframe-shader/guides/variants/particle-transparent.md
         その他:
-          利用規約: unity/unity/wireframe-shader/terms.md
-          更新履歴: unity/unity/wireframe-shader/changelog.md
+          利用規約: unity/wireframe-shader/terms.md
+          更新履歴: unity/wireframe-shader/changelog.md
   - VRChat:
       Home: vrchat/index.md
       Asset Merger:
