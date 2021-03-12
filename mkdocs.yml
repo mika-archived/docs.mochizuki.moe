@@ -27,67 +27,67 @@ nav:
   - Unity:
       Home: unity/index.md
       Atlasization:
-        ホーム: atlasization/index.md
+        ホーム: unity/atlasization/index.md
         ガイド:
-          インストール: atlasization/guides/getting-started.md
-          使い方: atlasization/guides/how-to-use.md
+          インストール: unity/atlasization/guides/getting-started.md
+          使い方: unity/atlasization/guides/how-to-use.md
         その他:
-          既存の不具合: atlasization/known-bugs.md
-          利用規約: atlasization/terms.md
-          更新履歴: atlasization/changelog.md
+          既存の不具合: unity/atlasization/known-bugs.md
+          利用規約: unity/atlasization/terms.md
+          更新履歴: unity/atlasization/changelog.md
       Constraint By Humanoid:
-        ホーム: constraint-by-humanoid/index.md
+        ホーム: unity/constraint-by-humanoid/index.md
         ガイド:
-          インストール: constraint-by-humanoid/guides/getting-started.md
-          使い方: constraint-by-humanoid/guides/how-to-use.md
+          インストール: unity/constraint-by-humanoid/guides/getting-started.md
+          使い方: unity/constraint-by-humanoid/guides/how-to-use.md
         その他:
-          利用規約: constraint-by-humanoid/terms.md
-          更新履歴: constraint-by-humanoid/changelog.md
+          利用規約: unity/constraint-by-humanoid/terms.md
+          更新履歴: unity/constraint-by-humanoid/changelog.md
       # Mochizuki Particle Effect: mochizuki-particle-effect/index.md
       Wireframe Shader:
-        ホーム: wireframe-shader/index.md
+        ホーム: unity/wireframe-shader/index.md
         ガイド:
-          インストール: wireframe-shader/guides/getting-started.md
+          インストール: unity/wireframe-shader/guides/getting-started.md
           バリアント:
-            シェーダーの選び方: wireframe-shader/guides/variants/index.md
-            Opaque: wireframe-shader/guides/variants/opaque.md
-            Transparent: wireframe-shader/guides/variants/transparent.md
-            Particle Transparent: wireframe-shader/guides/variants/particle-transparent.md
+            シェーダーの選び方: unity/wireframe-shader/guides/variants/index.md
+            Opaque: unity/wireframe-shader/guides/variants/opaque.md
+            Transparent: unity/wireframe-shader/guides/variants/transparent.md
+            Particle Transparent: unity/wireframe-shader/guides/variants/particle-transparent.md
         その他:
-          利用規約: wireframe-shader/terms.md
-          更新履歴: wireframe-shader/changelog.md
+          利用規約: unity/wireframe-shader/terms.md
+          更新履歴: unity/wireframe-shader/changelog.md
   - VRChat:
       Home: vrchat/index.md
       Asset Merger:
-        ホーム: asset-merger/index.md
+        ホーム: vrchat/asset-merger/index.md
         ガイド:
-          インストール: asset-merger/guides/getting-started.md
+          インストール: vrchat/asset-merger/guides/getting-started.md
           使い方:
-            前準備: asset-merger/guides/how-to-use.md
-            Animator Controller: asset-merger/guides/how-to-use/animator-controller.md
-            Expression Parameters: asset-merger/guides/how-to-use/expression-parameters.md
-            Expressions Menu: asset-merger/guides/how-to-use/expressions-menu.md
-          テスト済みツール: asset-merger/guides/tested-tools.md
+            前準備: vrchat/asset-merger/guides/how-to-use.md
+            Animator Controller: vrchat/asset-merger/guides/how-to-use/animator-controller.md
+            Expression Parameters: vrchat/asset-merger/guides/how-to-use/expression-parameters.md
+            Expressions Menu: vrchat/asset-merger/guides/how-to-use/expressions-menu.md
+          テスト済みツール: vrchat/asset-merger/guides/tested-tools.md
         その他:
-          利用規約: asset-merger/terms.md
-          更新履歴: asset-merger/changelog.md
+          利用規約: vrchat/asset-merger/terms.md
+          更新履歴: vrchat/asset-merger/changelog.md
       Fukidashi System:
-        ホーム: fukidashi-system/index.md
+        ホーム: vrchat/fukidashi-system/index.md
         ガイド:
-          インストール: fukidashi-system/guides/getting-started.md
-          使い方: fukidashi-system/guides/how-to-use.md
-          カスタマイズ: fukidashi-system/guides/customize.md
+          インストール: vrchat/fukidashi-system/guides/getting-started.md
+          使い方: vrchat/fukidashi-system/guides/how-to-use.md
+          カスタマイズ: vrchat/fukidashi-system/guides/customize.md
         その他:
-          利用規約: fukidashi-system/terms.md
-          更新履歴: fukidashi-system/changelog.md
+          利用規約: vrchat/fukidashi-system/terms.md
+          更新履歴: vrchat/fukidashi-system/changelog.md
       SDK2 Compatible Viewer:
-        ホーム: sdk2-compat-view/index.md
+        ホーム: vrchat/sdk2-compat-view/index.md
         ガイド:
-          インストール: sdk2-compat-view/guides/getting-started.md
-          使い方: sdk2-compat-view/guides/how-to-use.md
+          インストール: vrchat/sdk2-compat-view/guides/getting-started.md
+          使い方: vrchat/sdk2-compat-view/guides/how-to-use.md
         その他:
-          利用規約: sdk2-compat-view/terms.md
-          更新履歴: sdk2-compat-view/changelog.md
+          利用規約: vrchat/sdk2-compat-view/terms.md
+          更新履歴: vrchat/sdk2-compat-view/changelog.md
   - Udon Rabbit:
       Home: udon-rabbit/index.md
       共通:
@@ -147,13 +147,13 @@ plugins:
       fallback_to_build_date: true
   - redirects:
       redirect_maps:
-        AssetMerger/index.md: asset-merger/index.md
-        AssetMerger/Guide/Installation.md: asset-merger/guides/getting-started.md
-        AssetMerger/Guide/HowToUse.md: asset-merger/guides/how-to-use.md
-        AssetMerger/Guide/TestedTools.md: asset-merger/guides/tested-tools.md
-        AssetMerger/Advanced/AnimatorController.md: asset-merger/index.md # TODO: Provide Advanced Pages
-        AssetMerger/Contact.md: asset-merger/terms.md
-        AssetMerger/Changelog.md: asset-merger/changelog.md
+        AssetMerger/index.md: vrchat/asset-merger/index.md
+        AssetMerger/Guide/Installation.md: vrchat/asset-merger/guides/getting-started.md
+        AssetMerger/Guide/HowToUse.md: vrchat/asset-merger/guides/how-to-use.md
+        AssetMerger/Guide/TestedTools.md: vrchat/asset-merger/guides/tested-tools.md
+        AssetMerger/Advanced/AnimatorController.md: vrchat/asset-merger/index.md # TODO: Provide Advanced Pages
+        AssetMerger/Contact.md: vrchat/asset-merger/terms.md
+        AssetMerger/Changelog.md: vrchat/asset-merger/changelog.md
         Atlasization/index.md: atlasization/index.md
         Atlasization/Guide/Installation.md: atlasization/guides/getting-started.md
         Atlasization/Guide/HowToUse.md: atlasization/guides/how-to-use.md
@@ -165,14 +165,14 @@ plugins:
         ConstraintByHumanoid/HowToUse.md: constraint-by-humanoid/guides/how-to-use.md
         ConstraintByHumanoid/Contact.md: constraint-by-humanoid/terms.md
         ConstraintByHumanoid/Changelog.md: constraint-by-humanoid/changelog.md
-        FukidashiSystem/Guide/Installation.md: fukidashi-system/guides/getting-started.md
-        FukidashiSystem/Guide/HowToUse.md: fukidashi-system/guides/how-to-use.md
-        FukidashiSystem/Guide/Modification.md: fukidashi-system/guides/customize.md
-        FukidashiSystem/Contact.md: fukidashi-system/terms.md
-        FukidashiSystem/Changelog.md: fukidashi-system/changelog.md
-        SDK2CompatView/index.md: sdk2-compat-view/index.md
-        SDK2CompatView/Guide/Installation.md: sdk2-compat-view/guides/getting-started.md
-        SDK2CompatView/Guide/HowToUse.md: sdk2-compat-view/guides/how-to-use.md
+        FukidashiSystem/Guide/Installation.md: vrchat/fukidashi-system/guides/getting-started.md
+        FukidashiSystem/Guide/HowToUse.md: vrchat/fukidashi-system/guides/how-to-use.md
+        FukidashiSystem/Guide/Modification.md: vrchat/fukidashi-system/guides/customize.md
+        FukidashiSystem/Contact.md: vrchat/fukidashi-system/terms.md
+        FukidashiSystem/Changelog.md: vrchat/fukidashi-system/changelog.md
+        SDK2CompatView/index.md: vrchat/sdk2-compat-view/index.md
+        SDK2CompatView/Guide/Installation.md: vrchat/sdk2-compat-view/guides/getting-started.md
+        SDK2CompatView/Guide/HowToUse.md: vrchat/sdk2-compat-view/guides/how-to-use.md
         UdonRabbit/index.md: udon-rabbit/index.md
         UdonRabbit/Guide/Installation.md: udon-rabbit/guides/getting-started.md
         UdonRabbit/Guide/FeatureRequest.md: udon-rabbit/terms.md

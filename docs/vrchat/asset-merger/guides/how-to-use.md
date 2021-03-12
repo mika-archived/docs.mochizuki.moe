@@ -7,9 +7,9 @@ title: Asset Merger の使い方
 Asset Merger を使用する前に、どのアセットを結合するかを決めておく必要があります。  
 Asset Merger がサポートしているアセットは、以下の 3 種類です。
 
--   [Animator Controller](/asset-merger/guides/how-to-use/animator-controller)
--   [Expression Parameters](/asset-merger/guides/how-to-use/expression-parameters)
--   [Expressions Menu](/asset-merger/guides/how-to-use/expressions-menu)
+-   [Animator Controller](/vrchat/asset-merger/guides/how-to-use/animator-controller)
+-   [Expression Parameters](/vrchat/asset-merger/guides/how-to-use/expression-parameters)
+-   [Expressions Menu](/vrchat/asset-merger/guides/how-to-use/expressions-menu)
 
 Animator Controller については、 VRChat 用に制作された物だけでなく、通常の Unity 用の Animator Controller についてもマージ処理が行われます。
 
