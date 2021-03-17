@@ -178,6 +178,7 @@ plugins:
         UdonRabbit/Guide/FeatureRequest.md: udon-rabbit/terms.md
         UdonRabbit/Packages/Kitsune.md: udon-rabbit/index.md
         UdonRabbit/Packages/ObjectFitter.md: udon-rabbit/packages/object-fitter/how-to-use.md
+        UdonRabbit/Packages/SynchronizedAnimator.md: udon-rabbit/packages/synchronized-animator/how-to-use.md
         UdonRabbit/Terms.md: udon-rabbit/terms.md
         WireframeShader/index.md: unity/wireframe-shader/index.md
         WireframeShader/Guide/Installation.md: unity/wireframe-shader/guides/getting-started.md
