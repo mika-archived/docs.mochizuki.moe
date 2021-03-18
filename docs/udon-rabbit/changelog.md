@@ -1,3 +1,9 @@
+## Version 0.1.0-alpha.8
+
+-   (ObjectFitter) トライアル版で Prefab が同梱されていなかった不具合を修正
+-   (ObjectFitter) 通常ライセンス版以上で、「同期しない」版を追加
+-   (ObjectFitter) メニューの階層を変更
+
 ## Version 0.1.0-alpha.7
 
 -   (ObjectFitter) Transform の各値を表示

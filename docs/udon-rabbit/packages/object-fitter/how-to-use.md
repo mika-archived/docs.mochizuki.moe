@@ -52,8 +52,15 @@ Object Fitter では、設定するための専用エディターを提供して
     バージョン 0.1.0-alpha.8 より前のものを使用している場合は、 `Mochizuki/VRChat/Object Fitter` から開けます。
 <!-- prettier-ignore-end -->
 
-開いたら、次は Object Fitter の `Prefabs` フォルダー内にある `ObjectFitterWithButton` Prefab を任意の場所に設置してください。  
-この Prefab は展開しなくても問題ありません。
+開いたら、次は Object Fitter の `Prefabs` フォルダー内にある `ObjectFitterWithButton`　もしくは `ObjectFitterNotSyncedWithButton` Prefab を任意の場所に設置してください。  
+この Prefab は展開しなくても問題ありません。  
+それぞれの Prefab の違いは以下の通りです。  
+なお、トライアル版の場合は、 `ObjectFitterNotSyncedWithButton` のみ同梱しています。
+
+| Prefab 名                         | 同期 | Scale 範囲 | Position 範囲  | Rotation 範囲 |
+| --------------------------------- | ---- | ---------- | -------------- | ------------- |
+| `ObjectFitterWithButton`          | o    | `0 ~ 2.55` | `-1.27 ~ 1.27` | 制限無し      |
+| `ObjectFitterNotSyncedWithButton` | x    | 制限無し   | 制限無し       | 制限無し      |
 
 最後に、それぞれ以下の項目を設定してください。
 
