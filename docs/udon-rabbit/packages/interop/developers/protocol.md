@@ -138,7 +138,7 @@ private EventListener listener;
 
 <figure>
   <img src="https://assets.mochizuki.moe/docs/udon-rabbit/interop/type-validator-warning.PNG" width="500px" data-zoomable="true">
-  <figcaption>Sample Costume とある部分を好きなテキストへと変更する</figcaption>
+  <figcaption>受信側では Float を要求しているが、送信側では Boolean を設定している場合の警告例</figcaption>
 </figure>
 
 なお、 UdonSharp の実装上、アノテーションはコンパイル段階で削除されるため、 VRChat 上での動作は変化ありません。
