@@ -93,6 +93,14 @@ nav:
       共通:
         インストール: udon-rabbit/guides/getting-started.md
       Packages:
+        Interop:
+          ホーム: udon-rabbit/packages/interop/index.md
+          ライセンスについて: udon-rabbit/packages/interop/license.md
+          ユーザー向け:
+            設定方法: udon-rabbit/packages/interop/users/how-to-use.md
+          開発者向け:
+            開発の準備: udon-rabbit/packages/interop/developers/getting-started.md
+            プロトコルについて: udon-rabbit/packages/interop/developers/protocol.md
         Object Fitter:
           ホーム: udon-rabbit/packages/object-fitter/index.md
           ライセンスについて: udon-rabbit/packages/object-fitter/license.md
