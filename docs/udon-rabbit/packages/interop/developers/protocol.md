@@ -1,6 +1,7 @@
 # プロトコルについて
 
-UdonRabbit Interop では、以下の方法にそって実装することによって、なつねこらぼらとりーで配布している、 Udon 関連コンポーネントおよびこのプロトコルを実装している他者作成パッケージとの相互運用性を確保することが可能になります。
+UdonRabbit Interop では、以下の方法にそって実装することによって、なつねこらぼらとりーで配布している、 Udon 関連コンポーネントおよびこのプロトコルを実装している他者作成パッケージとの相互運用性を確保することが可能になります。  
+このプロジェクトはできる限り型安全に、かつユーザーフレンドリーに扱えることを目指しており、そのための機能も提供しています。
 
 <!-- prettier-ignore-start -->
 !!! info
@@ -216,4 +217,48 @@ private EventListener listener;
 <figure>
   <img src="https://assets.mochizuki.moe/docs/udon-rabbit/interop/sync-validator-warning.png" width="500px" data-zoomable="true">
   <figcaption>受信側では同期されたイベントを要求しているが、送信側では同期しないイベントを送信している場合の警告例</figcaption>
+</figure>
+
+### Event Validator
+
+受信側にて、特定のイベントを要求する場合、 `RequestValidateEvent` フィールドアノテーションを付けることで、特定のイベントが送信されているかを確認することが可能になります。  
+たとえば、受信側が以下のような UdonSharp のコード側を持つとき：
+
+```csharp
+using Mochizuki.VRChat.Interop;
+using Mochizuki.VRChat.Interop.Validator.Attributes;
+
+using UdonSharp;
+
+using UnityEngine;
+
+namespace Mochizuki.VRChat.Example
+{
+    public class ExampleReceiver : UdonSharpBehaviour
+    {
+        [SerializeField]
+        [RequestValidateEvent]
+        private EventListener listener;
+
+        private void Update()
+        {
+            if (listener.IsInteracted())
+            {
+                SomeStuff();
+            }
+        }
+
+        // other code
+    }
+}
+```
+
+送信側で対応するメソッドが呼ばれているか (この場合は `#!csharp OnInteracted()`) をチェックすることが可能になります。  
+なお、受信側にこのフィールドアノテーションがあったとしても、 `IsSomeEventIsFired()` のみを要求している場合は、バリデーションはパスされます。
+
+送信側および受信側にて、期待しているイベントコールと、実際のイベントコールが異なる場合は、以下のように警告が表示されます。
+
+<figure>
+  <img src="https://assets.mochizuki.moe/docs/udon-rabbit/interop/event-validator-warning.png" width="500px" data-zoomable="true">
+  <figcaption>受信側では OnDropped を要求しているが、送信側ではコールされていない場合の例</figcaption>
 </figure>
