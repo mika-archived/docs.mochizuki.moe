@@ -15,6 +15,18 @@ UdonRabbit Interop では、以下の方法にそって実装することによ�
     必要に応じて `null` チェックなどの例外処理を行って下さい。
 <!-- prettier-ignore-end -->
 
+## メリット
+
+UdonRabbit Interop のプロトコルを採用するメリットとしては、以下の通りです。
+
+-   (開発者) 型のある状態で U# プログラミングを行うことが出来る
+-   (開発者) パラメータの受け渡しを行うことが出来る
+-   (利用者) 対応しない組み合わせを行った場合、警告が表示されるのでデバッグ・サポートが簡易に出来る
+
+## デメリット
+
+-   UdonRabbit.Interop パッケージを導入する必要がある
+
 ## `MOCHIZUKI_INTEROP` プリプロセッサ
 
 UdonRabbit Interop が導入されている環境では、 `MOCHIZUKI_INTEROP` プリプロセッサが有効になります。  
@@ -161,10 +173,10 @@ private EventListener listener;
 Sync Validator には、以下の 2 種類が存在します。  
 なお、フィールドアノテーションを付けない場合は、すべての状態が許容されます。
 
-| Validator              | Description                                                                  |
-| ---------------------- | ---------------------------------------------------------------------------- |
-| `RequestSyncedEvent`   | 送信側 (Sender) で同期されたイベントを発生させることをリクエストします       |
-| `RequestNoSyncedEvent` | 送信側 (Sender) で同期されていないイベントを発生させることをリクエストします |
+| Validator              | Description                                                                              |
+| ---------------------- | ---------------------------------------------------------------------------------------- |
+| `RequestSyncedEvent`   | 送信側 (Sender) で同期された (グローバル) イベントを発生させることをリクエストします     |
+| `RequestNoSyncedEvent` | 送信側 (Sender) で同期されていない (ローカル) イベントを発生させることをリクエストします |
 
 例えば、送信側にて全プレイヤーに同期されたイベントを発して欲しい場合は、以下のようにします。
 
@@ -180,12 +192,16 @@ private EventListener listener;
 ```csharp
 // 同期されているイベント
 [SerializeField]
-[SyncedEvent]
+[RequestSyncedEvent]
+private EventListener listener;
+
+// 同期されているイベント
+[SerializeField]
 private EventListener listener;
 
 // 同期されていないイベント
 [SerializeField]
-[NoSyncedEvent]
+[RequestNoSyncedEvent]
 private EventListener listener;
 ```
 
