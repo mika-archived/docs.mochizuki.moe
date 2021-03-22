@@ -17,6 +17,7 @@ copyright: Copyright &copy 2020-2021 Natsuneko (Natsuneko Laboratory)
 # Extra Resources
 extra_css:
   - assets/css/figure.css
+  - assets/css/highlight.css
 extra_javascript:
   - https://cdn.jsdelivr.net/npm/medium-zoom@1.0.6/dist/medium-zoom.min.js
   - assets/js/medium-zoom.js
@@ -138,6 +139,7 @@ markdown_extensions:
   - footnotes
   - meta
   - pymdownx.highlight
+  - pymdownx.inlinehilite
   - pymdownx.snippets
   - pymdownx.superfences
   - pymdownx.tabbed

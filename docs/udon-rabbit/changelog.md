@@ -1,3 +1,10 @@
+## Version 0.2.0-alpha.1 (unreleased)
+
+-   (Interop) UdonRabbit 間で共通動作するコンポーネント群を追加
+-   (Kitsune) 各製品へ吸収統合
+-   (ObjectFitter) UdonRabbit Interop に対応
+-   (SynchronizedAnimator) UdonRabbit Interop に対応
+
 ## Version 0.1.0-alpha.8
 
 -   (ObjectFitter) トライアル版で Prefab が同梱されていなかった不具合を修正

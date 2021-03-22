@@ -123,7 +123,13 @@ namespace Mochizuki.VRChat.Example
 var arg = listener.GetArgument(); // 欲しい型へキャストしてください
 ```
 
-## Type Validator
+## Validator
+
+UdonRabbit Interop では、コンポーネント間の相互運用性のチェックのために、いくつかのバリデーターを提供しています。  
+これらはフィールドアノテーションとして実装され、 UdonSharp の動作上、アノテーションはコンパイル段階で削除されるため、 VRChat 上での動作は変化ありません。  
+ただし、 UdonSharp でのコンパイルチェックはアノテーションでも有効になっているため、いくつかの制約が加えられています。
+
+### Type Validator
 
 上記の形式では、 `SetArgument` および `GetArgument` で送受信されるパラメータの型については保証されておらず、ユーザーの側で設定するときに不備が発生する可能性があります。  
 そこで、受信側にて以下のフィールドアノテーションを付与することで、 Inspector 上で型チェックを行うことが可能になります。
@@ -141,4 +147,50 @@ private EventListener listener;
   <figcaption>受信側では Float を要求しているが、送信側では Boolean を設定している場合の警告例</figcaption>
 </figure>
 
-なお、 UdonSharp の実装上、アノテーションはコンパイル段階で削除されるため、 VRChat 上での動作は変化ありません。
+### Sync Validator
+
+受信側にて同期状態を保持している場合、送信側で同期状態を保持したくない場合があります。  
+そのような場合は Sync Validator を使うことで、簡易的なチェックを行うことが可能です。
+
+<!-- prettier-ignore-start -->
+!!! info
+    これには負荷の都合上、送信側の実装も必要になります。  
+    送信側がうまく対応していない場合はバリデーターが正しく動かない可能性もありますので、ご了承ください。
+<!-- prettier-ignore-end -->
+
+Sync Validator には、以下の 2 種類が存在します。  
+なお、フィールドアノテーションを付けない場合は、すべての状態が許容されます。
+
+| Validator              | Description                                                                  |
+| ---------------------- | ---------------------------------------------------------------------------- |
+| `RequestSyncedEvent`   | 送信側 (Sender) で同期されたイベントを発生させることをリクエストします       |
+| `RequestNoSyncedEvent` | 送信側 (Sender) で同期されていないイベントを発生させることをリクエストします |
+
+例えば、送信側にて全プレイヤーに同期されたイベントを発して欲しい場合は、以下のようにします。
+
+```csharp
+[SerializeField]
+[RequestSyncedEvent]
+private EventListener listener;
+```
+
+また、送信側にて、同期された・同期されていないイベントであることを明示する場合は、以下のようにします。  
+アノテーションを付けなかった場合は、同期されているイベントであると見なします。
+
+```csharp
+// 同期されているイベント
+[SerializeField]
+[SyncedEvent]
+private EventListener listener;
+
+// 同期されていないイベント
+[SerializeField]
+[NoSyncedEvent]
+private EventListener listener;
+```
+
+ここでいう同期されたイベントとは、以下を示します。
+
+-   全ユーザーに、同じタイミングで発生されるイベント
+
+例えば、 `#!csharp SendCustomNetworkEvent(NetworkEventTarget.All, "YourMethod")` で呼ばれたメソッドの内部で発生したイベントは、同期したイベントと見なせます。
