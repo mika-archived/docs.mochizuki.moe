@@ -99,6 +99,7 @@ nav:
           ライセンスについて: udon-rabbit/packages/interop/license.md
           ユーザー向け:
             設定方法: udon-rabbit/packages/interop/users/how-to-use.md
+            対応パッケージ: udon-rabbit/packages/interop/users/packages.md
           開発者向け:
             開発の準備: udon-rabbit/packages/interop/developers/getting-started.md
             プロトコルについて: udon-rabbit/packages/interop/developers/protocol.md
