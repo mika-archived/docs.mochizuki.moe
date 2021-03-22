@@ -199,5 +199,5 @@ private EventListener listener;
 
 <figure>
   <img src="https://assets.mochizuki.moe/docs/udon-rabbit/interop/sync-validator-warning.png" width="500px" data-zoomable="true">
-  <figcaption>受信側では bool を要求しているが、送信側では double を設定している場合の警告例</figcaption>
+  <figcaption>受信側では同期されたイベントを要求しているが、送信側では同期しないイベントを送信している場合の警告例</figcaption>
 </figure>
