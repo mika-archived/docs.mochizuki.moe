@@ -143,8 +143,8 @@ private EventListener listener;
 送信側および受信側にて渡している型と送信している型が異なる場合は、以下のように警告が表示されます。
 
 <figure>
-  <img src="https://assets.mochizuki.moe/docs/udon-rabbit/interop/type-validator-warning.PNG" width="500px" data-zoomable="true">
-  <figcaption>受信側では Float を要求しているが、送信側では Boolean を設定している場合の警告例</figcaption>
+  <img src="https://assets.mochizuki.moe/docs/udon-rabbit/interop/type-validator-warning.png" width="500px" data-zoomable="true">
+  <figcaption>受信側では bool を要求しているが、送信側では double を設定している場合の警告例</figcaption>
 </figure>
 
 ### Sync Validator
@@ -194,3 +194,10 @@ private EventListener listener;
 -   全ユーザーに、同じタイミングで発生されるイベント
 
 例えば、 `#!csharp SendCustomNetworkEvent(NetworkEventTarget.All, "YourMethod")` で呼ばれたメソッドの内部で発生したイベントは、同期したイベントと見なせます。
+
+送信側および受信側にて、期待している同期状態と、実際の同期状態が異なる場合は、以下のように警告が表示されます。
+
+<figure>
+  <img src="https://assets.mochizuki.moe/docs/udon-rabbit/interop/sync-validator-warning.png" width="500px" data-zoomable="true">
+  <figcaption>受信側では bool を要求しているが、送信側では double を設定している場合の警告例</figcaption>
+</figure>
