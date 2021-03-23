@@ -20,19 +20,20 @@ UdonRabbit Interop 単体では、付属しているサンプルを組み合わ�
 ## 機能の組み合わせ
 
 UdonRabbit Interop では、基本的には、何らかのイベントを発生させる `送信側` と、何らかの動作を行う `受信側` の 2 つの動作を組み合わせます。  
+SDK2 で例えるならば、 `送信側` は Trigger と呼ばれていたもの、 `受信側` は Action と呼ばれていたものになります。
 例えば、送信側には以下のようなものが含まれます：
 
--   ボタン
--   スイッチ
--   ドア
--   銃を撃つ
+-   ボタン (`VRC_Trigger`)
+-   スイッチ (`VRC_Trigger`)
+-   ドア (`VRC_Trigger`)
+-   銃を撃つ (`VRC_Pickup`)
 
 また、受信側には以下のようなものが含まれます：
 
--   ライトや鏡の ON/OFF 機能
--   パーティクルエフェクトの発生
--   テレポート
--   プレイヤーの状態の変更
+-   ライトや鏡の ON/OFF 機能 (`Mirror` Prefab)
+-   パーティクルエフェクトの発生 (`SendRPC` など)
+-   テレポート (`SendRPC` など)
+-   プレイヤーの状態の変更 (`SendRPC` など)
 
 ユーザーが行う操作を `送信側`、操作を行った結果を `受信側` とすると、わかりやすいかもしれません。  
 これらの機能を組み合わせられるようにするのをサポートするパッケージが UdonRabbit Interop です。
@@ -41,7 +42,17 @@ UdonRabbit Interop では、基本的には、何らかのイベントを発生�
 
 1. シーンに `送信側` の Prefab を配置する
 2. シーンに `受信側` の Prefab を配置する
-3. `受信側` の `Event Listener` とある入力ボックスに、 `送信側` の `Event Listener` を設置する
+3. `受信側` の `(Event Listener)` とある入力ボックスに、 `送信側` の `Event Listener` を設置する
+
+<figure>
+  <img src="https://assets.mochizuki.moe/docs/udon-rabbit/interop/receiver-listener-example.png" width="500px" data-zoomable="true">
+  <figcaption>受信側における <code>Event Listener</code> とある入力ボックス</figcaption>
+</figure>
+
+<figure>
+  <img src="https://assets.mochizuki.moe/docs/udon-rabbit/interop/sender-listener-example.png" width="500px" data-zoomable="true">
+  <figcaption>送信側における <code>Event Listener</code> の例、この名前であるとは限らないが、これに近いものを探せば良い</figcaption>
+</figure>
 
 ## エラー一覧
 
