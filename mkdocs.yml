@@ -103,6 +103,7 @@ nav:
           開発者向け:
             開発の準備: udon-rabbit/packages/interop/developers/getting-started.md
             プロトコルについて: udon-rabbit/packages/interop/developers/protocol.md
+            Event Listener Class: udon-rabbit/packages/interop/developers/event-listener.md
         Object Fitter:
           ホーム: udon-rabbit/packages/object-fitter/index.md
           ライセンスについて: udon-rabbit/packages/object-fitter/license.md

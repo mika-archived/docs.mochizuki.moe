@@ -61,12 +61,52 @@ namespace Mochizuki.VRChat.Examples
 UdonRabbit Interop における、共通実装すべきコンポーネントです。  
 イベントの送信側および受信側の両方でこのコンポーネントに依存することで、型安全に設定およびイベントの送受信が行えるようになります。
 
+## `DefaultExecutionOrder` について
+
+UdonRabbit Interop では、イベント送信側の `DefaultExecutionOrder` を `0 ~ 10000` 番台、イベント受信側の `DefaultExecutionOrder` を `20000 ~ 30000` 番台に推奨しています。  
+これは、イベントの発生を `Update()` で受け取るのを前提としている部分があるからです。
+
+イベントの発生順を指定しなかった場合、 Unity ランタイムによって不定な順番で呼ばれ、想定通りの動作を行わない可能性があります。
+
 ## イベントの送信
 
 UdonRabbit Interop では、基本的にはイベントを発生させる側の Prefab に `EventListener` コンポーネントを含めることを推奨しています。  
 これは、 `EventListener` コンポーネントにおいて、どのイベントを受け渡すかの設定が可能であり、またこれらの設定は利用者側ではなく、開発者側が設定すべきであると考えているためです。
 
 以下に、 `Interact` イベントの送信の為のコードを示します。
+
+```csharp
+using Mochizuki.VRChat.Interop;
+
+using UdonSharp;
+
+using UnityEngine;
+
+using VRC.SDKBase;
+
+namespace Mochizuki.VRChat.Example
+{
+    public class ExampleButton : UdonSharpBehaviour
+    {
+        [SerializeField]
+        private EventListener listener;
+
+        public override void Interact()
+        {
+            listener.EmitInteract();
+        }
+    }
+}
+```
+
+何らかのパラメーターを渡したい場合は、 `SetArgument(object)` を使用します。
+
+```csharp
+listener.SetArgument(true);
+```
+
+基本的には、すべてのイベントにおいて、 `EmitVrcEventName` の形でイベントの送信が利用できます。  
+また、イベントにパラメータが渡されている場合は、以下のようにして送受信が可能です。
 
 ```csharp
 
@@ -85,21 +125,26 @@ namespace Mochizuki.VRChat.Example
         [SerializeField]
         private EventListener listener;
 
-        public override void Interact()
+        public override void OnPlayerJoined(VrcPlayer player)
         {
-            listener.OnInteracted();
+            // イベントの送信
+            listener.EmitPlayerJoined(player);
+        }
+
+        private void Update()
+        {
+            // イベントの受信
+            if (listener.IsPlayerJoined())
+            {
+                // パラメータの受け取り
+                var player = listener.GetPlayerArg();
+            }
         }
     }
 }
 ```
 
-何らかのパラメーターを渡したい場合は、 `SetArgument(object)` を使用します。
-
-```csharp
-listener.SetArgument(true);
-```
-
-基本的には、すべてのイベントにおいて、 `OnEventName` の形でイベントの送信が利用できます。
+詳しくは、[Event Listener について](/udon-rabbit/packages/interop/developers/event-listener/)を参照してください
 
 ## イベントの受信
 
@@ -123,7 +168,7 @@ namespace Mochizuki.VRChat.Example
 
         private void Update()
         {
-            if (listener.IsInteracted())
+            if (listener.IsInteract())
             {
                 // Interacted Event is fired
             }
@@ -132,7 +177,7 @@ namespace Mochizuki.VRChat.Example
 }
 ```
 
-`IsEventName()` では一度のイベント発生に付き一度だけ、有効な値 (`True`) を返します。  
+`IsVrcEventName()` では一度のイベント発生に付き、同じフレームの間のみ有効な値 (`True`) を返します。
 パラメータを受信したい場合は、以下のように行うことで、設定されたパラメータが取得できます。
 
 ```csharp
@@ -246,7 +291,7 @@ namespace Mochizuki.VRChat.Example
 
         private void Update()
         {
-            if (listener.IsInteracted())
+            if (listener.IsInteract())
             {
                 SomeStuff();
             }
@@ -257,8 +302,8 @@ namespace Mochizuki.VRChat.Example
 }
 ```
 
-送信側で対応するメソッドが呼ばれているか (この場合は `#!csharp OnInteracted()`) をチェックすることが可能になります。  
-なお、受信側にこのフィールドアノテーションがあったとしても、 `IsSomeEventIsFired()` のみを要求している場合は、バリデーションはパスされます。
+送信側で対応するメソッドが呼ばれているか (この場合は `#!csharp EmitInteract()`) をチェックすることが可能になります。  
+なお、受信側にこのフィールドアノテーションがあったとしても、 `IsSomeEventIsEmitted()` のみを要求している場合は、バリデーションはパスされます。
 
 送信側および受信側にて、期待しているイベントコールと、実際のイベントコールが異なる場合は、以下のように警告が表示されます。
 
