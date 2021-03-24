@@ -565,3 +565,14 @@ Event Listener を所持している UdonSharpBehaviour から、 `InputLookVert
 同じフレームにて発生していた場合は `True`、発生していなかった場合は `False` が返ります。  
 このイベントにおける第 1 引数は、 `GetInputValueF()` 、第 2 引数は `GetUdonInputEventArgs()` にて取得可能です。  
 イベントの詳細については、 [VRChat 公式ドキュメント](https://docs.vrchat.com/docs/input-events#inputlookvertical){target=\_blank}を参照してください。
+
+### `void SetArgument(object)`
+
+Event Listener を所持している UdonSharpBehaviour から、購読している UdonSharpBehaviour へ、イベント引数以外の引数を渡します。  
+引数には、 Udon でサポートされているすべての型を渡すことが可能です。
+
+### `object GetArgument()`
+
+Event Listener を所持している UdonSharpBehaviour から、購読している UdonSharpBehaviour へ渡されたイベント引数以外の引数を取得します。  
+使う場合は、通常、自身が欲しい型へキャストしてから行ってください。  
+このとき、受け取る Event Listener のフィールドへ `RequestArgumentType(Type)` を付けることで、インスペクター上にてエラーを通知できます。
