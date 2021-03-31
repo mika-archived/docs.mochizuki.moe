@@ -7,6 +7,10 @@
 
 -   (Interop) アルファリリース
 
+## Version 0.1.0-alpha.9
+
+-   (ObjectFitter) 専用エディターの不具合を修正
+
 ## Version 0.1.0-alpha.8
 
 -   (ObjectFitter) トライアル版で Prefab が同梱されていなかった不具合を修正
