@@ -16,6 +16,7 @@ copyright: Copyright &copy 2020-2021 Natsuneko (Natsuneko Laboratory)
 
 # Extra Resources
 extra_css:
+  - assets/css/colors.css
   - assets/css/figure.css
   - assets/css/highlight.css
 extra_javascript:
@@ -94,6 +95,22 @@ nav:
       共通:
         インストール: udon-rabbit/guides/getting-started.md
       Packages:
+        Analyzer:
+          ホーム: udon-rabbit/packages/analyzer/index.md
+          ガイド:
+            導入方法: udon-rabbit/packages/analyzer/guides/getting-started.md
+          アナライザー:
+            各項目について: udon-rabbit/packages/analyzer/analyzers/index.md
+            URA0001: udon-rabbit/packages/analyzer/analyzers/URA0001.md
+            URA0002: udon-rabbit/packages/analyzer/analyzers/URA0002.md
+            URA0003: udon-rabbit/packages/analyzer/analyzers/URA0003.md
+            URA0004: udon-rabbit/packages/analyzer/analyzers/URA0004.md
+            URA0005: udon-rabbit/packages/analyzer/analyzers/URA0005.md
+            URA0006: udon-rabbit/packages/analyzer/analyzers/URA0006.md
+            URA0007: udon-rabbit/packages/analyzer/analyzers/URA0007.md
+            URA0008: udon-rabbit/packages/analyzer/analyzers/URA0008.md
+            URA0009: udon-rabbit/packages/analyzer/analyzers/URA0009.md
+            URA0010: udon-rabbit/packages/analyzer/analyzers/URA0010.md
         Interop:
           ホーム: udon-rabbit/packages/interop/index.md
           ライセンスについて: udon-rabbit/packages/interop/license.md
