@@ -60,6 +60,7 @@ nav:
         ガイド:
           インストール: unity/sakura-shader/guides/getting-started.md
           使い方: unity/sakura-shader/guides/how-to-use.md
+          選び方: unity/sakura-shader/guides/choose-the-shader.md
           バリアント:
             Lyrics: unity/sakura-shader/guides/variants/lyrics.md
             Particles: unity/sakura-shader/guides/variants/particles.md

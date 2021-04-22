@@ -37,6 +37,14 @@ Unity でのゲーム制作や VRChat のアバターの装飾品などの使用
 [Mochizuki Particle Effect のページへ](/mochizuki-particle-effect/)
 -->
 
+### Sakura Shader
+
+夏猫さんがパーティクルライブを作るときに使うシェーダーです。  
+歌詞シェーダー、視界ジャックシェーダー、パーティクルシェーダーなど様々な用途別のシェーダーが含まれています。
+
+[Sakura Shader のページへ](/unity/sakura-shader/)
+
+
 ### Wireframe Shader
 
 各メッシュのワイヤーフレームのみを描画するシェーダーです。  
