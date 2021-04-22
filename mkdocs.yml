@@ -45,7 +45,39 @@ nav:
         その他:
           利用規約: unity/constraint-by-humanoid/terms.md
           更新履歴: unity/constraint-by-humanoid/changelog.md
-      # Mochizuki Particle Effect: mochizuki-particle-effect/index.md
+      Mochizuki Particle Effects:
+        ホーム: unity/particle-system/index.md
+        共通:
+          インストール: unity/particle-system/guides/getting-started.md
+        Packages:
+          PS-001: unity/particle-system/packages/ps-001.md
+          PS-002: unity/particle-system/packages/ps-002.md
+        その他:
+          利用規約: unity/particle-system/terms.md
+          更新履歴: unity/particle-system/changelog.md
+      Sakura Shader:
+        ホーム: unity/sakura-shader/index.md
+        ガイド:
+          インストール: unity/sakura-shader/guides/getting-started.md
+          使い方: unity/sakura-shader/guides/how-to-use.md
+          バリアント:
+            Lyrics: unity/sakura-shader/guides/variants/lyrics.md
+            Particles: unity/sakura-shader/guides/variants/particles.md
+            ScreenFX: unity/sakura-shader/guides/variants/screen-fx.md
+            Skybox: unity/sakura-shader/guides/variants/skybox.md
+            Unlit: unity/sakura-shader/guides/variants/unlit.md
+        その他:
+          利用規約: unity/sakura-shader/terms.md
+          更新履歴: unity/sakura-shader/changelog.md
+      uProjection:
+        ホーム: unity/u-projection/index.md
+        ガイド:
+          インストール: unity/u-projection/guides/getting-started.md
+          使い方: unity/u-projection/guides/how-to-use.md
+          変数一覧: unity/u-projection/guides/variables.md
+        その他:
+          利用規約: unity/u-projection/terms.md
+          更新履歴: unity/u-projection/changelog.md
       Wireframe Shader:
         ホーム: unity/wireframe-shader/index.md
         ガイド:
@@ -111,6 +143,16 @@ nav:
             URA0008: udon-rabbit/packages/analyzer/analyzers/URA0008.md
             URA0009: udon-rabbit/packages/analyzer/analyzers/URA0009.md
             URA0010: udon-rabbit/packages/analyzer/analyzers/URA0010.md
+            URA0011: udon-rabbit/packages/analyzer/analyzers/URA0011.md
+            URA0012: udon-rabbit/packages/analyzer/analyzers/URA0012.md
+            URA0013: udon-rabbit/packages/analyzer/analyzers/URA0012.md
+            URA0014: udon-rabbit/packages/analyzer/analyzers/URA0012.md
+            URA0015: udon-rabbit/packages/analyzer/analyzers/URA0012.md
+            URA0016: udon-rabbit/packages/analyzer/analyzers/URA0012.md
+            URA0017: udon-rabbit/packages/analyzer/analyzers/URA0012.md
+            URA0018: udon-rabbit/packages/analyzer/analyzers/URA0012.md
+            URA0019: udon-rabbit/packages/analyzer/analyzers/URA0012.md
+            URA0020: udon-rabbit/packages/analyzer/analyzers/URA0012.md
         Interop:
           ホーム: udon-rabbit/packages/interop/index.md
           ライセンスについて: udon-rabbit/packages/interop/license.md
@@ -134,11 +176,14 @@ nav:
       その他:
         利用規約: udon-rabbit/terms.md
         更新履歴: udon-rabbit/changelog.md
+  - お知らせ:
+      2021/04/22: announcement/20210422-stop-distribution-of-all-products-in-natsuneko-laboratory.md
   - お問い合わせ: contact.md
 
 # Theme Configuration
 theme:
   name: material
+  custom_dir: overrides
   features:
     - navigation.tabs
   icon:
