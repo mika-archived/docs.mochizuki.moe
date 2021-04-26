@@ -30,3 +30,9 @@ title: 全商品の配布終了のお知らせ
 また、個人情報などを含む場合は、メールでのやり取りも可能です。
 
 -   Outlook Exchange [labs@mochizuki.dev](mailto:labs@mochizuki.dev)
+
+## 2021/04/26 追記
+
+下記アセットについて、導入方法などについて依存しているものが見つかったため、上記の配布停止アセットの対象外とします。
+
+-   Asset Merger
