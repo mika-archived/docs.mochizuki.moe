@@ -177,6 +177,7 @@ nav:
       その他:
         利用規約: udon-rabbit/terms.md
         更新履歴: udon-rabbit/changelog.md
+  - ダウンロード: downloads/index.md
   - お知らせ:
       2021/04/22: announcement/20210422-stop-distribution-of-all-products-in-natsuneko-laboratory.md
   - お問い合わせ: contact.md
