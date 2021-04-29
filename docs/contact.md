@@ -1,17 +1,23 @@
-# お問い合わせ
+# Contact
 
-以下のような要件がありましたら、下記の連絡先の Twitter アカウントもしくは GitHub リポジトリまでご連絡をお願いします。
+If you have any of the following problems, please contact me at the Twitter or GitHub.
 
--   説明文が間違えている
--   説明文がわかりにくい
--   リンクが切れている
--   画像に書いてある文字が汚くて読めない
--   などなど......
+-   description/documentation is wrong
+-   descriptions are difficult to understand
+-   invalid link
+-   and others...
 
-## 連絡先
+## Contact Address
 
-不具合や要望、技術的な解説などが必要であれば、下記連絡先までお願いします。  
-ただし、突然 DM が来ると何かやらかしたのかと思うので、柔らかい言葉で話しかけて頂けると助かります。
+if you have any problems, requests, or need technical explanations, please contact me at the following address
 
--   [Twitter](https://r.mochizuki.moe/Natsuneko){target=\_blank} (公開メンションもしくは DM にて受け付けています)
--   [GitHub](https://github.com/mika-f/docs.mochizuki.moe){target=\_blank} (Issue もしくは Pull Request にて受け付けています)
+-   [Twitter](https://r.mochizuki.moe/Natsuneko){target=\_blank} (Replies or Direct Messages)
+-   [GitHub](https://github.com/mika-f/docs.mochizuki.moe){target=\_blank} (Issues or Pull Requests)
+-   [Discord Server](https://discord.gg/h42BzsFtD2){target=\_blank} (Comment to Server Channels)
+-   Discord natsuneko#7225 (Direct Messages)
+
+## Tip Address
+
+If you would like to tip me, please send Ether or some kinds of ERC20 tokens to the below Ethereum address.
+
+-   [Etherscan](https://etherscan.io/address/0xc925668e7431d4635dc9670c934a19c2206b2819){target=\_blank}
