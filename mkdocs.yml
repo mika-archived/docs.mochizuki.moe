@@ -17,6 +17,7 @@ copyright: Copyright &copy 2020-2021 Natsuneko (Natsuneko Laboratory)
 # Extra Resources
 extra_css:
   - assets/css/colors.css
+  - assets/css/extras.css
   - assets/css/figure.css
   - assets/css/highlight.css
 extra_javascript:
@@ -190,7 +191,7 @@ theme:
     - navigation.tabs
   icon:
     repo: fontawesome/brands/github
-  language: ja
+  language: en
   palette:
     scheme: slate
     primary: light blue

@@ -1,4 +1,4 @@
-なつねこらぼらとりーにて、過去に配布していた無料のパッケージは、以下のリンクからダウンロードが可能です。
+You can download the older version of products distributed by Natsuneko Laboratory.
 
 ## Constraint by Humanoid
 
