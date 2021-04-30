@@ -1,0 +1,1 @@
+mediumZoom('[data-zoomable]')
