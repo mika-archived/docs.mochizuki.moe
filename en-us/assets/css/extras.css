@@ -1,0 +1,20 @@
+.two-grid {
+  columns: 2 auto;
+}
+
+.two-grid > div {
+  border-color: #666;
+  border-left: solid #666 4px;
+  padding-left: 8px;
+  margin: 8px 0;
+  transition: border-color 125ms;
+}
+
+.two-grid > div:hover {
+  border-color: var(--md-accent-fg-color);
+}
+
+.two-grid > div > a:hover {
+  color: var(--md-typeset-a-color);
+  text-decoration: underline;
+}
