@@ -46,16 +46,17 @@ nav:
         その他:
           利用規約: unity/constraint-by-humanoid/terms.md
           更新履歴: unity/constraint-by-humanoid/changelog.md
-      Mochizuki Particle Effects:
-        ホーム: unity/particle-system/index.md
-        共通:
-          インストール: unity/particle-system/guides/getting-started.md
+      Particle Effects:
+        Home: unity/particle-system/index.md
+        General:
+          Getting Started: unity/particle-system/guides/getting-started.md
         Packages:
-          PS-001: unity/particle-system/packages/ps-001.md
-          PS-002: unity/particle-system/packages/ps-002.md
-        その他:
-          利用規約: unity/particle-system/terms.md
-          更新履歴: unity/particle-system/changelog.md
+          "#001": unity/particle-system/packages/001.md
+          "#002": unity/particle-system/packages/002.md
+          "#003": unity/particle-system/packages/003.md
+        Extras:
+          Terms: unity/particle-system/terms.md
+          Changelog: unity/particle-system/changelog.md
       Sakura Shader:
         ホーム: unity/sakura-shader/index.md
         ガイド:
