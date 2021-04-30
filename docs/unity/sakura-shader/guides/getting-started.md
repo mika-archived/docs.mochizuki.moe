@@ -23,6 +23,8 @@ Sakura Shader requires the following environments:
 -   Unity 2019.4.11f1
 -   GPU or Runtime that supports Geometry Shader Stage
 
+## How to install, update or uninstall
+
 <!-- prettier-ignore-start -->
 !!! caution
     I cannot be held responsible for any situation that may arise after the installation.  
