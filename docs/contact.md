@@ -20,4 +20,9 @@ if you have any problems, requests, or need technical explanations, please conta
 
 If you would like to tip me, please send Ether or some kinds of ERC20 tokens to the below Ethereum address.
 
--   [Etherscan](https://etherscan.io/address/0xc925668e7431d4635dc9670c934a19c2206b2819){target=\_blank}
+-   Ethereum : `0xc925668e7431d4635dc9670c934a19c2206b2819`
+
+or send other cryptocurrencies.
+
+-   Bitcoin : `3AC1JG5ANufsQxH93DoCCpgf8EPhtkNYh8`
+-   Stellar : `GDTZUPYMTBHV6BFQZ2Y5YRBSDHPRO5T3DPNYZ2HUOZGK2PXKZWUPZYEB`

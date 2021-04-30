@@ -1,5 +1,5 @@
 ---
-title:Sakura Shader Terms of Use
+title: Sakura Shader Terms of Use
 ---
 
 # Sakura Shader Terms of Use

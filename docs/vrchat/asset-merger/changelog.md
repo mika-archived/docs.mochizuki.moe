@@ -1,36 +1,37 @@
-## Unreleased
+---
+title: Changelog of Asset Merger
+---
 
--   オンラインドキュメントを開くメニューを追加
-    -   上記に伴い、メニューの階層を変更
--   依存関係を外部パッケージに切り出し
--   最新の VRCSDK で発生していたコンパイルエラーを修正
--   VRCSDK の更新に対応 (型の指定と Bit 数判定)
+## Version 0.4.0
+
+-   Fixed an issue that compile error was occurring with the latest VRCSDK
+-   Support latest VRCSDK (Type Specification and Bit Calculation)
 
 ## Version 0.3.1
 
--   ネットワークがオフラインもしくはサーバーエラーだった場合の挙動を修正
--   特定条件でエラーログが出力されていた問題を修正
+-   Fixed an issue that the network is offline or server respond errors
+-   Fixed an issue that error logs were being output under certain conditions
 
 ## Version 0.3.0 (unpublished)
 
--   新しいアップデートが存在する場合、 Window に表示される機能を追加
+-   Added the feature to display in the editor window when a new updates available
 
 ## Version 0.2.1
 
--   一部の State が正常に設定されていなかった問題を修正
+-   Fixed an issue that some States were not being set correctly
 
 ## Version 0.2.0 (unpublished)
 
--   コピー元の Animator Controller が削除されたとき、レイヤー情報が失われる問題を修正
+-   Fixed an issue that the layer information was lost when the original Animator Controller was deleted
 
 ## Version 0.1.2
 
--   Animator Controller が生成できなかったことがある問題を修正
+-   Fixed an issue that the Animator Controller could not be generated
 
 ## Version 0.1.1
 
--   `""` (空白) が同じパラメータと判定されていたことがある問題を修正
+-   Fixed a issue in which `""` (blank space) was sometimes considered the same parameter
 
 ## Version 0.1.0
 
--   初回リリース
+-   Initial Release

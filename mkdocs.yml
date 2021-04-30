@@ -108,18 +108,17 @@ nav:
   - VRChat:
       Home: vrchat/index.md
       Asset Merger:
-        ホーム: vrchat/asset-merger/index.md
-        ガイド:
-          インストール: vrchat/asset-merger/guides/getting-started.md
-          使い方:
-            前準備: vrchat/asset-merger/guides/how-to-use.md
+        Home: vrchat/asset-merger/index.md
+        Guides:
+          Installation: vrchat/asset-merger/guides/getting-started.md
+          How To Use:
             Animator Controller: vrchat/asset-merger/guides/how-to-use/animator-controller.md
             Expression Parameters: vrchat/asset-merger/guides/how-to-use/expression-parameters.md
             Expressions Menu: vrchat/asset-merger/guides/how-to-use/expressions-menu.md
-          テスト済みツール: vrchat/asset-merger/guides/tested-tools.md
-        その他:
-          利用規約: vrchat/asset-merger/terms.md
-          更新履歴: vrchat/asset-merger/changelog.md
+          Verified Tools: vrchat/asset-merger/guides/tested-tools.md
+        Others:
+          Terms: vrchat/asset-merger/terms.md
+          Changelog: vrchat/asset-merger/changelog.md
       Fukidashi System:
         ホーム: vrchat/fukidashi-system/index.md
         ガイド:

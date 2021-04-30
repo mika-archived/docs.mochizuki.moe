@@ -4,14 +4,11 @@ title: VRChat Asset Merger for Avatars 3.0
 
 # VRChat Asset Merger for Avatars 3.0
 
-Asset Merger は、 Avatars 3.0 になったことで、 BOOTH などにて配布されているアセットが  
-競合した際に、内容を自動的に結合、保存してくれる Unity Editor 拡張機能です。
-
-現時点では、以下の種類のアセットに対応しています。
+Asset Merger is the editor extension for Unity that will merge the contents of the following assets that may conflict with each other in VRChat Avatars 3.0.
 
 -   Animator Controller
--   Expressions Menu
 -   Expression Parameters
+-   Expressions Menu
 
-なお、 Asset Merger はドネーションウェアで、基本無料で使用することが可能です。  
-ただし、 BOOST 版を購入してくれると、夏猫さんが喜びます (機能に違いなどはありません)。
+Asset Merger is donation-ware but is basically free to use.  
+If this software has helped you, you can send a tip from [the contact page](/contact).

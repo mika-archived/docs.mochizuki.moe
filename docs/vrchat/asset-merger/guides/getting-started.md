@@ -29,13 +29,6 @@ Asset Merger を使用するには、プロジェクトにあらかじめ以下�
 
 ダウンロードした ZIP ファイルを解凍し、中身の UnityPackage をプロジェクトへインポートしてください。
 
-<!-- prettier-ignore-start -->
-!!! info
-    Asset Merger 0.4.0 以降、依存関係が自動解決されるようになっています。  
-    そのとき、一時的にコンパイルエラーが発生する場合がありますが、無視してもかまいません。  
-    なお、恒久的にコンパイルエラーが出ている場合は、[サポート](https://r.mochizuki.moe/BoothSupport){target=_blank}までご連絡をお願いします。
-<!-- prettier-ignore-end -->
-
 ## アップデート
 
 最新の UnityPackage をそのまま上書きインポートしてください。
@@ -45,14 +38,6 @@ Asset Merger を使用するには、プロジェクトにあらかじめ以下�
 Asset Merger をアンインストールする場合、以下のディレクトリ以下のファイルを削除してください。
 
 -   `Assets/Mochizuki/VRChat/AssetMerger`
-
-なお、なつねこらぼらとりーのすべての製品を削除した場合は、必要に応じてパッケージマネージャーから以下のパッケージもアンインストールしてください。
-
--   `Mochizuki.ExtensionsLibrary.Avatar` (`moe.mochizuki.extensions-library.avatar`)
--   `Mochizuki.ExtensionsLibrary.Compat` (`moe.mochizuki.extensions-library.compat`)
--   `Mochizuki.ExtensionsLibrary.DotNet` (`moe.mochizuki.extensions-library.dotnet`)
--   `Mochizuki.ExtensionsLibrary.Editor` (`moe.mochizuki.extensions-library.editor`)
--   `Mochizuki.ExtensionsLibrary.Engine` (`moe.mochizuki.extensions-library.engine`)
 
 ## 動作確認済みバージョン
 

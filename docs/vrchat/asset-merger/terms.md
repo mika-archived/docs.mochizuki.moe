@@ -1,40 +1,40 @@
-# 利用規約
+---
+title: Asset Merger Terms of Use
+---
 
-Asset Merger は、以下の利用規約に沿ってご利用が可能です。  
-利用規約はダウンロードされた時点のものが適用され、過去にダウンロードしたものにまで遡って最新版が適用されることはありません。  
-なお、基本的には利用規約はバージョン番号に紐付くものとします。  
-詳しくは、配布パッケージに添付している `README.txt` を参照ください。
+# Asset Merger Terms of Use
 
-## 利用規約本文
+Asset Merger is available for use subject to the following terms of uses.  
+The terms of use apply at the time of download and not retroactively apply to previous downloads of the latest version.  
+For more information, please read `README.txt` in UnityPackage.
+
+## End User License Agreement (EULA)
 
 <!-- prettier-ignore-start -->
-=== "0.4.0 以降"
-    1. 本アセットの利用者は、方法を問わず該当データの購入、ダウンロード、インストールなどの利用開始時点で、本利用規約に同意したものと見なします
-    1. ソースコードなどのデータを無改造・改造また抜粋の程度問わず第三者が利用可能な形での再配布について、ライセンス条項に従っている限りは許可されています
-         1. 配布物に含めた場合、[夏猫](https://r.mochizuki.moe/Natsuneko){target=\_blank}に連絡をくれると喜びます。
-    1. 本アセットの利用によって生じたいかなる問題や義務について、作者は一切の責任を負わないものとします
-         1. また、本アセット自体の動作についても、保証はありません
-         1. アセットの特性上、返品の証明が不可能であるため、 BOOST 版購入後の返金に応じることはできません
-    1. プラットフォームなどの更新によって動作不良が発生した場合について、作者は修正の義務を負わないものとします
-    1. 本アセットに含まれる全てのファイルについて、著作権は全て夏猫が保有しています
-         1. ただし、サードパーティーライブラリなどが含まれている場合は、該当ファイルは除外され、別記のライセンスが適用されます
-    1. この規約は予告なく変更される場合があります
-         1. なお、利用規約は利用開始時点に公開・適用されていたものが適用されるものとします
-            1. 誤字脱字などの修正については、この限りではありません (差分は Git にて管理され、 GitHub にて公開されます)
-         1. また、過去の利用規約については、このページにて公開されます
+=== "0.4.0 or greater"
+    1. BY BUYING, DOWNLOADING, INSTALLING, USING, OR OTHER MEANING THE ASSETS OR ANY PART OF THE ASSETS, YOU ACKNOWLEDGE THAT YOU HAVE READ, UNDERSTOOD, AND AGREE TO BE BOUND BT THIS END-USER LICENSE AGREEMENT.
+        1. If you are not eligible, or do not agree to this EULA, then you do not have our permission to use the Assets or any part of the Assets.
+    1. Redistribution and use in source and binary forms, with or without modification, are permitted provided that the above copyright notice appear in all copies and that both that copyright notice and this permission notice appear in supporting documentation.
+    1. This software is provided "AS IS", without warranty of any kind, express or implied, including but not limited to the warranties of merchantability, fitness for a particular purpose and noninfringement.
+        1. Due to the nature of the asset, it is not possible to provide proof of return, so refunds will not be given for after the BOOST/tips.
+    1. The author assumes no obligation to correct any malfunctions caused by updates of the platform.
+    1. All of the files contained in this asset are the copyrights property of Natsuneko.
+    1. These EULA are subject to change without notice.
+        1. In addition, the EULA published and in effect at the time of use shall apply.
 
-=== "0.3.x まで"
-    1. 本成果物の利用によって生じたいかなる問題や義務について、作者は一切の責任を負わないものとします
-    1. 将来の更新によって動作不良が発生した場合について、作者は修正の義務を負わないものとします
-    1. 本成果物に含まれる全てのファイルについて、著作権は全て夏猫が保有しています
-        1. ただし、サードパーティーライブラリなどが含まれている場合は、該当ファイルは除外されます
-    1. 販売しているものの**再配布などは UnityPackage 内の `LICENSE` を含めた状態であれば可能です**
+=== "0.3.x or lesser"
+    1. This software is provided "AS IS", without warranty of any kind, express or implied, including but not limited to the warranties of merchantability, fitness for a particular purpose and noninfringement.
+        1. Due to the nature of the asset, it is not possible to provide proof of return, so refunds will not be given for after the BOOST/tips.
+    1. The author assumes no obligation to correct any malfunctions caused by updates of the platform.
+    1. All of the files contained in this asset are the copyrights property of Natsuneko.
+    1. Redistributions of sold items are **allowed as long as the `LICENSE` in the UnityPackage is included**.
 
 <!-- prettier-ignore-end -->
 
-## 連絡先
+## Want Support
 
-不具合や要望、技術的な解説などが必要であれば、下記連絡先までお願いします。  
-ただし、突然 DM が来ると何かやらかしたのかと思うので、柔らかい言葉で話しかけて頂けると助かります。
+Please visit [our contact page](/contact) and use the appropriate means to get in touch with us.
 
--   [Twitter](https://r.mochizuki.moe/BoothSupport){target=\_blank} (公開メンションもしくは DM にて受け付けています)
+## 日本語の説明や利用規約などはないのですか？
+
+ないです

@@ -1,9 +1,3 @@
----
-title: Asset Merger の使い方
----
-
-# Asset Merger の使い方
-
 Asset Merger を使用する前に、どのアセットを結合するかを決めておく必要があります。  
 Asset Merger がサポートしているアセットは、以下の 3 種類です。
 
