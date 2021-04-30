@@ -220,7 +220,7 @@ plugins:
   - git-revision-date-localized:
       type: datetime
       timezone: Asia/Tokyo
-      locale: ja
+      locale: en
       fallback_to_build_date: true
   - redirects:
       redirect_maps:
