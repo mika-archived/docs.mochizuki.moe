@@ -14,7 +14,19 @@ edit_uri: edit/master/docs
 # Copyright
 copyright: Copyright &copy 2020-2021 Natsuneko (Natsuneko Laboratory)
 
+# Google Analytics
+google_analytics:
+  - G-YVSX103JDS
+  - auto
+
 # Extra Resources
+extra:
+  social:
+    - icon: fontawesome/brands/twitter
+      link: https://twitter.com/6jz
+    - icon: fontawesome/brands/github-alt
+      link: https://github.com/mika-f
+
 extra_css:
   - assets/css/colors.css
   - assets/css/extras.css
@@ -181,7 +193,8 @@ nav:
         更新履歴: udon-rabbit/changelog.md
   - Archives: downloads/index.md
   - Announcements:
-      2021/04/22: announcement/20210422-stop-distribution-of-all-products-in-natsuneko-laboratory.md
+      2021/04/30 - Privacy Policy: announcement/20210430-privacy-policy.md
+      2021/04/22 - Stop Distribution: announcement/20210422-stop-distribution-of-all-products-in-natsuneko-laboratory.md
   - Contact: contact.md
 
 # Theme Configuration
