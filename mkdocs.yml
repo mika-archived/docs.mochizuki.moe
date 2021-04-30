@@ -54,24 +54,24 @@ nav:
           "#001": unity/particle-system/packages/001.md
           "#002": unity/particle-system/packages/002.md
           "#003": unity/particle-system/packages/003.md
-        Extras:
+        Others:
           Terms: unity/particle-system/terms.md
           Changelog: unity/particle-system/changelog.md
       Sakura Shader:
-        ホーム: unity/sakura-shader/index.md
-        ガイド:
-          インストール: unity/sakura-shader/guides/getting-started.md
-          使い方: unity/sakura-shader/guides/how-to-use.md
-          選び方: unity/sakura-shader/guides/choose-the-shader.md
-          バリアント:
+        Home: unity/sakura-shader/index.md
+        Guides:
+          Installation: unity/sakura-shader/guides/getting-started.md
+          How to use: unity/sakura-shader/guides/how-to-use.md
+          Choose the Shader: unity/sakura-shader/guides/choose-the-shader.md
+          Variants:
             Lyrics: unity/sakura-shader/guides/variants/lyrics.md
             Particles: unity/sakura-shader/guides/variants/particles.md
             ScreenFX: unity/sakura-shader/guides/variants/screen-fx.md
             Skybox: unity/sakura-shader/guides/variants/skybox.md
             Unlit: unity/sakura-shader/guides/variants/unlit.md
-        その他:
-          利用規約: unity/sakura-shader/terms.md
-          更新履歴: unity/sakura-shader/changelog.md
+        Others:
+          Terms: unity/sakura-shader/terms.md
+          Changelog: unity/sakura-shader/changelog.md
       uProjection:
         ホーム: unity/u-projection/index.md
         ガイド:

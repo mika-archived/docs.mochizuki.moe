@@ -1,12 +1,12 @@
 # Sakura Shader
 
-Sakura Shader は、夏猫がパーティクルライブの制作に使用している自前のシェーダーです。  
-VRChat および VR-HMD での使用を想定しており、シェーダーキーワードの使用を行っていなかったり、 (必要があれば) 視差について考えられています。  
-Sakura Shader には、以下の種類のシェーダーが含まれています。
+Sakura Shader is our own shader that I uses to create the Particle Live / VRMV.  
+It is intended for use with VRChat and/or VR-HMD, and does not use the shader keywords and think about parallax (if needed).  
+Sakura Shader has the following variants:
 
--   Lyrics (歌詞シェーダー)
--   Particles (パーティクルシェーダー)
--   ScreenFX (視界ジャックシェーダー)
+-   Lyrics
+-   Particles
+-   ScreenFX
 -   Skybox
 -   Stencil Write
 -   Unlit

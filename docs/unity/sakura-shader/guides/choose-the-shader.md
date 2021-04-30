@@ -1,57 +1,52 @@
 ---
-title: シェーダーの選び方
+title: Choose the Shader
 ---
 
-# シェーダーの選び方
+# Choose the Shader
 
-Sakura Shader にはいくつかの種類のシェーダーが同梱されており、特定の用途に向けた機能がそれぞれに実装してあります。
+Sakura Shader has several different types of shaders, each with its own implementation of features for specific applications.
 
-## Lyrics シェーダー
+## Lyrics
 
-Lyrics シェーダーは、基本的にはパーティクルライブにおける歌詞の表示を想定して作られたシェーダーです。  
-これには、 3D オブジェクトの部分表示に関する機能やアウトライン、 Transform によらない回転などを含んでいます。
+Lyrics Shader is essentially a shader designed to display lyrics in Particle Live / VRMV.  
+This shader includes the features for partial display of 3D objects, outlines, rotation without Transform, and others.  
+If you need the following features, use this shader:
 
-以下の機能が必要な場合は、このシェーダーを使用します。
+-   want to display lyrics
+-   want to add a little expression when displaying the objects
+-   want to animate with shaders
 
--   歌詞を表示したい
--   オブジェクトを表示する際に、ちょっとした表現を入れたい
--   シェーダーによるアニメーションを行いたい
+## Particles
 
-## Particles シェーダー
+Particles Shader is essentially a shader designed to be assigned to Particle System themselves.  
+It is possible to use multiple textures in one Particle System.  
+If you need the following features, use this shader:
 
-Particles シェーダーは、基本的には Particle Systems そのものへと割り当てるのを想定して作られたシェーダーです。  
-1 つの Particle System で複数の画像の使用などを行うように出来ます。
+-   want to use the index value of a specific texture array depending on the Vertex Input value
+-   want to use shaders that does not use geometry shader stage
 
-以下の機能が必要な場合は、このシェーダーを使用します。
+## ScreenFX
 
--   Vertex Input の値に応じて特定のテクスチャ配列のインデックス値を使用したい
--   Particle Systems のために Geometry を使用していないシェーダーを使いたい
+ScreenFX Shader is what is called a vision jack or vision hack.  
+If you need the following features, use this shader:
 
-## ScreenFX シェーダー
-
-ScreenFX シェーダーは、いわゆる視界ジャックや視界ハックといわれるようなシェーダーです。
-
-以下の機能が必要な場合は、このシェーダーを使用します。
-
--   プレイヤーが向いている方向、角度に寄らず特定のエフェクトを出したい
+-   want to produce a specific effect regardless of the direction and/or angles the player is facing
 
 ## Skybox
 
-Skybox シェーダーは、 VRChat および Unity での Skybox ではなく、アバターおよび特定のオブジェクト内における Skybox を表現するために作られたシェーダーです。
+Skybox Shader is essentially a shader designed to represent Skybox within avatars and specifies objects.  
+If you need the following features, use this shader:
 
-以下の機能が必要な場合は、このシェーダーを使用します。
-
--   Unity 標準以外の方法で Skybox を表現したい
+-   want to display the skybox in the avatar or specific objects
 
 ## Stencil Write
 
-Stencil Write は、 Unity のシェーダーのステンシル機能を用いて、特定のオブジェクトを隠すために作られたシェーダーです。
+Stencil Write Shader is essentially a shader designed to hide certain objects using stencil feature.  
+If you need the following features, use this shader:
 
-以下の機能が必要な場合は、このシェーダーを使用します。
-
--   GameObject (アバター) の IsActive の (Expression などによる) 切替などを行うことなく、表示、非表示を切り替えたい
+-   want to show and/or hide GameObject (such as Avatar) without switching their `IsActive` property
 
 ## Unlit
 
-このシェーダーは通常の Unlit シェーダーと同じ機能を持ったシェーダーです。  
-Stencil に対応のみ行われており、上記のシェーダーを使わないが、 Sakura Shader で統一したい場合などはこのシェーダーを使います。
+Unlit Shader has the same functionally as the regular Unity Unlit shader.  
+This shader is only supports Stencil, so if you don't want to use the other shaders, but want to use Sakura Shader, you can use this shader.

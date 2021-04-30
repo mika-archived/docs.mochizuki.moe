@@ -1,33 +1,25 @@
 ---
-title: Sakura Shader 利用規約
+title:Sakura Shader Terms of Use
 ---
 
-# Sakura Shader 利用規約
+# Sakura Shader Terms of Use
 
-Sakura Shader は、以下の利用規約に沿ってご利用が可能です。
+## End User License Agreement (EULA)
 
-## 利用規約本文
+1. BY BUYING, DOWNLOADING, INSTALLING, USING, OR OTHER MEANING THE ASSETS OR ANY PART OF THE ASSETS, YOU ACKNOWLEDGE THAT YOU HAVE READ, UNDERSTOOD, AND AGREE TO BE BOUND BT THIS END-USER LICENSE AGREEMENT.
+    1. If you are not eligible, or do not agree to this EULA, then you do not have our permission to use the Assets or any part of the Assets.
+1. Redistribution of source code or other data in any form that can be used by a third party is prohibited, regardless of whether it is unmodified, modified, or excerpted.
+    1. However, this does not apply if it cannot be easily retrieved, such as into a program.
+1. This software is provided "AS IS", without warranty of any kind, express or implied, including but not limited to the warranties of merchantability, fitness for a particular purpose and noninfringement.
+1. The author assumes no obligation to correct any malfunctions caused by updates of the platform.
+1. All of the files contained in this asset are the copyrights property of Natsuneko.
+1. These EULA are subject to change without notice.
+    1. In addition, the EULA published and in effect at the time of use shall apply.
 
-1. 本アセットの利用者は、方法を問わず該当データの購入、ダウンロード、インストールなどの利用開始時点で、本利用規約に同意したものと見なします
-1. ソースコードなどのデータを無改造・改造また抜粋の程度問わず第三者が利用可能な形での再配布を禁止します
-    1. ただし、プログラムに組み込まれるなどといった容易に取り出せない状態であればこの限りではありません
-    1. また、本アセットの利用を想定したサブアセットの配布および販売については、本アセットを配布物に含めない場合については許可されます
-    1. なお、本アセットの利用およびサブアセットの販売などを行った際は、連絡してくれると作者が大喜びします
-1. 本アセットの利用によって生じたいかなる問題や義務について、作者は一切の責任を負わないものとします
-    1. また、本アセット自体の動作についても、保証はありません
-    1. アセットの特性上、返品の証明が不可能であるため、購入後の返金に応じることはできません
-    1. 必要があれば、各アセットについて配布されている試用版をご利用ください
-1. プラットフォームなどの更新によって動作不良が発生した場合について、作者は修正の義務を負わないものとします
-1. 本アセットに含まれる全てのファイルについて、著作権は全て夏猫が保有しています
-    1. ただし、サードパーティーライブラリなどが含まれている場合は、該当ファイルは除外され、別記のライセンスが適用されます
-1. この規約は予告なく変更される場合があります
-    1. なお、利用規約は利用開始時点に公開・適用されていたものが適用されるものとします
-        1. 誤字脱字などの修正については、この限りではありません (差分は Git にて管理され、 GitHub にて公開されます)
-    1. また、過去の利用規約については、このページにて公開されます
+## Want Support
 
-## 連絡先
+Please visit [our contact page](/contact) and use the appropriate means to get in touch with us.
 
-不具合や要望、技術的な解説などが必要であれば、下記連絡先までお願いします。  
-ただし、突然 DM が来ると何かやらかしたのかと思うので、柔らかい言葉で話しかけて頂けると助かります。
+## 日本語の説明や利用規約などはないのですか？
 
--   [Twitter](https://r.mochizuki.moe/BoothSupport){target=\_blank} (公開メンションもしくは DM にて受け付けています)
+ないです
