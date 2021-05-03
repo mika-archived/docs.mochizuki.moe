@@ -4,7 +4,8 @@ title: Particle Effects
 
 # Particle Effects
 
-I sell Particle Effects as a single unit, easily installed at an affordable price (Free, ~ 500JPY, 4.5USD).
+I sell Particle Effects as a single unit, easily installed at an affordable price (Free, ~ 500JPY, 4.5USD).  
+All Particle Effects have been tested on Unity and VRChat (in other words, you can bring it to VRChat).
 
 ## Product Directory - Particle Effects
 

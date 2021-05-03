@@ -1,6 +1,9 @@
 .md-announce a,
 .md-announce a:focus,
-.md-announce a:hover {
+.md-announce a:hover,
+.md-banner a,
+.md-banner a:focus,
+.md-banner a:hover {
   color: currentColor;
 }
 

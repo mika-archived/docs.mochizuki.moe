@@ -1,5 +1,11 @@
 .two-grid {
-  columns: 2 auto;
+  columns: 1 auto;
+}
+
+@media screen and (min-width: 710px) {
+  .two-grid {
+    columns: 2 auto;
+  }
 }
 
 .two-grid > div {

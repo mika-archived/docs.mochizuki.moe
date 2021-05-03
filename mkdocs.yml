@@ -63,9 +63,9 @@ nav:
         General:
           Getting Started: unity/particle-system/guides/getting-started.md
         Packages:
-          "#001": unity/particle-system/packages/001.md
-          "#002": unity/particle-system/packages/002.md
-          "#003": unity/particle-system/packages/003.md
+          "Particles #001": unity/particle-system/packages/001-monochrome-particle-ring.md
+          "Particles #002": unity/particle-system/packages/002-triangle-touch-effect.md
+          "Particles #003": unity/particle-system/packages/003-fuwa-fuwa-music-note.md
         Others:
           Terms: unity/particle-system/terms.md
           Changelog: unity/particle-system/changelog.md
@@ -157,16 +157,6 @@ nav:
             URA0008: udon-rabbit/packages/analyzer/analyzers/URA0008.md
             URA0009: udon-rabbit/packages/analyzer/analyzers/URA0009.md
             URA0010: udon-rabbit/packages/analyzer/analyzers/URA0010.md
-            URA0011: udon-rabbit/packages/analyzer/analyzers/URA0011.md
-            URA0012: udon-rabbit/packages/analyzer/analyzers/URA0012.md
-            URA0013: udon-rabbit/packages/analyzer/analyzers/URA0012.md
-            URA0014: udon-rabbit/packages/analyzer/analyzers/URA0012.md
-            URA0015: udon-rabbit/packages/analyzer/analyzers/URA0012.md
-            URA0016: udon-rabbit/packages/analyzer/analyzers/URA0012.md
-            URA0017: udon-rabbit/packages/analyzer/analyzers/URA0012.md
-            URA0018: udon-rabbit/packages/analyzer/analyzers/URA0012.md
-            URA0019: udon-rabbit/packages/analyzer/analyzers/URA0012.md
-            URA0020: udon-rabbit/packages/analyzer/analyzers/URA0012.md
         Interop:
           ホーム: udon-rabbit/packages/interop/index.md
           ライセンスについて: udon-rabbit/packages/interop/license.md
@@ -218,6 +208,9 @@ markdown_extensions:
   - fontawesome_markdown
   - footnotes
   - meta
+  - pymdownx.emoji:
+      emoji_index: !!python/name:materialx.emoji.twemoji
+      emoji_generator: !!python/name:materialx.emoji.to_svg
   - pymdownx.highlight
   - pymdownx.inlinehilite
   - pymdownx.snippets
