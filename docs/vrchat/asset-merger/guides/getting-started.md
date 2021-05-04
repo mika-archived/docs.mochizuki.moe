@@ -1,55 +1,48 @@
 ---
-title: Asset Merger のインストール
+title: Getting Started with Asset Merger
 ---
 
-# Asset Merger のインストール
+# Getting Started with Asset Merger
 
-## ダウンロード
+## Download
 
-Asset Merger は BOOTH にて配布しています。  
-以下の BOOTH ページから、最新のパッケージをダウンロードしてください。
+Asset Merger is distributed as BOOTH and archive.mochizuki.moe.  
+Download the latest version of package from the following pages:
 
 -   [BOOTH](https://natsuneko.booth.pm/items/2281798){target=\_blank}
+-   [Archives](https://docs.mochizuki.moe/downloads/)
 
-何らかの理由で過去のバージョンを使用したい場合は、 GitHub Releases もしくは BOOTH の「ライブラリ」より、
-過去のバージョンをダウンロードすることが可能です。
+If for some reason you want to use a previous version, you can download it from the "Library" of BOOTH, GitHub Releases or archive.mochizuki.moe.
 
+-   [BOOTH Library](https://accounts.booth.pm/library){target=\_blank}
 -   [GitHub Releases](https://github.com/mika-f/VRChat-AssetMerger/releases){target=\_blank}
--   [BOOTH ライブラリ](https://accounts.booth.pm/library){target=\_blank} (購入者限定)
+-   [Archives](https://docs.mochizuki.moe/downloads/)
 
-## 動作環境
+## Requirements
 
-Asset Merger を使用するには、プロジェクトにあらかじめ以下のものが導入されている必要があります。
+Asset Merger requires the following environments:
 
 -   Unity 2018.4.20f1
--   VRCSDK3 AVATAR 2020.08.13.17.48 以降
-    -   詳しくは[動作確認済みバージョン](#動作確認済みバージョン)を確認してください
+-   VRCSDK3 AVATAR 2020.08.13.17.48 or higher
 
-## インストール
-
-ダウンロードした ZIP ファイルを解凍し、中身の UnityPackage をプロジェクトへインポートしてください。
-
-## アップデート
-
-最新の UnityPackage をそのまま上書きインポートしてください。
-
-## アンインストール
-
-Asset Merger をアンインストールする場合、以下のディレクトリ以下のファイルを削除してください。
-
--   `Assets/Mochizuki/VRChat/AssetMerger`
-
-## 動作確認済みバージョン
-
-以下のバージョンの VRCSDK にて動作を保証しています。  
-ただし、動作保証外のバージョンにおいても、記載されているバージョンの範囲内であれば問題なく動作・使用することができます。
+## How to install, update or uninstall
 
 <!-- prettier-ignore-start -->
-=== "0.3.x まで"
-    - VRCSDK3 AVATAR 2020.08.13.17.48
-    - VRCSDK3 AVATAR 2020.08.06.16.30
-
-=== "0.4.0 以降"
-    - VRCSDK3 AVATAR 2020.19.09.04.45
-    - VRCSDK3 AVATAR 2021.02.23.11.41
+!!! caution
+    I cannot be held responsible for any situation that may arise after the installation.  
+    You SHOULD create a backup of the project before the installation.
 <!-- prettier-ignore-end -->
+
+### Install
+
+1. Extract the UnityPackage to your project
+
+### Update
+
+1. Extract the UnityPackage to your project
+    - at this time, please overwrite the all files
+    - if you have expanded the Prefab, you may need to relocate it
+
+### Uninstall
+
+1. Please delete `Mochizuki/VRChat/AssetMerger` directory from your filesystem

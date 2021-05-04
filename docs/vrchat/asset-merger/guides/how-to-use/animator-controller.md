@@ -1,60 +1,43 @@
 ---
-title: Animator Controller の結合
+title: Merge Animator Controllers
 ---
 
-# Animator Controller の結合
+# Merge Animator Controllers
 
-このページでは、 Asset Merger での Animator Controller の結合について説明します。  
-結合する Animator Controller は VRChat 対応・専用のものだけでなく、 Unity の汎用的に作られているものであれば、すべて正常に結合することが可能です。
+This page describes merging Animator Controllers with Asset Merger.  
+Animator Controllers can also be a Unity generic one.
 
-## 専用エディターを開く
+## Open the Editor
 
-Asset Merger はエディター拡張機能と実装されているため、まずは専用エディターを開く必要があります。  
-専用エディターは Unity のメニューから、 `Mochizuki/VRChat/Asset Merger/Editor` から開くことが出来ます。
+Asset Merger is implemented as an editor extension for Unity, so you will first need to open the dedicated editor.  
+You can open Asset Merger Editor from `Mochizuki/VRChat/Asset Merger/Editor` in Unity menubar.
 
 <figure>
   <img src="https://assets.mochizuki.moe/docs/asset-merger/open-editor.PNG" width="500px" data-zoomable="true">
 </figure>
 
-<!-- prettier-ignore-start -->
-!!! info
-    バージョン 0.3.2 より前のものを使用している場合は、 `Mochizuki/VRChat/Asset Merger Editor` から開けます。
+## Merge Animator Controllers
 
-<!-- prettier-ignore-end -->
+Once the dedicated editor is open, you can actually merge Animator Controllers.  
+First, enter the number of Animator Controllers you want to merge in the `Size` of `Source Controllers`.
 
-## Animator Controller の結合
-
-専用エディターが開いたら、実際に Animator Controller の結合を行います。  
-まず、 `Source Controllers` とあるところの `Size` の入力欄に、結合したい Animator Controller の数を入力します。  
-例えば、2 つの Animator Controller を結合したい場合は `2` を入力してください。
+Example: If you want to two Animator Controllers, specify `2` to `Size` of `Source Controllers`.
 
 <figure>
   <img src="https://assets.mochizuki.moe/docs/asset-merger/animator-controller-step-1.png" width="500px" data-zoomable="true">
 </figure>
 
-入力後、下に入力ボックスが増えるので、画像のように結合したい Animator Controller をセットしてください。
+After specifying, there will increase below, so set the Animator Controllers you want to merge as shown in the following image.
 
 <figure>
   <img src="https://assets.mochizuki.moe/docs/asset-merger/animator-controller-step-2.png" width="500px" data-zoomable="true">
 </figure>
 
-最後に、「マージする」ボタンを押せば結合作業が開始され、作業完了後、ファイル保存ダイアログが表示されるので、保存したい場所を選択してください。  
-なお、 VRC Avatar Descriptor に対しての操作は行っていないので、保存した Animator Controller については、手動で設定する必要があります。  
-また、結合された Animator Controller は Deep Copy (実体コピー) を行っているため、それ単体 (古い Animator Controller を参照しない) で動作します。
+Finally, click the `Merge` button to start the merging process, and after the process is complete, the file save dialog will appear, and select the location where you want to save the merged file.
 
-## 結合される内容について
+<!-- prettier-ignore-start -->
+!!! note
+    Asset Merge will not manipulate VRC Avatar Descriptor, you need to set Animator Controller manually.
+<!-- prettier-ignore-end -->
 
-Asset Merger では、 Animator Controller の以下の内容についてコピーを行っています。
-
--   それぞれの Animator Controller のパラメーターの型と内容を新しい Animator Controller へとコピー
-    -   同じパラメーター名がすでにある場合は、最初にあるものが優先されます
--   それぞれの Animator Controller の隠れイヤーの内容を新しい Animator Controller へとコピー
-    -   レイヤーに含まれる各データについて、 Unity の内部 ID を元に再生成
-    -   レイヤー名に重複がある場合は、裁判を行い区別が付くように再設定
-    -   対象のレイヤーがも元となった Animator Controller の First Layer の場合は、 Weight=1 を設定
-
-このとき、 Unity の内部 ID を用いている影響により、 Animator Controller が最適化され、以下の現象が発生することがあります。
-
--   結合前のファイルよりも、結合後のファイルの方が大幅にサイズが小さくなっている
-
-なお、動作には問題がありませんので、そのままお使い頂けます。
+Also, the merged Animator Controller is a Deep Copy, so it works by itself (without referencing to the old Animator Controllers).
