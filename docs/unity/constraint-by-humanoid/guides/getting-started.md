@@ -4,49 +4,37 @@ title: Constraint by Humanoid のインストール
 
 # Constraint by Humanoid のインストール
 
-## ダウンロード
+## Download
 
-Constraint by Humanoid は BOOTH にて配布しています。  
-以下の BOOTH ページから、最新のパッケージをダウンロードしてください。
+Constraint by Humanoid is distributed as BOOTH and archive.mochizuki.moe.  
+Download the latest version of package from the following pages:
 
 -   [BOOTH](https://natsuneko.booth.pm/items/2284661){target=\_blank}
+-   [Archives](https://docs.mochizuki.moe/downloads/)
 
-何らかの理由で過去のバージョンを使用したい場合は、 GitHub Releases もしくは BOOTH の「ライブラリ」より、
-過去のバージョンをダウンロードすることが可能です。
+If for some reason you want to use a previous version, you can download it from the "Library" of BOOTH, GitHub Releases or archive.mochizuki.moe.
 
--   [GitHub Releases](https://github.com/mika-f/Unity-ConstraintByHumanoid/releases){target=\_blank}
--   [BOOTH ライブラリ](https://accounts.booth.pm/library){target=\_blank} (購入者限定)
+-   [BOOTH Library](https://accounts.booth.pm/library){target=\_blank}
+-   [GitHub Releases](https://github.com/mika-f/Unity-ConstraintByHumanoid){target=\_blank}
+-   [Archives](https://docs.mochizuki.moe/downloads/)
 
-## 動作環境
-
-Constraint by Humanoid を使用するには、プロジェクトにあらかじめ以下のものが導入されている必要があります。
-
--   Unity 2018.4.20f1
-
-## インストール
-
-ダウンロードした ZIP ファイルを解凍し、中身の UnityPackage をプロジェクトへインポートしてください。
+## How to install, update or uninstall
 
 <!-- prettier-ignore-start -->
-!!! info
-    Constraint by Humanoid 0.2.0 以降、依存関係が自動解決されるようになっています。  
-    そのとき、一時的にコンパイルエラーが発生する場合がありますが、無視してもかまいません。  
-    なお、恒久的にコンパイルエラーが出ている場合は、[サポート](https://r.mochizuki.moe/BoothSupport){target=_blank}までご連絡をお願いします。
+!!! caution
+    I cannot be held responsible for any situation that may arise after the installation.  
+    You SHOULD create a backup of the project before the installation.
 <!-- prettier-ignore-end -->
 
-## アップデート
+### Install
 
-最新の UnityPackage をそのまま上書きインポートしてください。
+1. Extract the UnityPackage to your project
 
-## アンインストール
+### Update
 
-Constraint by Humanoid をアンインストールする場合、以下のディレクトリ以下のファイルを削除してください。
+1. Extract the UnityPackage to your project
+    - at this time, please overwrite the all files
 
--   `Assets/Mochizuki/ConstraintByHumanoid`
+### Uninstall
 
-なお、なつねこらぼらとりーのすべての製品を削除した場合は、必要に応じてパッケージマネージャーから以下のパッケージもアンインストールしてください。
-
--   `Mochizuki.ExtensionsLibrary.Compat` (`moe.mochizuki.extensions-library.compat`)
--   `Mochizuki.ExtensionsLibrary.DotNet` (`moe.mochizuki.extensions-library.dotnet`)
--   `Mochizuki.ExtensionsLibrary.Editor` (`moe.mochizuki.extensions-library.editor`)
--   `Mochizuki.ExtensionsLibrary.Engine` (`moe.mochizuki.extensions-library.engine`)
+1. Please delete `Mochizuki/ConstraintByHumanoid` directory from your filesystem

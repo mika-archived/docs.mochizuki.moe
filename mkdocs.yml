@@ -40,7 +40,7 @@ extra_javascript:
 nav:
   - Home: index.md
   - Unity:
-      Home: unity/index.md
+      Index: unity/index.md
       Atlasization:
         ホーム: unity/atlasization/index.md
         ガイド:
@@ -51,13 +51,13 @@ nav:
           利用規約: unity/atlasization/terms.md
           更新履歴: unity/atlasization/changelog.md
       Constraint By Humanoid:
-        ホーム: unity/constraint-by-humanoid/index.md
-        ガイド:
-          インストール: unity/constraint-by-humanoid/guides/getting-started.md
-          使い方: unity/constraint-by-humanoid/guides/how-to-use.md
-        その他:
-          利用規約: unity/constraint-by-humanoid/terms.md
-          更新履歴: unity/constraint-by-humanoid/changelog.md
+        Home: unity/constraint-by-humanoid/index.md
+        Guides:
+          Installation: unity/constraint-by-humanoid/guides/getting-started.md
+          How to Use: unity/constraint-by-humanoid/guides/how-to-use.md
+        Others:
+          Terms: unity/constraint-by-humanoid/terms.md
+          Changelog: unity/constraint-by-humanoid/changelog.md
       Particle Effects:
         Home: unity/particle-system/index.md
         General:
@@ -106,9 +106,12 @@ nav:
           利用規約: unity/wireframe-shader/terms.md
           更新履歴: unity/wireframe-shader/changelog.md
   - VRChat:
-      Home: vrchat/index.md
+      Index: vrchat/index.md
       Asset Merger:
         Home: vrchat/asset-merger/index.md
+        API:
+          Integration: vrchat/asset-merger/api/index.md
+          Extensions: vrchat/asset-merger/api/extensions.md
         Guides:
           Installation: vrchat/asset-merger/guides/getting-started.md
           How To Use:
@@ -137,7 +140,7 @@ nav:
           利用規約: vrchat/sdk2-compat-view/terms.md
           更新履歴: vrchat/sdk2-compat-view/changelog.md
   - Udon Rabbit:
-      Home: udon-rabbit/index.md
+      Index: udon-rabbit/index.md
       共通:
         インストール: udon-rabbit/guides/getting-started.md
       Packages:
