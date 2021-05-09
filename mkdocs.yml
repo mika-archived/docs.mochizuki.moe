@@ -39,6 +39,17 @@ extra_javascript:
 # Header Navigation
 nav:
   - Home: index.md
+  - Software:
+      Index: software/index.md
+      Blender Hub:
+        Home: software/blender-hub/index.md
+        Guides:
+          Installation: software/blender-hub/guides/getting-started.md
+          Configuration: software/blender-hub/guides/configuration.md
+          Development: software/blender-hub/guides/development.md
+        Others:
+          Changelog: software/blender-hub/changelog.md
+
   - Unity:
       Index: unity/index.md
       Atlasization:
