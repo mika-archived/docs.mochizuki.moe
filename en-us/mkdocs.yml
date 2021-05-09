@@ -1,6 +1,6 @@
 # Project Information
 site_name: docs.mochizuki.moe
-site_url: https://docs.mochizuki.moe/
+site_url: https://docs.mochizuki.moe/en-us/
 site_author: Natsuneko
 
 # Preview Controls
@@ -9,7 +9,7 @@ use_directory_urls: true
 # Git Repository
 repo_url: https://github.com/mika-f/docs.mochizuki.moe
 repo_name: mika-f/docs.mochizuki.moe
-edit_uri: edit/master/docs
+edit_uri: edit/master/en-us/docs
 
 # Copyright
 copyright: Copyright &copy 2020-2021 Natsuneko (Natsuneko Laboratory)
@@ -231,44 +231,3 @@ plugins:
       timezone: Asia/Tokyo
       locale: en
       fallback_to_build_date: true
-  - redirects:
-      redirect_maps:
-        AssetMerger/index.md: vrchat/asset-merger/index.md
-        AssetMerger/Guide/Installation.md: vrchat/asset-merger/guides/getting-started.md
-        AssetMerger/Guide/HowToUse.md: vrchat/asset-merger/guides/how-to-use.md
-        AssetMerger/Guide/TestedTools.md: vrchat/asset-merger/guides/tested-tools.md
-        AssetMerger/Advanced/AnimatorController.md: vrchat/asset-merger/index.md # TODO: Provide Advanced Pages
-        AssetMerger/Contact.md: vrchat/asset-merger/terms.md
-        AssetMerger/Changelog.md: vrchat/asset-merger/changelog.md
-        Atlasization/index.md: unity/atlasization/index.md
-        Atlasization/Guide/Installation.md: unity/atlasization/guides/getting-started.md
-        Atlasization/Guide/HowToUse.md: unity/atlasization/guides/how-to-use.md
-        Atlasization/Bugs.md: unity/atlasization/known-bugs.md
-        Atlasization/Contact.md: unity/atlasization/terms.md
-        Atlasization/Changelog.md: unity/atlasization/changelog.md
-        ConstraintByHumanoid/index.md: unity/constraint-by-humanoid/index.md
-        ConstraintByHumanoid/Installation.md: unity/constraint-by-humanoid/guides/getting-started.md
-        ConstraintByHumanoid/HowToUse.md: unity/constraint-by-humanoid/guides/how-to-use.md
-        ConstraintByHumanoid/Contact.md: unity/constraint-by-humanoid/terms.md
-        ConstraintByHumanoid/Changelog.md: unity/constraint-by-humanoid/changelog.md
-        FukidashiSystem/Guide/Installation.md: vrchat/fukidashi-system/guides/getting-started.md
-        FukidashiSystem/Guide/HowToUse.md: vrchat/fukidashi-system/guides/how-to-use.md
-        FukidashiSystem/Guide/Modification.md: vrchat/fukidashi-system/guides/customize.md
-        FukidashiSystem/Contact.md: vrchat/fukidashi-system/terms.md
-        FukidashiSystem/Changelog.md: vrchat/fukidashi-system/changelog.md
-        SDK2CompatView/index.md: vrchat/sdk2-compat-view/index.md
-        SDK2CompatView/Guide/Installation.md: vrchat/sdk2-compat-view/guides/getting-started.md
-        SDK2CompatView/Guide/HowToUse.md: vrchat/sdk2-compat-view/guides/how-to-use.md
-        UdonRabbit/index.md: udon-rabbit/index.md
-        UdonRabbit/Guide/Installation.md: udon-rabbit/guides/getting-started.md
-        UdonRabbit/Guide/FeatureRequest.md: udon-rabbit/terms.md
-        UdonRabbit/Packages/Kitsune.md: udon-rabbit/index.md
-        UdonRabbit/Packages/ObjectFitter.md: udon-rabbit/packages/object-fitter/how-to-use.md
-        UdonRabbit/Packages/SynchronizedAnimator.md: udon-rabbit/packages/synchronized-animator/how-to-use.md
-        UdonRabbit/Terms.md: udon-rabbit/terms.md
-        WireframeShader/index.md: unity/wireframe-shader/index.md
-        WireframeShader/Guide/Installation.md: unity/wireframe-shader/guides/getting-started.md
-        WireframeShader/Guide/HowToUse.md: unity/wireframe-shader/guides/variants/index.md
-        WireframeShader/Terms.md: unity/wireframe-shader/terms.md
-        WireframeShader/Contact.md: unity/wireframe-shader/terms.md
-        WireframeShader/Changelog.md: unity/wireframe-shader/changelog.md
