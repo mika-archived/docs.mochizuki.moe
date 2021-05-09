@@ -8,13 +8,13 @@ BOOTH から最新の UnityPackage をダウンロードしてください。
 
 -   [BOOTH](https://natsuneko.booth.pm/items/2835630){target=\_blank}
 
-なお、インストール方法については、[こちら](/udon-rabbit/guides/getting-started/)にて解説しています。  
+なお、インストール方法については、[こちら](/en-us/udon-rabbit/guides/getting-started/)にて解説しています。  
 インストール方法で分からない部分がありましたら上記ページを参照ください。
 
 ## 対応パッケージのダウンロード
 
 UdonRabbit Interop 単体では、付属しているサンプルを組み合わせることは出来ますが、他の動きは出来ません。  
-そのため、[対応パッケージ](/udon-rabbit/packages/interop/users/packages)から、 UdonRabbit Interop に対応しているパッケージをダウンロード、インストールしてください。  
+そのため、[対応パッケージ](/en-us/udon-rabbit/packages/interop/users/packages)から、 UdonRabbit Interop に対応しているパッケージをダウンロード、インストールしてください。  
 なお、インストール方法については、各パッケージを参照してください。
 
 ## 機能の組み合わせ

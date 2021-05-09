@@ -21,6 +21,13 @@ google_analytics:
 
 # Extra Resources
 extra:
+  alternate:
+    - name: English (US)
+      link: /en-us/
+      lang: en
+    - name: 日本語
+      link: /ja-jp/
+      lang: ja
   social:
     - icon: fontawesome/brands/twitter
       link: https://twitter.com/6jz

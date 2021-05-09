@@ -12,7 +12,7 @@ BOOTH から最新の UnityPackage をダウンロードしてください。
 
 -   [BOOTH](https://natsuneko.booth.pm/items/2540555){target=\_blank}
 
-なお、インストール方法については、[こちら](/udon-rabbit/guides/getting-started)にて解説しています。  
+なお、インストール方法については、[こちら](/ja-jp/udon-rabbit/guides/getting-started)にて解説しています。  
 インストール方法で分からない部分がありましたら上記ページを参照ください。
 
 ## 前提条件

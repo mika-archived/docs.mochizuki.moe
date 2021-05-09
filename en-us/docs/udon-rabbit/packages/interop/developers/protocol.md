@@ -144,7 +144,7 @@ namespace Mochizuki.VRChat.Example
 }
 ```
 
-詳しくは、[Event Listener について](/udon-rabbit/packages/interop/developers/event-listener/)を参照してください
+詳しくは、[Event Listener について](/en-us/udon-rabbit/packages/interop/developers/event-listener/)を参照してください
 
 ## イベントの受信
 

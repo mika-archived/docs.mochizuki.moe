@@ -47,7 +47,7 @@ Assembly Definition Files についての詳細は、[Unity 公式ドキュメ�
 
 ## Type Validator を有効にする
 
-[プロトコル](/udon-rabbit/packages/interop/developers/protocol/)ページにて説明している Type Validator を有効にするには、以下のコードをエディター拡張にて実装する必要があります。  
+[プロトコル](/en-us/udon-rabbit/packages/interop/developers/protocol/)ページにて説明している Type Validator を有効にするには、以下のコードをエディター拡張にて実装する必要があります。  
 エディター拡張も上記と同じく AsmDef を作成し、Assembly Definition References の参照先に `Mochizuki.VRChat.Interop.Editor` と**先ほど作成した自身のパッケージ**を追加してください。  
 参照を追加後、以下のコードを記述することで、 Type Validator が有効になります。  
 なお、 `YourUdonSharpBehaviourClass` については、自身の `UdonSharpBehaviour` を実装したクラスに置き換えて下さい。

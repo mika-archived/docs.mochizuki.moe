@@ -18,8 +18,4 @@ title: Particle Effects Terms of Use
 
 ## Want Support
 
-Please visit [our contact page](/contact) and use the appropriate means to get in touch with us.
-
-## 日本語の説明や利用規約などはないのですか？
-
-ないです
+Please visit [our contact page](/en-us/contact) and use the appropriate means to get in touch with us.

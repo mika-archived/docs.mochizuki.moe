@@ -11,4 +11,4 @@ Asset Merger is the editor extension for Unity that will merge the contents of t
 -   Expressions Menu
 
 Asset Merger is donation-ware but is basically free to use.  
-If this software has helped you, you can send a tip from [the contact page](/contact).
+If this software has helped you, you can send a tip from [the contact page](/en-us/contact).

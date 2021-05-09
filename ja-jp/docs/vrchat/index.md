@@ -4,15 +4,15 @@ title: Natsuneko Laboratory (VRChat)
 
 # Natsuneko Laboratory - VRChat
 
-This is the documentation index for the products that related to VRChat, distributed by Natsuneko Laboratory.
+夏猫が作成した VRChat 関連製品のインデックスページです。
 
 ## Product Directory
 
 <div class="two-grid">
     <div>
-        <a href="/vrchat/asset-merger/">Asset Merger</a>
+        <a href="/ja-jp/vrchat/asset-merger/">Asset Merger</a>
     </div>
     <div>
-        <a href="/vrchat/sdk2-compat-view/">SDK2 Compatible Viewer</a>
+        <a href="/ja-jp/vrchat/sdk2-compat-view/">SDK2 Compatible Viewer</a>
     </div>
 </div>
