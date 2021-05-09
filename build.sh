@@ -1,4 +1,6 @@
 #!/bin/bash
+set -euo pipefail
+
 
 LANG=(en-us ja-jp)
 ROOT=$PWD
@@ -6,7 +8,7 @@ ROOT=$PWD
 for lang in ${LANG[@]}; do
   cd "$ROOT/$lang"
   mkdocs build
-  mkdir -p "../site/$lang"
+  mkdir -p "$ROOT/site/$lang"
   cp -r "./site/*" "../site/$lang"
 done
 
