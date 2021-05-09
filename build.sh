@@ -14,6 +14,7 @@ for lang in ${LANG[@]}; do
   cp -r ./site/* "../site/$lang"
 done
 
+cd "$ROOT"
 cp ./site/en-us/404.html ./site/404.html
 
 echo "Build Done"
