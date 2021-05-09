@@ -206,8 +206,18 @@ theme:
     repo: fontawesome/brands/github
   language: ja
   palette:
-    scheme: slate
-    primary: light blue
+    - media: "(prefers-color-scheme: light)"
+      scheme: default
+      primary: blue
+      toggle:
+        icon: material/weather-sunny
+        name: ダークモードへ変更
+    - media: "(prefers-color-scheme: dark)"
+      scheme: slate
+      primary: light blue
+      toggle:
+        icon: material/weather-night
+        name: ライトモードへ変更
 
 # MkDocs & Theme Extensions
 markdown_extensions:
