@@ -10,5 +10,15 @@
         }
       ]
     }
+  ],
+  "redirects": [{ "source": "/", "destination": "/en-us/" }],
+  "rewrites": [
+    { "source": "/AssetMerger/:route*", "destination": "/en-us/:route*" },
+    { "source": "/Atlasization/:route*", "destination": "/en-us/:route*" },
+    { "source": "/ConstraintByHumanoid/:route*", "destination": "/en-us/:route*" },
+    { "source": "/FukidashiSystem/:route*", "destination": "/en-us/:route*" },
+    { "source": "/SDK2CompatView/:route*", "destination": "/en-us/:route*" },
+    { "source": "/UdonRabbit/:route*", "destination": "/en-us/:route*" },
+    { "source": "/WireframeShader/:route*", "destination": "/en-us/:route*" }
   ]
 }
