@@ -4,7 +4,7 @@ title: Natsuneko Laboratory (Unity)
 
 # Natsuneko Laboratory - Unity
 
-This is the documentation index for the products that related to Unity, distributed by Natsuneko Laboratory.
+夏猫が作成した、 Unity 関連製品のインデックスページです。
 
 ## Product Directory
 

@@ -1,13 +1,13 @@
 ## Version 0.3.0
 
--   Support for adding another type of IConstraint
--   Support scroller
--   Change menu hierarchy
+-   他の IConstraint の追加をサポート
+-   スクロール対応
+-   メニュー階層を変更
 
 ## Version 0.2.0
 
--   Fixed a bug that occurred when excludes was not touch
+-   Excludes を触らなかったときに発生していた不具合を修正
 
 ## Version 0.1.0
 
--   Initial Release
+-   初回リリース

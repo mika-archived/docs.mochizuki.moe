@@ -1,10 +1,10 @@
 ---
-title: Privacy Policy
+title: プライバシーポリシー
 ---
 
-# Privacy Policy
+# プライバシーポリシー
 
-This website uses Google Analytics, an access analytics tool by Google.  
-This one uses cookies to collect data.  
-This data is collected anonymously and does not identify you personally.  
-This feature can be rejected by disabling cookies, so please check the settings of your browser.
+当サイトでは、Google によるアクセス解析ツール「Google アナリティクス」を使用しています。
+この Google アナリティクスはデータの収集のために Cookie を使用しています。  
+このデータは匿名で収集されており、個人を特定するものではありません。
+この機能は Cookie を無効にすることで収集を拒否することが出来ますので、お使いのブラウザの設定をご確認ください。

@@ -6,35 +6,35 @@ title: Constraint by Humanoid のインストール
 
 ## Download
 
-Constraint by Humanoid is distributed as BOOTH and archive.mochizuki.moe.  
-Download the latest version of package from the following pages:
+Constraint by Humanoid は BOOTH もしくは archive.mochizuki.moe にて配布しています。  
+下記のページから、最新のパッケージをダウンロードしてください。
 
 -   [BOOTH](https://natsuneko.booth.pm/items/2284661){target=\_blank}
 -   [Archives](https://docs.mochizuki.moe/downloads/)
 
-If for some reason you want to use a previous version, you can download it from the "Library" of BOOTH, GitHub Releases or archive.mochizuki.moe.
+何らかの理由で過去のバージョンを使用したい場合は、 GitHub Releases、 BOOTH の「ライブラリ」もしくは archive.mochizuki.moe より過去のバージョンをダウンロードすることが可能です。
 
 -   [BOOTH Library](https://accounts.booth.pm/library){target=\_blank}
 -   [GitHub Releases](https://github.com/mika-f/Unity-ConstraintByHumanoid){target=\_blank}
 -   [Archives](https://docs.mochizuki.moe/downloads/)
 
-## How to install, update or uninstall
+## インストール、アップデート、アンインストール方法
 
 <!-- prettier-ignore-start -->
 !!! caution
-    I cannot be held responsible for any situation that may arise after the installation.  
-    You SHOULD create a backup of the project before the installation.
+    インストール後に発生したいかなる問題についても、一切の責任を負うことは出来ません。  
+    必ずインストール前にプロジェクトのバックアップを作成してください。
 <!-- prettier-ignore-end -->
 
-### Install
+### インストール
 
-1. Extract the UnityPackage to your project
+1. UnityPackage をプロジェクトへインポートしてください
 
 ### Update
 
-1. Extract the UnityPackage to your project
-    - at this time, please overwrite the all files
+1. UnityPackage をプロジェクトへインポートしてください
+    - このとき、すべてのファイルを上書きしてください
 
 ### Uninstall
 
-1. Please delete `Mochizuki/ConstraintByHumanoid` directory from your filesystem
+1.`Mochizuki/ConstraintByHumanoid` フォルダーを削除してください

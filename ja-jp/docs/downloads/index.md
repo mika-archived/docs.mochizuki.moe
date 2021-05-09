@@ -1,4 +1,4 @@
-You can download the older version of products distributed by Natsuneko Laboratory.
+過去に配布していたパッケージは、下記からダウンロードすることが可能です。
 
 ## Constraint by Humanoid
 

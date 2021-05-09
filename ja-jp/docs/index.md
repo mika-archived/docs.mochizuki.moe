@@ -1,11 +1,12 @@
 # docs.mochizuki.moe
 
-This is the documentation website for the products distributed by Natsunako Laboratory (VRC: natsuneko_vrc) at Booth.
+夏猫 (VRC: natsuneko_vrc) が [BOOTH](https://natsuneko.booth.pm/){target=\_blank} などで配布しているものについてのドキュメントです。
 
 <!-- prettier-ignore-start -->
 !!! warning
-    Almost all products are developed as Open Source Software (OSS) and published on GitHub.  
-    But, if you download any product from GitHub, I don't support you to help.
+    基本的にすべての製品は OSS (Open Source Software) として開発しており、 GitHub にて公開していますが、  
+    GitHub から導入したものについては一切のサポートはありません。  
+    あらかじめご了承下さい。
 <!-- prettier-ignore-end -->
 
 ## Product Directory
