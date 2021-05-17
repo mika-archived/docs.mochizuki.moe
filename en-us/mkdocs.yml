@@ -49,14 +49,14 @@ nav:
   - Unity:
       Index: unity/index.md
       Atlasization:
-        ホーム: unity/atlasization/index.md
-        ガイド:
-          インストール: unity/atlasization/guides/getting-started.md
-          使い方: unity/atlasization/guides/how-to-use.md
-        その他:
-          既存の不具合: unity/atlasization/known-bugs.md
-          利用規約: unity/atlasization/terms.md
-          更新履歴: unity/atlasization/changelog.md
+        Home: unity/atlasization/index.md
+        Guide:
+          Getting Started: unity/atlasization/guides/getting-started.md
+          How to Use: unity/atlasization/guides/how-to-use.md
+        Others:
+          Bugs: unity/atlasization/known-bugs.md
+          Terms: unity/atlasization/terms.md
+          Changelog: unity/atlasization/changelog.md
       Constraint By Humanoid:
         Home: unity/constraint-by-humanoid/index.md
         Guides:
@@ -146,7 +146,7 @@ nav:
         その他:
           利用規約: vrchat/sdk2-compat-view/terms.md
           更新履歴: vrchat/sdk2-compat-view/changelog.md
-  - Udon Rabbit:
+  - VRChat Udon:
       Index: udon-rabbit/index.md
       共通:
         インストール: udon-rabbit/guides/getting-started.md

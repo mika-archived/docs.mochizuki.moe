@@ -66,31 +66,31 @@ nav:
           Terms: unity/constraint-by-humanoid/terms.md
           Changelog: unity/constraint-by-humanoid/changelog.md
       Particle Effects:
-        Home: unity/particle-system/index.md
-        General:
-          Getting Started: unity/particle-system/guides/getting-started.md
-        Packages:
+        ホーム: unity/particle-system/index.md
+        共通:
+          インストール: unity/particle-system/guides/getting-started.md
+        パッケージ:
           "Particles #001": unity/particle-system/packages/001-monochrome-particle-ring.md
           "Particles #002": unity/particle-system/packages/002-triangle-touch-effect.md
           "Particles #003": unity/particle-system/packages/003-fuwa-fuwa-music-note.md
-        Others:
-          Terms: unity/particle-system/terms.md
-          Changelog: unity/particle-system/changelog.md
+        その他:
+          利用規約: unity/particle-system/terms.md
+          更新履歴: unity/particle-system/changelog.md
       Sakura Shader:
-        Home: unity/sakura-shader/index.md
-        Guides:
-          Installation: unity/sakura-shader/guides/getting-started.md
-          How to use: unity/sakura-shader/guides/how-to-use.md
-          Choose the Shader: unity/sakura-shader/guides/choose-the-shader.md
-          Variants:
+        ホーム: unity/sakura-shader/index.md
+        ガイド:
+          インストール: unity/sakura-shader/guides/getting-started.md
+          使い方: unity/sakura-shader/guides/how-to-use.md
+          シェーダーの選び方: unity/sakura-shader/guides/choose-the-shader.md
+          バリアント:
             Lyrics: unity/sakura-shader/guides/variants/lyrics.md
             Particles: unity/sakura-shader/guides/variants/particles.md
             ScreenFX: unity/sakura-shader/guides/variants/screen-fx.md
             Skybox: unity/sakura-shader/guides/variants/skybox.md
             Unlit: unity/sakura-shader/guides/variants/unlit.md
-        Others:
-          Terms: unity/sakura-shader/terms.md
-          Changelog: unity/sakura-shader/changelog.md
+        その他:
+          利用規約: unity/sakura-shader/terms.md
+          更新履歴: unity/sakura-shader/changelog.md
       uProjection:
         ホーム: unity/u-projection/index.md
         ガイド:
@@ -146,7 +146,7 @@ nav:
         その他:
           利用規約: vrchat/sdk2-compat-view/terms.md
           更新履歴: vrchat/sdk2-compat-view/changelog.md
-  - Udon Rabbit:
+  - VRChat Udon:
       Index: udon-rabbit/index.md
       共通:
         インストール: udon-rabbit/guides/getting-started.md
