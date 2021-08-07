@@ -11,5 +11,5 @@
       ]
     }
   ],
-  "redirects": [{ "source": "/*", "destination": "/index.md" }]
+  "redirects": [{ "source": "/:path", "destination": "/index.md" }]
 }
