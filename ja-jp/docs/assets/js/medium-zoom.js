@@ -1,1 +1,0 @@
-mediumZoom('[data-zoomable]')
