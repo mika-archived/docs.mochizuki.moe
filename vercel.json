@@ -11,5 +11,8 @@
       ]
     }
   ],
-  "redirects": [{ "source": "/:path", "destination": "/index.md" }]
+  "redirects": [
+    { "source": "/en-us/(.*)", "destination": "/index.md" },
+    { "source": "/ja-jp/(.*)", "destination": "/index.md" }
+  ]
 }
